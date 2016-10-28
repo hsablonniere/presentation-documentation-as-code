@@ -89,7 +89,6 @@ bespoke.from({ parent: 'article.deck', slides: 'section' }, [
   classes(),
   scale(),
   nav(),
-  overview(),
   bullets('.build, .build-items > *:not(.build-items)'),
   hash(),
   multimedia(),
