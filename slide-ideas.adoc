@@ -1,0 +1,82 @@
+= Ideas for slides
+
+* save google fonts locally
+* show apple II, then ImageWriter, then the print shop
+* animate the menu of the print shop
+* reframe the print shop
+* reframe the print shop (the one with menus)
+* add blurry background on vertical photo
+* add keep out sign photo
+* put the ribbon photo at the correct time
+* i don't like the two guys with the ties
+* animate the separation of content and presentation
+* we need to do something with "Writers write"
+* lynx picture ?? something else ?
+* syntax hilighting on docbook
+* white screen before docbook
+* title "docbook" after the first example
+* lynx picture ?? something else ? I know this example from previous talk but in this context it does not work
+* white screen before latex
+* title "latex" after the first example
+* owl picture ?? something else ?
+* groundhog picture ?? something else ?
+* birds nest pictures ??
+* diagram that shows : Markdown => HTML, latex => PDF, Docbook => PDF (only one)
+* diagram that shows : Asciidoc to many outputs
+* play on the old black and white Latex, docbook (fading)
+* play on the brand new colorful asciidoc animated
+* fox picture ??
+* replace long bullet point list with dynamic examples
+* animate left align logo
+* no wysiwyg : play on the "but is it really a pb"
+* you get what you get => what you get is what you get
+* ide for writers => ideas, examples and visuals
+* recommender practices has a lot of contents and lacks some examples and displays
+* Migration => diagram
+* mountain picture ?
+* animate asciidoc vs asciidoctor (add icons)
+* ascii doc presentation formats => diagram, animate
+* add white screens and split the ASI slide
+* improve quote scott chacon (add avatar)
+* add numbers for the sections and explain before hand that there's three important parts
+* quote from JBoss BxMS is too long
+* animal before edit on github ??
+* edit on github with real screen shot + zoom
+* edit on github (analogy with wikis)
+* say docs = code 3 times because
+** we need an IDE for writers
+** we want to publish with pushs and merges
+** we want to edit with code review flows and patterns
+* recomanded pratices are often too long for one slide (needs more visuals)
+* make the 3 sections stand apart (background)
+*
+
+== Something special with this :
+
+* writers write
+* push to publish (because docs = code)
+
+
+== Questions and remarks to Dan
+
+* (first slide) This feels very "bla bla", long sentences and complicated words :
+----
+Today, I’m going to talk about how you can boost your end-to-end content process, from writing to delivery, by treating documentation as code.
+It starts by authoring content in AsciiDoc and transforming it with Asciidoctor.
+You’ll then see how this system lets you to tie into existing social coding infrastructure for better collaboration and leverage build tools and pipelines for automated publishing.
+What we’re talking about here is reusing tools and process for writing that you’re already using for your software development.
+----
+
+* mention a pause after the keep out sign (white screen?)
+* Maybe I should tell this story about you to the audience in Lyon/St Etienne
+
+* Maybe this could be better with a white screen
+----
+I also shared this computer with my siblings.
+We all had something to say and each of us wanted our message to be the one published for the world to see.
+You know there’s nothing more fierce than sibling competition.
+So this was not only my first publishing experience, but also my first collaborative / argumentative one.
+----
+
+* alter the split in the notes : "​is to ... separate content and presentation"
+* tabs example ?? show the database analogy!
