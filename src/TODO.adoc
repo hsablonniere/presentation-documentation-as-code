@@ -1,0 +1,16 @@
+= TODO
+
+* rework gulpfile
+** only reload contents
+** handle new organization of files and folders
+* build plugin
+* fit-text plugin
+* center orphan plugin
+* disable transition stuffs
+** themes?
+* split contents/notes
+* split slide types styles
+* use new scaling method
+* update new templating system
+** use naming convention for templates
+** one for each slide type
