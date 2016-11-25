@@ -24,7 +24,8 @@ module.exports = function protocol() {
       }
 
       return {
-        cursor: String(slideIdx),
+        // cursor: String(slideIdx),
+        cursor: slide.id,
         states: [],
         notes,
       }
@@ -50,9 +51,11 @@ module.exports = function protocol() {
 
         case 'go-to-step':
           const { cursor } = commandArgs
-          const [slideIdx, subslideIdx] = cursor.split('.')
-          deck.slide(Number(slideIdx))
-          deck.activateBullet(Number(slideIdx), Number(subslideIdx))
+          // const [slideIdx, subslideIdx] = cursor.split('.')
+          const idx = deck.slides.findIndex((s) => s.id === cursor)
+          deck.slide(idx)
+          // deck.slide(Number(slideIdx))
+          // deck.activateBullet(Number(slideIdx), Number(subslideIdx))
           break;
 
         default:

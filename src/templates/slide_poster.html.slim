@@ -1,0 +1,19 @@
+- _title_obj = document.doctitle partition: true, use_fallback: true
+
+section.slide_poster id=(local_attr :id)
+  .slide_poster-header
+    .slide_poster-author = (attr :firstname) + '<br>' + (attr :lastname)
+    img.slide_poster-avatar src=(image_uri attr :avatar) alt=(attr :author)
+    .slide_poster-twitter = (attr :twitter)
+  .slide_poster-title
+    .slide_poster-maintitle = _title_obj.title
+    - if (_title_obj.subtitle?)
+      .slide_poster-subtitle = _title_obj.subtitle
+  .slide_poster-footer
+    img.slide_poster-organization src=(image_uri attr :'organization-logo') alt=(attr :organization)
+    .slide_poster-details
+      .slide_poster-hashtags = (attr :hashtags)
+      .slide_poster-eventDate
+        span.slide_poster-event = (attr :event)
+        span &nbsp;-&nbsp;
+        span.slide_poster-date = (attr :date)

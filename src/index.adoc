@@ -1,119 +1,72 @@
 = Documentation as Code: Balancing Writing & Delivery with Asciidoctor
 Dan Allen
-//Dan Allen <http://opendevise.io[@mojavelinux]>
-:organization: OpenDevise
 :twitter: @mojavelinux
+:avatar: hsablonniere-avatar.jpg
+:organization: OpenDevise
+:organization-logo: opendevise-logo.png
+:organization-logo: opendevise-logo.svg
+:hashtags: #DocsAsCode
+:event: Devoxx MA
+:date: november 3, 2016
 :!sectids:
 :icons: font
 :imagesdir: images
-:source-highlighter: pygments
-:pygments-style: bw
-:pygments-css: style
 :uri-script: notes/script.adoc
+:noheader:
 
-[.cue]
-****
-include::{uri-script}[tag=title]
-****
-
+[#foo, transform=poster]
 == !
+// the poster slide
 
+[#imagewriter.fullscreen-media]
+== !
 image::imagewriter-banner.jpg[role=contain]
 
-[.cue]
-****
-include::{uri-script}[tag=imagewriter]
-****
-
+[#print-shop-box.fullscreen-media]
 == !
-
 image::print-shop-box.jpg[role=contain]
 
-[.cue]
-****
-include::{uri-script}[tag=print-shop-box]
-****
-
-[.inverse]
+[#print-shop-menu.fullscreen-media.fullscreen-media--inverse]
 == !
-
 image::print-shop-main-menu.gif[role=contain]
 
-[.cue]
-****
-include::{uri-script}[tag=print-shop-menu]
-****
-
+[#print-shop-ref.fullscreen-media]
 == !
-
 image::skull.svg[role=contain]
 
-[.cue]
-****
-include::{uri-script}[tag=print-shop-ref]
-****
-
+[#print-banner.fullscreen-media]
 == !
-
 image::imagewriter-banner-long.jpg[role=contain]
 
-[.cue]
-****
-include::{uri-script}[tag=print-banner]
-****
-
+[#printing-screen.fullscreen-media]
 == !
-
 video::print-shop-printing.mp4[role=contain,opts=loop]
 
-[.cue]
-****
-include::{uri-script}[tag=printing-screen]
-****
-
+[#ribbon-cartridge.fullscreen-media]
 == !
-
 image::imagewriter-color-ribbon-cartridge.jpg[]
 
-[.cue]
-****
-include::{uri-script}[tag=ribbon-cartridge]
-****
-
+[#thinking-screen.fullscreen-media.fullscreen-media--inverse]
 == !
-
 image::print-shop-thinking.gif[role=contain]
 
-[.cue]
-****
-include::{uri-script}[tag=thinking-screen]
-****
-
+[#many-masters.fullscreen-media]
 == !
-image::businessmen-pointing.svg[role=canvas]
+image::businessmen-pointing.svg[role=cover]
 
-[.cue]
-****
-include::{uri-script}[tag=many-masters]
-****
-
-[.axis.contrast]
+[#content-presentation.axis.contrast]
 == !
+//tag=separate
 
 * Content
 * Presentation
-
-[.cue]
-****
-include::{uri-script}[tag=separate]
-****
 
 //== Evaluate
 //
 //* What are the capabilities of the content solution?
 //* How do those capabilities align with your needs?
 
-[.agenda%build]
+[#agenda.agenda%build]
 == !
 
 [%build]
@@ -123,60 +76,32 @@ include::{uri-script}[tag=separate]
 // maybe group for collaboration instead
 * icon:code-fork[fw] Collaboration
 
-[.cue]
-****
-include::{uri-script}[tag=agenda]
-****
-
-[.topic]
+[#creation.topic]
 == Creation
 
 [.context]
 icon:paint-brush[fw,role=active] icon:send[fw] icon:code-fork[fw]
 
-[.cue]
-****
-include::{uri-script}[tag=creation]
-****
-
+[#writers-write]
 == Writers Write
 
-[.cue]
-****
-include::{uri-script}[tag=writers-write]
-****
-
+[#confined.fullscreen-media]
 == !
 image::goat-on-cliff.jpg[role=canvas]
 
-[.cue]
-****
-include::{uri-script}[tag=confined]
-****
-
-[.sheet%conceal]
+[#docbook-ex-1.sheet%conceal]
 == DocBook Example (Part 1)
 
 [source,xml]
 ----
-include::snippets/example.xml[lines=1..25]
+include::snippets/example.xml[lines=1..19]
 ...
 ----
 
-[.cue]
-****
-include::{uri-script}[tag=docbook-ex-1]
-****
-
-[.subject]
+[#docbook.subject]
 == DocBook
 
-[.cue]
-****
-include::{uri-script}[tag=docbook]
-****
-
-[.sheet%conceal]
+[#docbook-ex-2.sheet%conceal]
 == DocBook Example (Part 2)
 
 [source,xml]
@@ -186,58 +111,34 @@ include::snippets/example.xml[lines=26..51]
 ...
 ----
 
-[.cue]
-****
-include::{uri-script}[tag=docbook-ex-2]
-****
-
 == !
 
 [.cue]
 ****
-Moving on...
+Moving on!!!
 ****
 
-[.sheet%conceal]
+[#latex-ex-1.sheet%conceal]
 == LaTeX Example
 
-[source,tex]
+[source,latex]
 ----
 include::snippets/example.tex[]
 ----
 
-[.cue]
-****
-include::{uri-script}[tag=latex-ex-1]
-****
-
-[.subject]
+[#latex.subject]
 == LaTeX
 
-[.cue]
-****
-include::{uri-script}[tag=latex]
-****
-
-[.sheet%conceal]
+[#latex-ex-2.sheet%conceal]
 == LaTeX Example
 
-[source,tex]
+[source,latex]
 ----
 include::snippets/example.tex[]
 ----
 
-[.cue]
-****
-include::{uri-script}[tag=latex-ex-2]
-****
-
+[#got-pdf]
 == Got icon:file-pdf-o[fw]?
-
-[.cue]
-****
-include::{uri-script}[tag=got-pdf]
-****
 
 == !
 
@@ -246,7 +147,7 @@ include::{uri-script}[tag=got-pdf]
 Let's clean the slate.
 ****
 
-[.sheet%conceal]
+[#asciidoc-ex.sheet%conceal]
 == AsciiDoc Example
 
 [source,asciidoc]
@@ -254,28 +155,14 @@ Let's clean the slate.
 include::snippets/example.adoc[]
 ------
 
-[.cue]
-****
-include::{uri-script}[tag=asciidoc-ex]
-****
-
+[#asciidoc-fox-approves.fullscreen-media]
 == !
-image::hungry-fox.jpg[role=canvas]
+image::hungry-fox.jpg[role=cover]
 
-[.cue]
-****
-include::{uri-script}[tag=asciidoc-fox-approves]
-****
-
-[.subject]
+[#asciidoc.subject]
 == AsciiDoc
 
-[.cue]
-****
-include::{uri-script}[tag=asciidoc]
-****
-
-[.properties]
+[#asciidoc-qualities.properties]
 == AsciiDoc is...
 
 [%build.spotlight]
@@ -287,11 +174,6 @@ include::{uri-script}[tag=asciidoc]
 * consistent, repeatable patterns
 //* line-oriented, left-aligned
 * semantic
-
-[.cue]
-****
-include::{uri-script}[tag=asciidoc-qualities]
-****
 
 [.sheet]
 == !
@@ -341,7 +223,7 @@ include::snippets/ex-text-formatting.adoc[]
 include::snippets/ex-multimedia.adoc[]
 ----
 
-[.sheet]
+[#ex-roles.sheet]
 == !
 
 [source,asciidoc]
@@ -349,21 +231,11 @@ include::snippets/ex-multimedia.adoc[]
 include::snippets/ex-roles.adoc[]
 ----
 
-[.cue]
-****
-include::{uri-script}[tag=ex-roles]
-****
-
+[#left-aligned-lines.fullscreen-media]
 == !
+image::align-left.svg[role=medium]
 
-image::align-left.svg[width=250]
-
-[.cue]
-****
-include::{uri-script}[tag=left-aligned-lines]
-****
-
-[.sheet]
+[#ex-delimited-block.sheet]
 == !
 
 [source,asciidoc]
@@ -371,58 +243,32 @@ include::{uri-script}[tag=left-aligned-lines]
 include::snippets/ex-delimited-block.adoc[]
 ------
 
-[.cue]
-****
-include::{uri-script}[tag=ex-delimited-block]
-****
-
+[#wysiwyg]
 == No WYSIWYG?!?
-
-[.cue]
-****
-include::{uri-script}[tag=wysiwyg]
-****
 
 == **Y**ou **G**et **W**hat **Y**ou **G**et
 
-[%build]
+[#ygwyg%build]
 --
 [discrete]
 == `+¯\_(ツ)_/¯+`
 --
 
-[.cue]
-****
-include::{uri-script}[tag=ygwyg]
-****
-
+[#ide-for-writers]
 == IDE for Writers
 
-[.cue]
-****
-include::{uri-script}[tag=ide-for-writers]
-****
-
+[#atom.fullscreen-media]
 == !
 
 .Atom
 image::ss-atom-asciidoc-preview.png[role=contain]
 
-[.cue]
-****
-include::{uri-script}[tag=atom]
-****
-
 //.TODO
 //- AsciidocFX; show outline
 //- IntelliJ IDEA
 
+[#creation-recommended-practices]
 == Creation: Recommended Practices
-
-[.cue]
-****
-include::{uri-script}[tag=creation-recommended-practices]
-****
 
 //== Migration
 //
@@ -431,7 +277,7 @@ include::{uri-script}[tag=creation-recommended-practices]
 //include::{uri-script}[tag=migration]
 //****
 
-[.sheet]
+[#ex-includes.sheet]
 == !
 
 [source,asciidoc]
@@ -441,31 +287,17 @@ include::snippets/ex-includes.adoc[tag=chapter]
 include::snippets/ex-includes.adoc[tag=tag]
 ------
 
-[.cue]
-****
-include::{uri-script}[tag=ex-includes]
-****
-
+[#dawn.fullscreen-media]
 == !
-image::breaking-dawn-longs-peak.jpg[role=canvas]
-
-[.cue]
-****
-include::{uri-script}[tag=dawn]
-****
+image::breaking-dawn-longs-peak.jpg[role=cover]
 
 [.topic]
 == Publication
 
-[.context]
+[#publication.context]
 icon:paint-brush[fw] icon:send[fw,role=active] icon:code-fork[fw]
 
-[.cue]
-****
-include::{uri-script}[tag=publication]
-****
-
-[.axis]
+[asciidoc-vs-asciidoctor.axis]
 == !
 
 * icon:file-text[] AsciiDoc
@@ -473,12 +305,7 @@ include::{uri-script}[tag=publication]
 * icon:wrench[] Asciidoctor
 ** processor
 
-[.cue]
-****
-include::{uri-script}[tag=asciidoc-vs-asciidoctor]
-****
-
-[.axis.contrast]
+[#conversion.axis.contrast]
 == !
 
 * AsciiDoc
@@ -493,12 +320,7 @@ include::{uri-script}[tag=asciidoc-vs-asciidoctor]
 //** icon:line-chart[fw]
 ** icon:question-circle[fw]
 
-[.cue]
-****
-include::{uri-script}[tag=conversion]
-****
-
-[.sheet]
+[ex-extensions.sheet]
 == !
 
 [source,asciidoc]
@@ -519,18 +341,9 @@ Describe how to do the same thing in the XML editor.
 ======
 ----
 
-[.cue]
-****
-include::{uri-script}[tag=ex-extensions]
-****
-
 //== AST icon:random[fw]
+[#ast]
 == Transformation icon:random[fw]
-
-[.cue]
-****
-include::{uri-script}[tag=ast]
-****
 
 == !
 
@@ -546,6 +359,7 @@ lorem::sentences[5]
 include::snippets/asciidoctor-extension.rb[]
 ----
 
+[#aggregate]
 == !
 
 ....
@@ -559,39 +373,22 @@ include::snippets/asciidoctor-extension.rb[]
        Converter
            |
            v
-   Presentation Format 
+   Presentation Format
 ....
-
-[.cue]
-****
-include::{uri-script}[tag=aggregate]
-****
 
 // Subject slide for Spring REST Docs?
 
+[#endless-possibilities]
 == !
 
 > I can do truly amazing things with my AsciiDoc source.
 > -- Scott Chacon, author of Pro Git
 
-[.cue]
-****
-include::{uri-script}[tag=endless-possibilities]
-****
-
+[#publication-recommended-practices]
 == Publication: Recommended Practices
 
-[.cue]
-****
-include::{uri-script}[tag=publication-recommended-practices]
-****
-
+[#push-to-publish]
 == Push to Publish
-
-[.cue]
-****
-include::{uri-script}[tag=push-to-publish]
-****
 
 ////
 [.axis.contrast]
@@ -605,71 +402,51 @@ include::{uri-script}[tag=push-to-publish]
 //** Mallard
 ////
 
+[#publish-everywhere.fullscreen-media]
 == !
-image::mountains-everywhere.jpg[role=canvas]
-
-[.cue]
-****
-include::{uri-script}[tag=publish-everywhere]
-****
+image::mountains-everywhere.jpg[role=cover]
 
 [.topic]
 == Collaboration
 
-[.context]
+[#collaboration.context]
 icon:paint-brush[fw] icon:send[fw] icon:code-fork[fw,role=active]
 
-[.cue]
-****
-include::{uri-script}[tag=collaboration]
-****
-
+[#redhat-endorsement]
 == !
 
 > The OpenShift team reported that after the migration from DocBook to AsciiDoc, the rate of both internal and external contributions skyrocketed--from several a year to several a week. ...
 
-[.cue]
-****
-include::{uri-script}[tag=redhat-endorsement]
-****
-
+[#redhat-endorsement]
 == !
 
 > ...{sp}Mere days after our migration, we started seeing incoming Merge Requests, where there were none before.
 > Preliminary results hint that this is an observable trend.
 > -- JBoss BxMS Engineering Team
 
-[.cue]
-****
-include::{uri-script}[tag=redhat-endorsement]
-****
-
+[#source-control]
 == git icon:heart[] AsciiDoc
 
-[.cue]
-****
-include::{uri-script}[tag=source-control]
-****
-
+[#edit-on-github]
 == icon:github[] [.underline]#Edit on GitHub#
 
-[.cue]
-****
-include::{uri-script}[tag=edit-on-github]
-****
-
+[.fullscreen-media]
 == !
 image::ss-github-rendered-file.png[role=canvas]
 
+[.fullscreen-media]
 == !
 image::ss-github-edit-file-button.png[role=canvas]
 
+[.fullscreen-media]
 == !
 image::ss-github-edit-file.png[role=canvas]
 
+[.fullscreen-media]
 == !
 image::ss-github-preview-changes.png[role=canvas]
 
+[.fullscreen-media]
 == !
 image::ss-github-commit-changes.png[role=canvas]
 
@@ -680,62 +457,42 @@ image::ss-github-commit-changes.png[role=canvas]
 //include::{uri-script}[tag=asciidoc-github-support]
 //****
 
+[#docs-as-code]
 == Docs = Code
 //== Go Git It
 
-[.cue]
-****
-include::{uri-script}[tag=docs-as-code]
-****
-
+[#code-review.fullscreen-media]
 == !
 
 image::ss-git-changes.png[role=contain]
 
-[.cue]
-****
-include::{uri-script}[tag=code-review]
-****
-
+[.fullscreen-media]
 == !
 
 image::ss-source-diff.png[role=contain]
 
+[.fullscreen-media]
 == !
 
 image::ss-rich-diff.png[role=contain]
 
+[.fullscreen-media]
 == !
 
 image::ss-code-review.png[role=contain]
 
+[#collaboration-recommended-practices]
 == Collaboration: Recommended Practices
 
-[.cue]
-****
-include::{uri-script}[tag=collaboration-recommended-practices]
-****
-
-[.agenda.recap]
+[#recap.agenda.recap]
 == !
 
 * icon:paint-brush[fw] Creation
 * icon:send[fw] Publication
 * icon:code-fork[fw] Collaboration
 
-[.cue]
-****
-include::{uri-script}[tag=recap]
-****
-
-[.overlay]
+[#fin.overlay]
 == Write in AsciiDoc, Publish Everywhere!
-image::mountains-everywhere.jpg[role=canvas]
-
-[.cue]
-****
-include::{uri-script}[tag=fin]
-****
 
 == Image Credits
 

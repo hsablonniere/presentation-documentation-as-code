@@ -1,0 +1,36 @@
+.fullscreen-media
+  align-items stretch
+  justify-content center
+  flex-direction row
+
+  &.fullscreen-media--inverse
+    background-color #000
+
+.image
+.video
+  .fullscreen-media &
+    flex 1 1 0
+    margin 0
+
+.image img
+.video video
+  .fullscreen-media &
+    display block
+    height 100%
+    object-fit scale-down
+    width 100%
+
+.image.medium
+.video.medium
+  .fullscreen-media &
+    padding calc(var(--slide-height) * 0.2) calc(var(--slide-width) * 0.2)
+
+.image.contain img
+.video.contain video
+  .fullscreen-media &
+    object-fit contain
+
+.image.cover img
+.video.cover video
+  .fullscreen-media &
+    object-fit cover
