@@ -21,3 +21,10 @@
 * recover from asciidoc errors
 * why do I need to do `document.doctitle` instead of `document.doctitle`
 * what's the deal with the title stuffs
+
+== Questions
+
+* How can I output only certain images to data URI (notes)
+* notes as a separated file?
+** Nested block
+** only delimiters instead of blocks

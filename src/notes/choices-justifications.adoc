@@ -1,1 +1,5 @@
 = Reasons and justifications on why we did things a given way
+
+* We need a link between code editors and writing tools and presentation tools but we need them to be separated
+* The preview of the slides must not me an app
+** it must be viewable in any (modern) browser of the speaker's choice to allow demos of Web stuffs

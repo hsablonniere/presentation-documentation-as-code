@@ -7,18 +7,23 @@ module.exports = function protocol() {
         metas[meta.getAttribute('name')] = meta.getAttribute('content')
     })
 
+    const notes = {}
+    Array.from(document.querySelectorAll('aside#all-notes [id]')).forEach((note) => {
+      notes[note.id] = note.innerHTML
+    })
+
     const steps = deck.slides.map((slide, slideIdx) => {
 
-      const notes = [].slice.call(slide.querySelectorAll('aside[role="note"] p, aside[role="note"] li'))
-        .map((note) => note.textContent)
-        .join('\n')
+      // const notes = [].slice.call(slide.querySelectorAll('aside[role="note"] p, aside[role="note"] li'))
+      //   .map((note) => note.textContent)
+      //   .join('\n')
 
       if (slide.bullets.length > 0) {
         return slide.bullets.map((b, bulletIdx) => {
           return {
             cursor: String(slideIdx) + '.' + String(bulletIdx),
             states: [],
-            notes,
+            notes: notes[slide.id],
           }
         })
       }
@@ -27,7 +32,7 @@ module.exports = function protocol() {
         // cursor: String(slideIdx),
         cursor: slide.id,
         states: [],
-        notes,
+        notes: notes[slide.id],
       }
     })
 

@@ -1,0 +1,24 @@
+= Documentation as code (expliqué à mon père)
+
+== Abstract
+
+En tant que codeurs, nous profitons tous les jours de la puissance de nos outils (IDE, versioning, build, intégration, déploiement).
+Nous mettons également l'accent sur la qualité avec un ensemble de bonnes pratiques (tests, DRY, KISS).
+Néanmoins, lorsqu'il s'agit de s'occuper de la documentation, nous sommes encore nombreux à utiliser des outils de "bureautique traditionnelle" (Word, Sharepoint, client email).
+
+Au menu de cette session, je vous propose d'aborder le langage AsciiDoc ainsi que l'outil asciidoctor (et son ecosystème).
+Nous verrons quels avantages ils apportent et quelles "pratiques de codeur" appliquer pour améliorer les différentes étapes de la vie d'une documentation : rédaction, collaboration et publication.
+
+== Remarques pour les organisateurs
+
+Mon titre se moque volontairement des titres sexistes "... expliqué à ma mère".
+J'utilise un exemple d'auteur écrivant des livres de manière traditionnelle, mon père : https://www.amazon.fr/Bernard-Sablonni%C3%A8re/e/B004N2YC4G/[Bernard Sablonnière].
+
+La présentation comporte 3 sections : rédaction, collaboration et publication.
+Ludovic Fernandez fera une démo sur Asciidoc avec l'outil Atom à la fin de la première section.
+
+== Bio de Hubert Sablonnière
+
+Hubert est un développeur Web passionné et curieux.
+Chez OpenDevise, il travaille sur des outils open-source pour améliorer la création, la collaboration et la publication de contenus pédagogiques : documentation, formations et présentations.
+Sa motivation : "Pousser la technologie le plus loin possible pour trouver de nouvelles manières d'améliorer l'expérience utilisateur."

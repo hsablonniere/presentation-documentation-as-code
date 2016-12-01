@@ -43,7 +43,7 @@ gulp.task('js', ['clean:js'], function() {
 gulp.task('html', ['clean:html'], function() {
   return gulp.src('src/index.adoc')
     .pipe(isDist ? through() : plumber())
-    .pipe(exec('bundle exec asciidoctor-bespoke -T src/templates -o - src/index.adoc', { pipeStdout: true }))
+    .pipe(exec('bundle exec asciidoctor-bespoke -r $(pwd)/src/extensions/slides-treeprocessor.rb -T src/templates -o - src/index.adoc', { pipeStdout: true, maxBuffer: 20000 * 1024 }))
     .pipe(exec.reporter({ stdout: false }))
     .pipe(rename('index.html'))
     .pipe(gulp.dest('dist'))

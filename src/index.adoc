@@ -11,489 +11,512 @@ Dan Allen
 :!sectids:
 :icons: font
 :imagesdir: images
-:uri-script: notes/script.adoc
 :noheader:
+:scriptdoc: notes/script.adoc
 
-[#foo, transform=poster]
-== !
-// the poster slide
-
-[#imagewriter.fullscreen-media]
-== !
-image::imagewriter-banner.jpg[role=contain]
-
-[#print-shop-box.fullscreen-media]
-== !
-image::print-shop-box.jpg[role=contain]
-
-[#print-shop-menu.fullscreen-media.fullscreen-media--inverse]
-== !
-image::print-shop-main-menu.gif[role=contain]
-
-[#print-shop-ref.fullscreen-media]
-== !
-image::skull.svg[role=contain]
-
-[#print-banner.fullscreen-media]
-== !
-image::imagewriter-banner-long.jpg[role=contain]
-
-[#printing-screen.fullscreen-media]
-== !
-video::print-shop-printing.mp4[role=contain,opts=loop]
-
-[#ribbon-cartridge.fullscreen-media]
-== !
-image::imagewriter-color-ribbon-cartridge.jpg[]
-
-[#thinking-screen.fullscreen-media.fullscreen-media--inverse]
-== !
-image::print-shop-thinking.gif[role=contain]
-
-[#many-masters.fullscreen-media]
-== !
-image::businessmen-pointing.svg[role=cover]
-
-[#content-presentation.axis.contrast]
-== !
-//tag=separate
-
-* Content
-* Presentation
-
-//== Evaluate
-//
-//* What are the capabilities of the content solution?
-//* How do those capabilities align with your needs?
-
-[#agenda.agenda%build]
-== !
-
-[%build]
-// maybe keyboard-o for creation instead
-* icon:paint-brush[fw] Creation
-* icon:send[fw] Publication
-// maybe group for collaboration instead
-* icon:code-fork[fw] Collaboration
-
-[#creation.topic]
-== Creation
-
-[.context]
-icon:paint-brush[fw,role=active] icon:send[fw] icon:code-fork[fw]
-
-[#writers-write]
-== Writers Write
-
-[#confined.fullscreen-media]
-== !
-image::goat-on-cliff.jpg[role=canvas]
-
-[#docbook-ex-1.sheet%conceal]
-== DocBook Example (Part 1)
-
-[source,xml]
-----
-include::snippets/example.xml[lines=1..19]
-...
-----
-
-[#docbook.subject]
-== DocBook
-
-[#docbook-ex-2.sheet%conceal]
-== DocBook Example (Part 2)
-
-[source,xml]
-----
-...
-include::snippets/example.xml[lines=26..51]
-...
-----
-
-== !
-
-[.cue]
-****
-Moving on!!!
-****
-
-[#latex-ex-1.sheet%conceal]
-== LaTeX Example
-
-[source,latex]
-----
-include::snippets/example.tex[]
-----
-
-[#latex.subject]
-== LaTeX
-
-[#latex-ex-2.sheet%conceal]
-== LaTeX Example
-
-[source,latex]
-----
-include::snippets/example.tex[]
-----
-
-[#got-pdf]
-== Got icon:file-pdf-o[fw]?
-
-== !
-
-[.cue]
-****
-Let's clean the slate.
-****
-
-[#asciidoc-ex.sheet%conceal]
-== AsciiDoc Example
-
-[source,asciidoc]
-------
-include::snippets/example.adoc[]
-------
-
-[#asciidoc-fox-approves.fullscreen-media]
-== !
-image::hungry-fox.jpg[role=cover]
-
-[#asciidoc.subject]
-== AsciiDoc
-
-[#asciidoc-qualities.properties]
-== AsciiDoc is...
-
-[%build.spotlight]
-* clear & concise
-* paragraphs as paragraphs
-* familiar conventions
-* common terminology
-* forgiving syntax
-* consistent, repeatable patterns
-//* line-oriented, left-aligned
-* semantic
-
-[.sheet]
-== !
-
-[source,asciidoc]
-----
-include::snippets/ex-paragraphs.adoc[]
-----
-
-[.sheet]
-== !
-
-[source,asciidoc]
-----
-include::snippets/ex-sections.adoc[]
-----
-
-[.sheet]
-== !
-
-[source,asciidoc]
-----
-include::snippets/ex-lists.adoc[tag=unordered]
-----
-
-[.sheet]
-== !
-
-[source,asciidoc]
-----
-include::snippets/ex-lists.adoc[tag=ordered]
-----
-
-[.sheet]
-== !
-
-[source,asciidoc]
-----
-include::snippets/ex-text-formatting.adoc[]
-----
-
-[.sheet]
-== !
-
-[source,asciidoc]
-----
-include::snippets/ex-multimedia.adoc[]
-----
-
-[#ex-roles.sheet]
-== !
-
-[source,asciidoc]
-----
-include::snippets/ex-roles.adoc[]
-----
-
-[#left-aligned-lines.fullscreen-media]
-== !
-image::align-left.svg[role=medium]
-
-[#ex-delimited-block.sheet]
-== !
-
-[source,asciidoc]
-------
-include::snippets/ex-delimited-block.adoc[]
-------
-
-[#wysiwyg]
-== No WYSIWYG?!?
-
-== **Y**ou **G**et **W**hat **Y**ou **G**et
-
-[#ygwyg%build]
+[.SLIDE#foo]
 --
-[discrete]
-== `+¯\_(ツ)_/¯+`
+image::imagewriter-banner.jpg[role=cover]
 --
 
-[#ide-for-writers]
-== IDE for Writers
+[.SLIDE#bar]
+image::imagewriter-banner.jpg[role=cover]
 
-[#atom.fullscreen-media]
+[#baz.SLIDE]
 == !
+image::imagewriter-banner.jpg[role=cover]
 
-.Atom
-image::ss-atom-asciidoc-preview.png[role=contain]
-
-//.TODO
-//- AsciidocFX; show outline
-//- IntelliJ IDEA
-
-[#creation-recommended-practices]
-== Creation: Recommended Practices
-
-//== Migration
+// [.slide.slide_title#foobar]
+// [role="slide slide_title", id="foobar"]
+// [SLIDE#foobar.slide_title]
+// --
+// My slide
 //
-//[.cue]
-//****
-//include::{uri-script}[tag=migration]
-//****
-
-[#ex-includes.sheet]
-== !
-
-[source,asciidoc]
-------
-include::snippets/ex-includes.adoc[tag=chapter]
-
-include::snippets/ex-includes.adoc[tag=tag]
-------
-
-[#dawn.fullscreen-media]
-== !
-image::breaking-dawn-longs-peak.jpg[role=cover]
-
-[.topic]
-== Publication
-
-[#publication.context]
-icon:paint-brush[fw] icon:send[fw,role=active] icon:code-fork[fw]
-
-[asciidoc-vs-asciidoctor.axis]
-== !
-
-* icon:file-text[] AsciiDoc
-** syntax
-* icon:wrench[] Asciidoctor
-** processor
-
-[#conversion.axis.contrast]
-== !
-
-* AsciiDoc
-//* Output
-* Presentation Formats
-[%build]
-** HTML
-** DocBook
-** PDF
-** EPUB3
-** Slides
-//** icon:line-chart[fw]
-** icon:question-circle[fw]
-
-[ex-extensions.sheet]
-== !
-
-[source,asciidoc]
-----
-[tabs]
-======
-.Visual Editor
-[tab]
-=====
-Describe how to use the visual editor and show some screenshots.
-=====
-
-.XML Editor
-[tab]
-=====
-Describe how to do the same thing in the XML editor.
-=====
-======
-----
-
-//== AST icon:random[fw]
-[#ast]
-== Transformation icon:random[fw]
-
-== !
-
-[source,asciidoc]
-----
-lorem::sentences[5]
-----
-
-== !
-
-[source,ruby]
-----
-include::snippets/asciidoctor-extension.rb[]
-----
-
-[#aggregate]
-== !
-
-....
-  Scribed     Generated
-        \     /
-          \ /
-           v
-        AsciiDoc
-           |
-           v
-       Converter
-           |
-           v
-   Presentation Format
-....
-
-// Subject slide for Spring REST Docs?
-
-[#endless-possibilities]
-== !
-
-> I can do truly amazing things with my AsciiDoc source.
-> -- Scott Chacon, author of Pro Git
-
-[#publication-recommended-practices]
-== Publication: Recommended Practices
-
-[#push-to-publish]
-== Push to Publish
-
-////
-[.axis.contrast]
-== !
-
-* AsciiDoc
-* Export Formats
-//** AsciiDoc
-//** Markdown
-//** DocBook
-//** Mallard
-////
-
-[#publish-everywhere.fullscreen-media]
-== !
-image::mountains-everywhere.jpg[role=cover]
-
-[.topic]
-== Collaboration
-
-[#collaboration.context]
-icon:paint-brush[fw] icon:send[fw] icon:code-fork[fw,role=active]
-
-[#redhat-endorsement]
-== !
-
-> The OpenShift team reported that after the migration from DocBook to AsciiDoc, the rate of both internal and external contributions skyrocketed--from several a year to several a week. ...
-
-[#redhat-endorsement]
-== !
-
-> ...{sp}Mere days after our migration, we started seeing incoming Merge Requests, where there were none before.
-> Preliminary results hint that this is an observable trend.
-> -- JBoss BxMS Engineering Team
-
-[#source-control]
-== git icon:heart[] AsciiDoc
-
-[#edit-on-github]
-== icon:github[] [.underline]#Edit on GitHub#
-
-[.fullscreen-media]
-== !
-image::ss-github-rendered-file.png[role=canvas]
-
-[.fullscreen-media]
-== !
-image::ss-github-edit-file-button.png[role=canvas]
-
-[.fullscreen-media]
-== !
-image::ss-github-edit-file.png[role=canvas]
-
-[.fullscreen-media]
-== !
-image::ss-github-preview-changes.png[role=canvas]
-
-[.fullscreen-media]
-== !
-image::ss-github-commit-changes.png[role=canvas]
-
-//== AsciiDoc icon:github[] GitHub
+// Second paragraph
+// --
 //
-//[.cue]
-//****
-//include::{uri-script}[tag=asciidoc-github-support]
-//****
-
-[#docs-as-code]
-== Docs = Code
-//== Go Git It
-
-[#code-review.fullscreen-media]
-== !
-
-image::ss-git-changes.png[role=contain]
-
-[.fullscreen-media]
-== !
-
-image::ss-source-diff.png[role=contain]
-
-[.fullscreen-media]
-== !
-
-image::ss-rich-diff.png[role=contain]
-
-[.fullscreen-media]
-== !
-
-image::ss-code-review.png[role=contain]
-
-[#collaboration-recommended-practices]
-== Collaboration: Recommended Practices
-
-[#recap.agenda.recap]
-== !
-
-* icon:paint-brush[fw] Creation
-* icon:send[fw] Publication
-* icon:code-fork[fw] Collaboration
-
-[#fin.overlay]
-== Write in AsciiDoc, Publish Everywhere!
-
-== Image Credits
-
-include::{imagesdir}/_credits.adoc[tag=list]
+// [#foobar.SLIDE.fullscreen-media]
+// == !
+// image::imagewriter-banner.jpg[role=cover]
+//
+// [.SLIDE#foobar.fullscreen-media]
+// image::imagewriter-banner.jpg[role=cover]
+//
+// [#foobar.SLIDE.fullscreen-media]
+// image::imagewriter-banner.jpg[role=cover]
+//
+// [#title, transform=poster]
+// == !
+// // the poster slide
+//
+// [#imagewriter.fullscreen-media]
+// == !
+// image::imagewriter-banner.jpg[role=contain]
+//
+// [#print-shop-box.fullscreen-media]
+// == !
+// image::print-shop-box.jpg[role=contain]
+//
+// [#print-shop-menu.fullscreen-media.fullscreen-media--inverse]
+// == !
+// image::print-shop-main-menu.gif[role=contain]
+//
+// [#print-shop-ref.fullscreen-media]
+// == !
+// image::skull.svg[role=contain]
+//
+// [#print-banner.fullscreen-media]
+// == !
+// image::imagewriter-banner-long.jpg[role=contain]
+//
+// [#printing-screen.fullscreen-media]
+// == !
+// video::print-shop-printing.mp4[role=contain,opts=loop]
+//
+// [#ribbon-cartridge.fullscreen-media]
+// == !
+// image::imagewriter-color-ribbon-cartridge.jpg[]
+//
+// [#thinking-screen.fullscreen-media.fullscreen-media--inverse]
+// == !
+// image::print-shop-thinking.gif[role=contain]
+//
+// [#many-masters.fullscreen-media]
+// == !
+// image::businessmen-pointing.svg[role=cover]
+//
+// [#content-presentation.axis.contrast]
+// == !
+// //tag=separate
+//
+// * Content
+// * Presentation
+//
+// //== Evaluate
+// //
+// //* What are the capabilities of the content solution?
+// //* How do those capabilities align with your needs?
+//
+// [#agenda.agenda%build]
+// == !
+//
+// [%build]
+// // maybe keyboard-o for creation instead
+// * icon:paint-brush[fw] Creation
+// * icon:send[fw] Publication
+// // maybe group for collaboration instead
+// * icon:code-fork[fw] Collaboration
+//
+// [#creation.topic]
+// == Creation
+//
+// [.context]
+// icon:paint-brush[fw,role=active] icon:send[fw] icon:code-fork[fw]
+//
+// [#writers-write]
+// == Writers Write
+//
+// [#confined.fullscreen-media]
+// == !
+// image::goat-on-cliff.jpg[role=canvas]
+//
+// [#docbook-ex-1.sheet%conceal]
+// == DocBook Example (Part 1)
+//
+// [source,xml]
+// ----
+// include::snippets/example.xml[lines=1..19]
+// ...
+// ----
+//
+// [#docbook.subject]
+// == DocBook
+//
+// [#docbook-ex-2.sheet%conceal]
+// == DocBook Example (Part 2)
+//
+// [source,xml]
+// ----
+// ...
+// include::snippets/example.xml[lines=26..51]
+// ...
+// ----
+//
+// [#moving-on]
+// == !
+//
+// [#latex-ex-1.sheet%conceal]
+// == LaTeX Example
+//
+// [source,latex]
+// ----
+// include::snippets/example.tex[]
+// ----
+//
+// [#latex.subject]
+// == LaTeX
+//
+// [#latex-ex-2.sheet%conceal]
+// == LaTeX Example
+//
+// [source,latex]
+// ----
+// include::snippets/example.tex[]
+// ----
+//
+// [#got-pdf]
+// == Got icon:file-pdf-o[fw]?
+//
+// [#clean-slate]
+// == !
+//
+// [#asciidoc-ex.sheet%conceal]
+// == AsciiDoc Example
+//
+// [source,asciidoc]
+// ------
+// include::snippets/example.adoc[]
+// ------
+//
+// [#asciidoc-fox-approves.fullscreen-media]
+// == !
+// image::hungry-fox.jpg[role=cover]
+//
+// [#asciidoc.subject]
+// == AsciiDoc
+//
+// [#asciidoc-qualities.properties]
+// == AsciiDoc is...
+//
+// [%build.spotlight]
+// * clear & concise
+// * paragraphs as paragraphs
+// * familiar conventions
+// * common terminology
+// * forgiving syntax
+// * consistent, repeatable patterns
+// //* line-oriented, left-aligned
+// * semantic
+//
+// [.sheet]
+// == !
+//
+// [source,asciidoc]
+// ----
+// include::snippets/ex-paragraphs.adoc[]
+// ----
+//
+// [.sheet]
+// == !
+//
+// [source,asciidoc]
+// ----
+// include::snippets/ex-sections.adoc[]
+// ----
+//
+// [.sheet]
+// == !
+//
+// [source,asciidoc]
+// ----
+// include::snippets/ex-lists.adoc[tag=unordered]
+// ----
+//
+// [.sheet]
+// == !
+//
+// [source,asciidoc]
+// ----
+// include::snippets/ex-lists.adoc[tag=ordered]
+// ----
+//
+// [.sheet]
+// == !
+//
+// [source,asciidoc]
+// ----
+// include::snippets/ex-text-formatting.adoc[]
+// ----
+//
+// [.sheet]
+// == !
+//
+// [source,asciidoc]
+// ----
+// include::snippets/ex-multimedia.adoc[]
+// ----
+//
+// [#ex-roles.sheet]
+// == !
+//
+// [source,asciidoc]
+// ----
+// include::snippets/ex-roles.adoc[]
+// ----
+//
+// [#left-aligned-lines.fullscreen-media]
+// == !
+// image::align-left.svg[role=medium]
+//
+// [#ex-delimited-block.sheet]
+// == !
+//
+// [source,asciidoc]
+// ------
+// include::snippets/ex-delimited-block.adoc[]
+// ------
+//
+// [#wysiwyg]
+// == No WYSIWYG?!?
+//
+// == **Y**ou **G**et **W**hat **Y**ou **G**et
+//
+// [#ygwyg%build]
+// --
+// [discrete]
+// == `+¯\_(ツ)_/¯+`
+// --
+//
+// [#ide-for-writers]
+// == IDE for Writers
+//
+// [#atom.fullscreen-media]
+// == !
+//
+// .Atom
+// image::ss-atom-asciidoc-preview.png[role=contain]
+//
+// //.TODO
+// //- AsciidocFX; show outline
+// //- IntelliJ IDEA
+//
+// [#creation-recommended-practices]
+// == Creation: Recommended Practices
+//
+// //== Migration
+// //
+// //[.cue]
+// //****
+// //include::{uri-script}[tag=migration]
+// //****
+//
+// [#ex-includes.sheet]
+// == !
+//
+// [source,asciidoc]
+// ------
+// include::snippets/ex-includes.adoc[tag=chapter]
+//
+// include::snippets/ex-includes.adoc[tag=tag]
+// ------
+//
+// [#dawn.fullscreen-media]
+// == !
+// image::breaking-dawn-longs-peak.jpg[role=cover]
+//
+// [.topic]
+// == Publication
+//
+// [#publication.context]
+// icon:paint-brush[fw] icon:send[fw,role=active] icon:code-fork[fw]
+//
+// [asciidoc-vs-asciidoctor.axis]
+// == !
+//
+// * icon:file-text[] AsciiDoc
+// ** syntax
+// * icon:wrench[] Asciidoctor
+// ** processor
+//
+// [#conversion.axis.contrast]
+// == !
+//
+// * AsciiDoc
+// //* Output
+// * Presentation Formats
+// [%build]
+// ** HTML
+// ** DocBook
+// ** PDF
+// ** EPUB3
+// ** Slides
+// //** icon:line-chart[fw]
+// ** icon:question-circle[fw]
+//
+// [ex-extensions.sheet]
+// == !
+//
+// [source,asciidoc]
+// ----
+// [tabs]
+// ======
+// .Visual Editor
+// [tab]
+// =====
+// Describe how to use the visual editor and show some screenshots.
+// =====
+//
+// .XML Editor
+// [tab]
+// =====
+// Describe how to do the same thing in the XML editor.
+// =====
+// ======
+// ----
+//
+// //== AST icon:random[fw]
+// [#ast]
+// == Transformation icon:random[fw]
+//
+// == !
+//
+// [source,asciidoc]
+// ----
+// lorem::sentences[5]
+// ----
+//
+// == !
+//
+// [source,ruby]
+// ----
+// include::snippets/asciidoctor-extension.rb[]
+// ----
+//
+// [#aggregate]
+// == !
+//
+// ....
+//   Scribed     Generated
+//         \     /
+//           \ /
+//            v
+//         AsciiDoc
+//            |
+//            v
+//        Converter
+//            |
+//            v
+//    Presentation Format
+// ....
+//
+// // Subject slide for Spring REST Docs?
+//
+// [#endless-possibilities]
+// == !
+//
+// > I can do truly amazing things with my AsciiDoc source.
+// > -- Scott Chacon, author of Pro Git
+//
+// [#publication-recommended-practices]
+// == Publication: Recommended Practices
+//
+// [#push-to-publish]
+// == Push to Publish
+//
+// ////
+// [.axis.contrast]
+// == !
+//
+// * AsciiDoc
+// * Export Formats
+// //** AsciiDoc
+// //** Markdown
+// //** DocBook
+// //** Mallard
+// ////
+//
+// [#publish-everywhere.fullscreen-media]
+// == !
+// image::mountains-everywhere.jpg[role=cover]
+//
+// [.topic]
+// == Collaboration
+//
+// [#collaboration.context]
+// icon:paint-brush[fw] icon:send[fw] icon:code-fork[fw,role=active]
+//
+// [#redhat-endorsement]
+// == !
+//
+// > The OpenShift team reported that after the migration from DocBook to AsciiDoc, the rate of both internal and external contributions skyrocketed--from several a year to several a week. ...
+//
+// [#redhat-endorsement]
+// == !
+//
+// > ...{sp}Mere days after our migration, we started seeing incoming Merge Requests, where there were none before.
+// > Preliminary results hint that this is an observable trend.
+// > -- JBoss BxMS Engineering Team
+//
+// [#source-control]
+// == git icon:heart[] AsciiDoc
+//
+// [#edit-on-github]
+// == icon:github[] [.underline]#Edit on GitHub#
+//
+// [.fullscreen-media]
+// == !
+// image::ss-github-rendered-file.png[role=canvas]
+//
+// [.fullscreen-media]
+// == !
+// image::ss-github-edit-file-button.png[role=canvas]
+//
+// [.fullscreen-media]
+// == !
+// image::ss-github-edit-file.png[role=canvas]
+//
+// [.fullscreen-media]
+// == !
+// image::ss-github-preview-changes.png[role=canvas]
+//
+// [.fullscreen-media]
+// == !
+// image::ss-github-commit-changes.png[role=canvas]
+//
+// //== AsciiDoc icon:github[] GitHub
+// //
+// //[.cue]
+// //****
+// //include::{uri-script}[tag=asciidoc-github-support]
+// //****
+//
+// [#docs-as-code]
+// == Docs = Code
+// //== Go Git It
+//
+// [#code-review.fullscreen-media]
+// == !
+//
+// image::ss-git-changes.png[role=contain]
+//
+// [.fullscreen-media]
+// == !
+//
+// image::ss-source-diff.png[role=contain]
+//
+// [.fullscreen-media]
+// == !
+//
+// image::ss-rich-diff.png[role=contain]
+//
+// [.fullscreen-media]
+// == !
+//
+// image::ss-code-review.png[role=contain]
+//
+// [#collaboration-recommended-practices]
+// == Collaboration: Recommended Practices
+//
+// [#recap.agenda.recap]
+// == !
+//
+// * icon:paint-brush[fw] Creation
+// * icon:send[fw] Publication
+// * icon:code-fork[fw] Collaboration
+//
+// [#fin.overlay]
+// == Write in AsciiDoc, Publish Everywhere!
+//
+// == Image Credits
+//
+// include::{imagesdir}/_credits.adoc[tag=list]
