@@ -14,14 +14,13 @@ Dan Allen
 :noheader:
 :scriptdoc: notes/script.adoc
 
-[.SLIDE#foo]
+[.SLIDE.fullscreen-media#banner]
 --
-image::imagewriter-banner.jpg[role=cover]
+image::imagewriter-banner.jpg[role=contain]
 --
 
-[.SLIDE#bar]
-image::imagewriter-banner.jpg[role=cover]
+[.SLIDE#paul]
+hello
 
-[#baz.SLIDE]
-== !
-image::imagewriter-banner.jpg[role=cover]
+[.SLIDE.contain#ringo]
+image::imagewriter-banner.jpg[]
