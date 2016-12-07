@@ -12,15 +12,350 @@ Dan Allen
 :icons: font
 :imagesdir: images
 :noheader:
-:scriptdoc: notes/script.adoc
+:scriptdoc: src/notes/script.adoc
 
-[.SLIDE.fullscreen-media#banner]
+[#title.SLIDE, transform=poster]
 --
-image::imagewriter-banner.jpg[role=contain]
 --
 
-[.SLIDE#paul]
-hello
+== Introduction
 
-[.SLIDE.contain#ringo]
+[#imagewriter.SLIDE.tpl-media.contain]
 image::imagewriter-banner.jpg[]
+
+[#print-shop-box.SLIDE.tpl-media.contain]
+image::print-shop-box.jpg[]
+
+[#print-shop-menu.SLIDE.tpl-media.tpl-media--inverse.contain]
+image::print-shop-main-menu.gif[]
+
+[#print-shop-ref.SLIDE.tpl-media.contain]
+image::skull.svg[]
+
+[#print-banner.SLIDE.tpl-media.contain]
+image::imagewriter-banner-long.jpg[]
+
+[#printing-screen.SLIDE.tpl-media.contain]
+video::print-shop-printing.mp4[opts=loop]
+
+[#ribbon-cartridge.SLIDE.tpl-media.medium]
+image::imagewriter-color-ribbon-cartridge.jpg[]
+
+[#thinking-screen.SLIDE.tpl-media.tpl-media--inverse.contain]
+image::print-shop-thinking.gif[]
+
+[#many-masters.SLIDE.tpl-media.cover]
+image::businessmen-pointing.svg[]
+
+[#separate.SLIDE.tpl-striped-titles]
+--
+* Content
+* Presentation
+--
+
+[#agenda.SLIDE]
+--
+[%build]
+// maybe keyboard-o for creation instead
+* icon:paint-brush[fw] Creation
+* icon:send[fw] Publication
+// maybe group for collaboration instead
+* icon:code-fork[fw] Collaboration
+--
+
+[discrete#creation.SLIDE]
+== Creation
+
+[#writers-write.SLIDE]
+Writers Write!
+
+[#confined.SLIDE.tpl-media.cover]
+image::goat-on-cliff.jpg[]
+
+[source#docbook-ex-1.SLIDE, xml]
+----
+include::snippets/example.xml[lines=1..19]
+...
+----
+
+[#docbook.SLIDE]
+DocBook
+
+[source#docbook-ex-2.SLIDE, xml]
+----
+...
+include::snippets/example.xml[lines=26..51]
+...
+----
+
+[#moving-on.SLIDE]
+--
+--
+
+[source#latex-ex-1.SLIDE, latex]
+----
+include::snippets/example.tex[]
+----
+
+[#latex.SLIDE]
+LaTeX
+
+[source.SLIDE#latex-ex-2.sheet, latex]
+----
+include::snippets/example.tex[]
+----
+
+[#got-pdf.SLIDE]
+Got icon:file-pdf-o[fw]?
+
+[#clean-slate.SLIDE]
+--
+--
+
+[source#asciidoc-ex.SLIDE.sheet, asciidoc]
+------
+include::snippets/example.adoc[]
+------
+
+[#asciidoc-fox-approves.SLIDE.tpl-media.cover]
+image::hungry-fox.jpg[]
+
+[#asciidoc.SLIDE]
+AsciiDoc
+
+[#asciidoc-qualities.SLIDE.properties]
+--
+AsciiDoc is...
+
+[%build.spotlight]
+* clear & concise
+* paragraphs as paragraphs
+* familiar conventions
+* common terminology
+* forgiving syntax
+* consistent, repeatable patterns
+//* line-oriented, left-aligned
+* semantic
+--
+
+[source#ex-paragraphs.SLIDE, asciidoc]
+----
+include::snippets/ex-paragraphs.adoc[]
+----
+
+[source#ex-sections.SLIDE, asciidoc]
+----
+include::snippets/ex-sections.adoc[]
+----
+
+[source#ex-lists-ul.SLIDE, asciidoc]
+----
+include::snippets/ex-lists.adoc[tag=unordered]
+----
+
+[source#ex-lists-ol.SLIDE, asciidoc]
+----
+include::snippets/ex-lists.adoc[tag=ordered]
+----
+
+[source#ex-formatting.SLIDE, asciidoc]
+----
+include::snippets/ex-text-formatting.adoc[]
+----
+
+[source#ex-multimedia.SLIDE, asciidoc]
+----
+include::snippets/ex-multimedia.adoc[]
+----
+
+[source#ex-roles.SLIDE, asciidoc]
+----
+include::snippets/ex-roles.adoc[]
+----
+
+[#left-aligned-lines.SLIDE.tpl-media.medium]
+image::align-left.svg[]
+
+[source#ex-delimited-block.SLIDE, asciidoc]
+------
+include::snippets/ex-delimited-block.adoc[]
+------
+
+[#wysiwyg.SLIDE]
+No WYSIWYG?!?
+
+[#ygwyg.SLIDE]
+--
+[%build]
+* **Y**ou **G**et **W**hat **Y**ou **G**et
+* `+¯\_(ツ)_/¯+`
+--
+
+[#ide-for-writers.SLIDE]
+IDE for Writers
+
+[#atom.SLIDE.tpl-media.contain]
+image::ss-atom-asciidoc-preview.png[]
+
+[#creation-recommended-practices.SLIDE]
+Creation: Recommended Practices
+
+[source#ex-includes.SLIDE, asciidoc]
+------
+include::snippets/ex-includes.adoc[tag=chapter]
+
+include::snippets/ex-includes.adoc[tag=tag]
+------
+
+[#dawn.SLIDE.tpl-media.cover]
+image::breaking-dawn-longs-peak.jpg[]
+
+[#publication.SLIDE]
+Publication
+
+[#asciidoc-vs-asciidoctor.SLIDE.tpl-striped-titles]
+--
+* icon:file-text[] AsciiDoc
+** syntax
+* icon:wrench[] Asciidoctor
+** processor
+--
+
+[#conversion.SLIDE.tpl-striped-titles]
+--
+* AsciiDoc
+//* Output
+* Presentation Formats
+[%build]
+** HTML
+** DocBook
+** PDF
+** EPUB3
+** Slides
+//** icon:line-chart[fw]
+** icon:question-circle[fw]
+--
+
+[source#ex-extensions.SLIDE, asciidoc]
+----
+[tabs]
+======
+.Visual Editor
+[tab]
+=====
+Describe how to use the visual editor and show some screenshots.
+=====
+
+.XML Editor
+[tab]
+=====
+Describe how to do the same thing in the XML editor.
+=====
+======
+----
+
+[#ast.SLIDE]
+Transformation icon:random[fw]
+
+[source#ex-lorem.SLIDE, asciidoc]
+----
+lorem::sentences[5]
+----
+
+[source#asciidoctor-extension.SLIDE, ruby]
+----
+include::snippets/asciidoctor-extension.rb[]
+----
+
+[#aggregate.SLIDE]
+....
+  Scribed     Generated
+        \     /
+          \ /
+           v
+        AsciiDoc
+           |
+           v
+       Converter
+           |
+           v
+   Presentation Format
+....
+
+[quote#endless-possibilities.SLIDE, "Scott Chacon, author of Pro Git"]
+I can do truly amazing things with my AsciiDoc source.
+
+[#publication-recommended-practices.SLIDE]
+Publication: Recommended Practices
+
+[#push-to-publish.SLIDE]
+Push to Publish
+
+[#publish-everywhere.SLIDE.tpl-media.cover]
+image::mountains-everywhere.jpg[]
+
+[#collaboration.SLIDE]
+Collaboration
+
+[quote#redhat-endorsement-1.SLIDE]
+The OpenShift team reported that after the migration from DocBook to AsciiDoc, the rate of both internal and external contributions skyrocketed--from several a year to several a week. ...
+
+[quote#redhat-endorsement-2.SLIDE, "JBoss BxMS Engineering Team"]
+...{sp}Mere days after our migration, we started seeing incoming Merge Requests, where there were none before.
+Preliminary results hint that this is an observable trend.
+
+[#source-control.SLIDE]
+git icon:heart[] AsciiDoc
+
+[#edit-on-github.SLIDE]
+icon:github[] Edit on GitHub
+
+[#ss-github-rendered-file.SLIDE.tpl-media.contain]
+image::ss-github-rendered-file.png[]
+
+[#ss-github-edit-file-button.SLIDE.tpl-media.contain]
+image::ss-github-edit-file-button.png[]
+
+[#ss-github-edit-file.SLIDE.tpl-media.contain]
+image::ss-github-edit-file.png[]
+
+[#ss-github-preview-changes.SLIDE.tpl-media.contain]
+image::ss-github-preview-changes.png[]
+
+[#ss-github-commit-changes.SLIDE.tpl-media.contain]
+image::ss-github-commit-changes.png[]
+
+[#docs-as-code]
+Docs = Code
+
+[#code-review.SLIDE.tpl-media.contain]
+image::ss-git-changes.png[]
+
+[#ss-source-diff.SLIDE.tpl-media.contain]
+image::ss-source-diff.png[]
+
+[#ss-rich-diff.SLIDE.tpl-media.contain]
+image::ss-rich-diff.png[]
+
+[#ss-code-review.SLIDE.tpl-media.contain]
+image::ss-code-review.png[]
+
+[#collaboration-recommended-practices.SLIDE]
+Collaboration: Recommended Practices
+
+[#recap.SLIDE]
+--
+* icon:paint-brush[fw] Creation
+* icon:send[fw] Publication
+* icon:code-fork[fw] Collaboration
+--
+
+[#fin.SLIDE]
+Write in AsciiDoc, Publish Everywhere!
+
+[#credits.SLIDE]
+--
+Image Credits
+
+include::{imagesdir}/_credits.adoc[tag=list]
+--

@@ -7,32 +7,27 @@ module.exports = function protocol() {
         metas[meta.getAttribute('name')] = meta.getAttribute('content')
     })
 
-    const notes = {}
-    Array.from(document.querySelectorAll('aside#all-notes [id]')).forEach((note) => {
-      notes[note.id] = note.innerHTML
-    })
-
     const steps = deck.slides.map((slide, slideIdx) => {
 
       // const notes = [].slice.call(slide.querySelectorAll('aside[role="note"] p, aside[role="note"] li'))
-      //   .map((note) => note.textContent)
-      //   .join('\n')
+      const notes = [].slice.call(slide.querySelectorAll('.cue'))
+        .map((note) => note.innerHTML)
+        .join('')
 
       if (slide.bullets.length > 0) {
         return slide.bullets.map((b, bulletIdx) => {
           return {
             cursor: String(slideIdx) + '.' + String(bulletIdx),
             states: [],
-            notes: notes[slide.id],
+            notes,
           }
         })
       }
 
       return {
-        // cursor: String(slideIdx),
-        cursor: slide.id,
+        cursor: String(slideIdx),
         states: [],
-        notes: notes[slide.id],
+        notes,
       }
     })
 
@@ -56,11 +51,9 @@ module.exports = function protocol() {
 
         case 'go-to-step':
           const { cursor } = commandArgs
-          // const [slideIdx, subslideIdx] = cursor.split('.')
-          const idx = deck.slides.findIndex((s) => s.id === cursor)
-          deck.slide(idx)
-          // deck.slide(Number(slideIdx))
-          // deck.activateBullet(Number(slideIdx), Number(subslideIdx))
+          const [slideIdx, subslideIdx] = cursor.split('.')
+          deck.slide(Number(slideIdx))
+          deck.activateBullet(Number(slideIdx), Number(subslideIdx))
           break;
 
         default:

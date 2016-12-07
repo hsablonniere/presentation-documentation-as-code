@@ -1,0 +1,60 @@
+== remarks about dan's slides
+
+* personal story
+* relation from story to reality of writing today
+** collaborate with others on the creation of that content
+** published out in the world is still just as thrilling
+** we need a content workflow
+** maximum reuse
+** facilitates strong collaboration
+** flexibility to transform
+** publish it wherever it needs to go
+* separate content and presentation
+* balance
+** creation
+** publication
+** or collaboration
+=> asciidoctor fits those needs and we'll evaluate them
+start with the writers (content is king)
+* evaluate docbook
+* evaluate latex
+* AsciiDoc => I can finally see my content!
+* explain the benefits of the syntax
+* roles!!
+** pass information to the publisher
+* line oriented and left aligned
+* no wysiwyg
+* ide for writers
+* best practices, includes
+* publication
+* (processor)
+* terminology
+** asciidoctor vs asciidoc
+** separation of content
+** => rework what's generated
+* nested blocks example
+* source of record, not a textual representation of the output
+* transformation is the key
+* AST
+* lorem macro
+*
+
+== questions
+
+* what do we do since we change the order?
+** when do we introduce asciidoctor
+
+== ideas for mine
+
+* montrer une fenêtre de saisie de wordpress ou d'un wiki
+* checkbox avec ce que les autres approches apportent
+* bouton special pour donner envie de vomir sur docbook
+* take away #
+* show the diagram with different teams
+* show Sarah's quote
+
+== ideas for demo
+
+* multi cursor
+* remplacement avec regex
+*
