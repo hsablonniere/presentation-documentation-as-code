@@ -37,7 +37,24 @@ start with the writers (content is king)
 * transformation is the key
 * AST
 * lorem macro
-*
+* many sources (scribed+generated) => many outputs
+** Spring REST Docs and swagger2markup
+* scott chacon quote
+* publication
+** build and automated tools
+* writers and engineers
+* jboss examples
+* plain text => history, diffs, rich diffs, branching, merging...
+* github
+* edit on github (relate to wikipedia)
+* know workflows
+* keep changes isolated
+** tips : one sentence per line
+** split files
+* use validation
+* issue tracker (related PR/commits to issue #)
+* separate repositories strategies
+* 
 
 == questions
 
@@ -46,12 +63,21 @@ start with the writers (content is king)
 
 == ideas for mine
 
+* mention proselint
+* work offline
+* add stuffs about the ecosystem
+** available in many languages
+** atom plugin
+** static site generators
+** presentations
 * montrer une fenêtre de saisie de wordpress ou d'un wiki
 * checkbox avec ce que les autres approches apportent
 * bouton special pour donner envie de vomir sur docbook
 * take away #
 * show the diagram with different teams
 * show Sarah's quote
+* know workflows
+** still stuff to try (remember git flow)
 
 == ideas for demo
 

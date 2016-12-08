@@ -44,7 +44,7 @@ image::imagewriter-color-ribbon-cartridge.jpg[]
 [#thinking-screen.SLIDE.tpl-media.tpl-media--inverse.contain]
 image::print-shop-thinking.gif[]
 
-[#many-masters.SLIDE.tpl-media.cover]
+[#many.SLIDE.tpl-media.cover]
 image::businessmen-pointing.svg[]
 
 [#separate.SLIDE.tpl-striped-titles]

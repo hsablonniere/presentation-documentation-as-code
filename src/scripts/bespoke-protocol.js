@@ -28,6 +28,8 @@ module.exports = function protocol() {
         cursor: String(slideIdx),
         states: [],
         notes,
+        slideLineno: Number(slide.dataset.slideLineno),
+        notesLineno: Number(slide.dataset.notesLineno),
       }
     })
 

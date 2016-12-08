@@ -6,13 +6,7 @@
 [#title]
 --
 Welcome everyone!
-
-#pause#
-
 Today, I'm going to _talk about_ how you can improve your documentation process, from writing to delivery, by treating *documentation as code*.
-
-#move on stage#
-
 //HS: Don't give too much away here; move to conclusion?
 //It starts by authoring content in AsciiDoc and transforming it with Asciidoctor.
 //We'll then look at how this system ties into existing social coding infrastructure to enable better collaboration and adapts build tools and pipelines to automate publishing.
