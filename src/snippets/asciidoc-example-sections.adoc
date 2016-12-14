@@ -1,0 +1,11 @@
+= Titre du document
+
+== Section de niveau 1
+
+=== Section de niveau 2
+
+==== Section de niveau 3
+
+===== Section de niveau 4
+
+====== Section de niveau 5

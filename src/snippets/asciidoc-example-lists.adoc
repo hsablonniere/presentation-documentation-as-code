@@ -1,0 +1,15 @@
+// tag::unordered[]
+* Agrumes
+** Oranges
+** Pamplemousses
+* Bananes
+* Pommes
+// end::unordered[]
+
+// tag::ordered[]
+. Étape 1
+.. Étape 1.1
+.. Étape 1.2
+. Étape 2
+. Étape 3
+// end::ordered[]

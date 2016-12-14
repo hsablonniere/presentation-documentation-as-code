@@ -54,15 +54,11 @@ start with the writers (content is king)
 * use validation
 * issue tracker (related PR/commits to issue #)
 * separate repositories strategies
-* 
-
-== questions
-
-* what do we do since we change the order?
-** when do we introduce asciidoctor
+*
 
 == ideas for mine
 
+* démystifier le "la doc c'est chiant"
 * mention proselint
 * work offline
 * add stuffs about the ecosystem
@@ -78,6 +74,14 @@ start with the writers (content is king)
 * show Sarah's quote
 * know workflows
 ** still stuff to try (remember git flow)
+
+* living documentation
+** spec, BDD, cucumber
+
+* diagram
+** dita
+** diagrammr
+** graphviz
 
 == ideas for demo
 

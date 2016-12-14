@@ -1,0 +1,4 @@
+Un paragraphe n'est rien d'autre qu'une suite de lignes de texte.
+Aucun markup n'est nécessaire.
+
+Pour un nouveau paragraphe, il suffit d'une ligne vide.

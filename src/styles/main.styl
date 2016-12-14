@@ -1,8 +1,13 @@
+@import './fonts.styl'
 @import './base-slide-responsive.styl'
 @import './base-notes.styl'
-@import './slide_poster.styl'
+@import './tpl-poster.styl'
 @import './tpl-media.styl'
+@import './tpl-quote.styl'
 @import './tpl-striped-titles.styl'
+@import './tpl-title.styl'
+
+@import '../node_modules/prism-themes/themes/prism-ghcolors.css'
 
 section
   font-size 4rem
@@ -20,6 +25,14 @@ pre[class*="language-"]
   // .token.string
   // font-style italic
 
-
 .cue
   display none !important
+
+figure
+blockquote
+p
+  margin 0
+
+.tpl-blank
+  background-color #000
+  color #777

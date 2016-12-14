@@ -1,0 +1,28 @@
+= Links
+
+* http://markua.com/
+* https://leanpub.com/livingdocumentation
+https://github.com/cyriux/livingdocumentation-thebook/blob/master/manuscript/BeyondDocumentation/AbusingLivingDocumentation.txt
+* https://www.youtube.com/watch?v=Tw-wcps7WqU
+** Passer le savoir d'une tête à une autre
+*** aujourd'hui ou plus tard
+** Pourquoi faire de la doc ?
+** Est-ce utile dans un mode agile ?
+** code is documentation
+
+* https://www.youtube.com/watch?v=BxJb6iTpX74
+
+* https://www.youtube.com/watch?v=FYNAqlQB9U4
+
+* https://www.youtube.com/watch?v=h3DLKrvp5V8
+
+* https://speakerdeck.com/evangoer/thinking-of-documentation-as-code-yuiconf-2013
+* https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS?tag=viglink124746-20
+* https://blog.rackspace.com/transforming-developer-and-support-documentation-with-docs-like-code
+* http://idratherbewriting.com/2016/08/01/responding-to-feedback-on-modern-tech-writing-review/
+* http://www.technologies-ebusiness.com/enjeux-et-tendances/moi-code-madoc
+* http://www.slideshare.net/MargaretEker/docs-ascodemissingmanual-66429726
+* http://www.winglemeyer.org/colls/wtd-2016-prague/18/
+* https://www.youtube.com/channel/UCr019846MitZUEhc6apDdcQ
+
+* http://witheve.com/

@@ -1,0 +1,7 @@
+*mot en gras*
+
+_mot en italique_
+
+`mot clé`
+
+[.type]#mot personnalisé#

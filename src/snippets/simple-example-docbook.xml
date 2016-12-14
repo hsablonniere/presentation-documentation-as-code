@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://docbook.org/ns/docbook"
+         xmlns:xl="http://www.w3.org/1999/xlink" version="5.0">
+  <info>
+    <title>Documentation as Code</title>
+    <date>2016-11-02</date>
+    <author>
+      <personname>
+        <firstname>Nom</firstname>
+        <surname>Auteur</surname>
+      </personname>
+      <email>auteur@example.org</email>
+    </author>
+    <authorinitials>NA</authorinitials>
+    <revhistory>
+      <revision>
+        <revnumber>1.0.0</revnumber>
+        <date>2016-11-02</date>
+        <authorinitials>NA</authorinitials>
+      </revision>
+    </revhistory>
+  </info>
+  <blockquote>
+    <attribution>Confucius</attribution>
+    <simpara>La nature fait les hommes semblables, la vie les rend différents.</simpara>
+  </blockquote>
+  <section xml:id="_beginning">
+    <title>Début</title>
+    <itemizedlist>
+      <listitem>
+        <simpara>Objectifs</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Enjeux</simpara>
+      </listitem>
+    </itemizedlist>
+  </section>
+  <section xml:id="_middle">
+    <title>Milieu</title>
+    <simpara>Ce texte n’a vraiment pas beaucoup d’interêt.
+Il nous faut des images !</simpara>
+    <informalfigure>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="screenshot.png" />
+        </imageobject>
+        <textobject>
+          <phrase>Screenshot</phrase>
+        </textobject>
+      </mediaobject>
+    </informalfigure>
+    <note>
+      <simpara>Toute les bonnes choses ont une fin.</simpara>
+    </note>
+  </section>
+  <section xml:id="_end">
+    <title>End</title>
+    <simpara>"Et voilà !"</simpara>
+  </section>
+</article>

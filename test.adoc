@@ -1,0 +1,15 @@
+= AsciiDoc expliqué à mon Père
+
+Bonjour Papa, ce _que tu_ vois *à l'écran* s'appelle AsciiDoc.
+
+== Mon titre de niveau deux
+
+* Lait
+* Carottes
+* Choux
+
+Coucou
+
+. Un
+. Deux
+. Trois

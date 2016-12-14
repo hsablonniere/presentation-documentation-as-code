@@ -10,21 +10,13 @@
 ** themes?
 * split contents/notes
 * split slide types styles
-* use new scaling method
 * update new templating system
 ** use naming convention for templates
 ** one for each slide type
 * put back the figcaption
-* fix latex syntax highlighting
-* fix asciidoc syntax highlighting
 
 * recover from asciidoc errors
-* why do I need to do `document.doctitle` instead of `document.doctitle`
-* what's the deal with the title stuffs
 
 == Questions
 
 * How can I output only certain images to data URI (notes)
-* notes as a separated file?
-** Nested block
-** only delimiters instead of blocks

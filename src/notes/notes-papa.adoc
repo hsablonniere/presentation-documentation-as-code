@@ -1,0 +1,45 @@
+= Notes avec Papa
+
+* Lit bcp d'articles en PDF
+* Prends des notes à la main sur ces articles (cahier)
+* Tape directement sur Word (en fonction des notes prises)
+* 250 pages => 60 000 motes => ~ 300 000 char
+* L'éditeur fournit qq consignes :
+** Police, espacement, taille...
+** Choix proposés par l'auteur sur la présentation de chapitres etc
+*** L'éditeur propose ensuite une configuration de police/taille/italique
+** L'éditeur fait des retours sur la longueur/découpage des paragraphes
+* Un fichier par chapitre
+** Ouvrir deux chapitres en même temps
+** Environ 5000 mots par chapitre
+
+* Pas d'utilisation des styles
+
+* Interligne dense pour en afficher plus ()
+
+* Bibliographie & Index
+** Fichier à part
+* Indication sous forme de texte (pour les encarts etc...)
+** Encart n°1...
+
+* Relecture à Anne
+** Imprime sur papier et commentaires à l'oral et suggestions
+
+* un seul contact chez l'éditeur "directrice éditoriale"
+** Agreggée de philo
+** Fichier Word par email
+** Système de correction/édition/question de Word
+** Question dans la marge avec des bulles
+** Accepter/refuser les modifs
+** répondre aux questions
+** BAT PDF, pas de livre épreuve
+
+* Envoi en PDF pour relecture
+
+* diff view github
+* si j'avais un logiciel comme ça serait bcp plus facile à voir les différences (par rapport au text de word)
+* aime pas trop le diff visuel
+
+* redondance mise en valeur avec le 1 phrase par ligne
+
+* pas trop de codification
