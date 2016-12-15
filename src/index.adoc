@@ -10,7 +10,6 @@ Hubert Sablonnière
 :date: 15 décembre 2016
 // :date: 16 décembre 2016
 :!sectids:
-:icons: font
 :imagesdir: images
 :noheader:
 :scriptdoc: src/notes/script.adoc
@@ -67,8 +66,11 @@ image::tracked-changes.svg[]
 [#story-force-awakens.SLIDE.tpl-media.contain]
 image::inner-force.svg[]
 
-[#story-brain-falpie-zone.SLIDE.tpl-media.contain]
+[#story-brain.SLIDE.tpl-media.contain]
 image::brain.svg[]
+
+[#story-brain-falpie-zone.SLIDE.tpl-media.contain]
+image::brain-falpie.svg[]
 
 [#story-dangers.SLIDE.tpl-media.contain]
 image::dangers.svg[]
@@ -187,71 +189,68 @@ include::snippets/simple-example-latex.tex[lines=18..27]
 --
 --
 
-[source#asciidoc-ex.SLIDE.sheet.tpl-code, asciidoc]
+[source#asciidoc-ex.SLIDE.tpl-code, asciidoc]
 -----
 include::snippets/simple-example-asciidoc.adoc[lines=1..19]
 ...
 -----
 
 [#asciidoc.SLIDE]
-`AsciiDoc`
+`*😍* AsciiDoc`
 
-[source#asciidoc-ex.SLIDE.sheet.tpl-code, asciidoc]
------
-include::snippets/simple-example-asciidoc.adoc[lines=1..19]
-...
------
-
-[source#ex-paragraphs.SLIDE.tpl-code, asciidoc]
-----
-include::snippets/asciidoc-example-paragraphs.adoc[]
-----
-
-[source#ex-sections.SLIDE.tpl-code, asciidoc]
-----
-include::snippets/asciidoc-example-sections.adoc[]
-----
-
-[source#ex-lists-ul.SLIDE.tpl-code, asciidoc]
-----
-include::snippets/asciidoc-example-lists.adoc[tag=unordered]
-----
-
-[source#ex-lists-ol.SLIDE.tpl-code, asciidoc]
-----
-include::snippets/asciidoc-example-lists.adoc[tag=ordered]
-----
-
-[source#ex-formatting.SLIDE.tpl-code, asciidoc]
-----
-include::snippets/asciidoc-example-text-formatting.adoc[]
-----
-
-[source#ex-multimedia.SLIDE.tpl-code, asciidoc]
-----
-include::snippets/asciidoc-example-multimedia.adoc[]
-----
-
-[source#ex-blocks.SLIDE.tpl-code, asciidoc]
-----
-include::snippets/asciidoc-example-blocks.adoc[]
-----
-
-[source#ex-roles.SLIDE.tpl-code, asciidoc]
-----
-include::snippets/asciidoc-example-roles.adoc[]
-----
-
-[source#ex-delimited-block.SLIDE.tpl-code, asciidoc]
-------
-include::snippets/asciidoc-example-delimited-block.adoc[]
-------
-
-[#left-aligned-lines.SLIDE.tpl-media.medium]
-image::align-left.svg[]
-
-[#dry.SLIDE.tpl-code-stuff]
-`**D**on't **R**epeat **Y**ourself`
+// [source#asciidoc-ex.SLIDE.sheet.tpl-code, asciidoc]
+// -----
+// include::snippets/simple-example-asciidoc.adoc[lines=1..19]
+// ...
+// -----
+//
+// [source#ex-paragraphs.SLIDE.tpl-code, asciidoc]
+// ----
+// include::snippets/asciidoc-example-paragraphs.adoc[]
+// ----
+//
+// [source#ex-sections.SLIDE.tpl-code, asciidoc]
+// ----
+// include::snippets/asciidoc-example-sections.adoc[]
+// ----
+//
+// [source#ex-lists-ul.SLIDE.tpl-code, asciidoc]
+// ----
+// include::snippets/asciidoc-example-lists.adoc[tag=unordered]
+// ----
+//
+// [source#ex-lists-ol.SLIDE.tpl-code, asciidoc]
+// ----
+// include::snippets/asciidoc-example-lists.adoc[tag=ordered]
+// ----
+//
+// [source#ex-formatting.SLIDE.tpl-code, asciidoc]
+// ----
+// include::snippets/asciidoc-example-text-formatting.adoc[]
+// ----
+//
+// [source#ex-multimedia.SLIDE.tpl-code, asciidoc]
+// ----
+// include::snippets/asciidoc-example-multimedia.adoc[]
+// ----
+//
+// [source#ex-blocks.SLIDE.tpl-code, asciidoc]
+// ----
+// include::snippets/asciidoc-example-blocks.adoc[]
+// ----
+//
+// [source#ex-roles.SLIDE.tpl-code, asciidoc]
+// ----
+// include::snippets/asciidoc-example-roles.adoc[]
+// ----
+//
+// [source#ex-delimited-block.SLIDE.tpl-code, asciidoc]
+// ------
+// include::snippets/asciidoc-example-delimited-block.adoc[]
+// ------
+//
+// [#left-aligned-lines.SLIDE.tpl-media.medium]
+// image::align-left.svg[]
 
 [#wysiwyg.SLIDE.tpl-text]
 Pas de *WYSIWYG* ?!?
@@ -259,19 +258,22 @@ Pas de *WYSIWYG* ?!?
 [#ygwyg.SLIDE.tpl-text]
 **Y**ou **G**et **W**hat **Y**ou **G**et!
 
-[#ide-for-writers.SLIDE.tpl-text]
-*IDE* pour les auteurs
-
-[#atom.SLIDE.tpl-media.contain]
-image::ss-atom-asciidoc-preview.png[]
+// [#atom.SLIDE.tpl-media.contain]
+// image::ss-atom-asciidoc-preview.png[]
 
 [#creation-recommended-practices.SLIDE.tpl-text]
-*Ecriture :* +
+*Écriture :* +
 Bonnes pratiques !
 
-[source#ex-includes.SLIDE.tpl-code, asciidoc]
-------
-------
+[#dry.SLIDE.tpl-code-stuff]
+`**D**on't **R**epeat **Y**ourself`
+
+[#ide-for-writers.SLIDE.tpl-code-stuff]
+*IDE* pour les auteurs
+
+// [source#ex-includes.SLIDE.tpl-code, asciidoc]
+// ------
+// ------
 
 [#dawn.SLIDE.tpl-media.cover]
 --
@@ -285,17 +287,23 @@ II\. Collaboration
 // [quote#redhat-endorsement-2.SLIDE.tpl-quote, "JBoss BxMS Engineering Team"]
 // ...{sp}
 
-[quote#redhat-endorsement-1.SLIDE.tpl-quote, "JBoss BxMS Engineering Team"]
-// The OpenShift team reported that after the migration from DocBook to AsciiDoc,
-[...] the rate of both internal and external contributions skyrocketed--from several a year to several a week.
-//Mere days after our migration, we started seeing incoming Merge Requests, where there were none before.
-//Preliminary results hint that this is an observable trend.
+// [quote#redhat-endorsement-1.SLIDE.tpl-quote, "JBoss BxMS Engineering Team"]
+// // The OpenShift team reported that after the migration from DocBook to AsciiDoc,
+// [...] the rate of both internal and external contributions skyrocketed--from several a year to several a week.
+// //Mere days after our migration, we started seeing incoming Merge Requests, where there were none before.
+// //Preliminary results hint that this is an observable trend.
+
+[#git.SLIDE.tpl-text]
+`git`
+
+// [#git.SLIDE.tpl-code-stuffs]
+// `*git* pour les contenus`
 
 [#source-control.SLIDE.tpl-text]
-git *loves* AsciiDoc
+`git *💖* AsciiDoc`
 
-[#edit-on-github.SLIDE.tpl-text]
-Édition sur *GitHub*
+// [#edit-on-github.SLIDE.tpl-text]
+// *✍* Édition sur *GitHub*
 
 [#ss-github-rendered-file.SLIDE.tpl-media.contain]
 image::ss-github-rendered-file.png[]
@@ -312,9 +320,9 @@ image::ss-github-preview-changes.png[]
 [#ss-github-commit-changes.SLIDE.tpl-media.contain]
 image::ss-github-commit-changes.png[]
 
-[#docs-as-code.SLIDE]
---
---
+[#docs-as-code.SLIDE.tpl-text]
+Comme un *Wiki* +
+mais en *mieux !*
 
 [#code-review.SLIDE.tpl-media.contain]
 image::ss-git-changes.png[]
@@ -332,19 +340,38 @@ image::ss-code-review.png[]
 *Collaboration :* +
 Bonnes pratiques !
 
+[#issue-tracker.SLIDE.tpl-code-stuff]
+`*Issue* tracker`
+
+[#pull-request.SLIDE.tpl-code-stuff]
+`**P**ull **R**equest`
+
+[#content-review.SLIDE.tpl-code-stuff]
+`**R**evue de **C**ontenu`
+
+[#working-branches.SLIDE.tpl-code-stuff]
+`*branches* de travail`
+
+[#publication-preamble.SLIDE.tpl-blank]
+--
+--
+
 [#publication.SLIDE.tpl-title]
 III\. Publication
 
 [#asciidoc-vs-asciidoctor.SLIDE.tpl-striped-titles]
 --
 * AsciiDoc +
+✍ +
 syntaxe
 * asciidoctor +
+⚙ +
 processeur
 --
 
 [#conversion.SLIDE.tpl-media.contain]
-image::asciidoctor.svg[]
+image::asciidoctor-01.svg[]
+
 // * AsciiDoc
 // //* Output
 // * Presentation Formats
@@ -356,26 +383,51 @@ image::asciidoctor.svg[]
 // //** icon:line-chart[fw]
 // ** icon:question-circle[fw]
 
+[#conversion-2.SLIDE.tpl-media.contain]
+image::asciidoctor-02.svg[]
+
+[#conversion-3.SLIDE.tpl-media.contain]
+image::asciidoctor-03.svg[]
+
+[#conversion-4.SLIDE.tpl-media.contain]
+image::asciidoctor-04.svg[]
+
+[#conversion-5.SLIDE.tpl-media.contain]
+image::asciidoctor-05.svg[]
+
+[#conversion-6.SLIDE.tpl-media.contain]
+image::asciidoctor-06.svg[]
+
+[#conversion-7.SLIDE.tpl-media.contain]
+image::asciidoctor-07.svg[]
+
+[#conversion-8.SLIDE.tpl-media.contain]
+image::asciidoctor-08.svg[]
+
+
 [source#ex-extensions.SLIDE.tpl-code, asciidoc]
 ----
-[tabs]
-======
-.Visual Editor
-[tab]
-=====
-Describe how to use the visual editor and show some screenshots.
-=====
-
-.XML Editor
-[tab]
-=====
-Describe how to do the same thing in the XML editor.
-=====
-======
 ----
+// [tabs]
+// ======
+// .Visual Editor
+// [tab]
+// =====
+// Describe how to use the visual editor and show some screenshots.
+// =====
+//
+// .XML Editor
+// [tab]
+// =====
+// Describe how to do the same thing in the XML editor.
+// =====
+// ======
 
-[#ast.SLIDE]
-Transformation icon:random[fw]
+[#ast.SLIDE.tpl-media.contain]
+image::asciidoctor-ast-1.svg[]
+
+[#ast-2.SLIDE.tpl-media.contain]
+image::asciidoctor-ast-2.svg[]
 
 [source#ex-lorem.SLIDE.tpl-code, asciidoc]
 ----
@@ -384,23 +436,23 @@ lorem::sentences[5]
 
 [source#asciidoctor-extension.SLIDE.tpl-code, ruby]
 ----
-// include::snippets/asciidoctor-extension.rb[]
 ----
+// include::snippets/asciidoctor-extension.rb[]
 
 [#aggregate.SLIDE]
 ....
-  Scribed     Generated
-        \     /
-          \ /
-           v
-        AsciiDoc
-           |
-           v
-       Converter
-           |
-           v
-   Presentation Format
 ....
+// Scribed     Generated
+//       \     /
+//         \ /
+//          v
+//       AsciiDoc
+//          |
+//          v
+//      Converter
+//          |
+//          v
+//  Presentation Format
 
 [quote#endless-possibilities.SLIDE.tpl-quote, "Scott Chacon, author of Pro Git"]
 I can do truly amazing things with my AsciiDoc source.
@@ -410,7 +462,7 @@ I can do truly amazing things with my AsciiDoc source.
 Bonnes pratiques !
 
 [#push-to-publish.SLIDE.tpl-code-stuff]
-`Push to Publish`
+`*Merger* pour publier`
 
 [#continuous-integration.SLIDE.tpl-code-stuff]
 `**I**ntégration **C**ontinue`
@@ -418,9 +470,9 @@ Bonnes pratiques !
 [#continuous-deployment.SLIDE.tpl-code-stuff]
 `**D**éploiement **C**ontinu`
 
-[#publish-everywhere.SLIDE.tpl-media.cover]
---
---
+// [#publish-everywhere.SLIDE.tpl-media.cover]
+// --
+// --
 
 [#recap.SLIDE]
 --
@@ -429,9 +481,5 @@ Bonnes pratiques !
 // * III. Publication
 --
 
-[#fin.SLIDE]
---
---
-
-[#true-story.SLIDE.tpl-title]
+[#fin.SLIDE.tpl-title]
 FIN.

@@ -66,10 +66,12 @@
 🗣 À cet instant précis de notre histoire, une force interieure réveille notre héro.
 🗣 C'est plus fort que lui.
 
-[#story-brain-falpie-zone]
+[#story-brain]
 🗣 La zone FALPIE* de son cerveau s'active.
 // * Firefox A La Place d'Internet Explorer
 🗣 Et oui, la dernière fois c'était *Noël 2006* :
+
+[#story-brain-falpie-zone]
 🗣 Voyant IE6 dominer l'ordi de ses parents, il n'a pu s'empêcher de les libérer en installant Firefox à la place.
 
 [#story-dangers]
@@ -462,52 +464,95 @@ Each statement gets its own line, so there's no need for a semicolon to separate
 --
 
 [#wysiwyg]
-So, what's absent here?
-WYSIWYG.
+// So, what's absent here?
+// WYSIWYG.
+Comme vient de le montrer Ludo,
+Pas de WYSIWYG, mais est ce que c'est vraiment une perte ?
+Je passe plus de temps à me battre avec les barres d'outils de Word, de CMS et autres Wikis qui proposent ça que de réfléchir à ce que je veux écrire.
+En fait, comme dirait mon collègue Dan,
+c'est plutôt :
 
 [#ygwyg]
 --
-But is it really a problem?
-Yeah, I don't think so.
+What You Get Is What You Get :-(
+// But is it really a problem?
+// Yeah, I don't think so.
 //I'm here to tell you that you don't need it.
-WYSIWYG places a barrier between you and your content and robs you of a lot of control.
-Unfortunately, it's an all too familiar input mechanism in a CMS.
-We should really call a CMS a content lobotomy system, or CLS.
-Instead of suiting your needs, it _seemingly_ solves your problem by making it impossible to do what you want to do.
-I like to say, "`You Get What You Get.`"
+// WYSIWYG places a barrier between you and your content and robs you of a lot of control.
+// Unfortunately, it's an all too familiar input mechanism in a CMS.
+// We should really call a CMS a content lobotomy system, or CLS.
+// Instead of suiting your needs, it _seemingly_ solves your problem by making it impossible to do what you want to do.
+// I like to say, "`You Get What You Get.`"
 //alt: What You Get Is What You Get (WYGIWYG)
 
-AsciiDoc, on the other hand, is readable in raw form and there's no curtain between you and your content.
-But that doesn't mean that you can't make it look pretty.
+// AsciiDoc, on the other hand, is readable in raw form and there's no curtain between you and your content.
+// But that doesn't mean that you can't make it look pretty.
+Avec Asciidoc on a le texte et le markup.
+Rien n'est caché mais ça veut pas dire que la sortie sera moche bien au contraire.
+
+// AsciiDoc has a rich syntax, with many, _many_ built-in elements and options to organize and annotate your content.
+// You shouldn't expect to learn it all in one day.
+// But you also don't have to.
+
+// Most shops gravitate towards a subset of the markup.
+// Dialects, particularly using roles, naturally emerge that bring additional consistency and reinforce the impression of simplicity.
+---
+Ce que j'aime vraiment avec AsciiDoc, c'est qu'il a une syntaxe riche qui répond à la majeure partie des besoins d'un auteur pour annoter et organiser ses contenus.
+OK, ça ne s'apprend pas en 5 minutes,
+mais c'est pas grave et c'est normal.
+On peut très facilement commencer avec les bases, les besoins complexes viennent par la suite.
+--
+
+[#creation-recommended-practices]
+--
+Si vous le mettez en place en place chez vous,
+n'hésitez pas à partager un *document exemple* qui met en avant la plupart des syntaxes utiles pour votre contexte.
+// See http://www.winglemeyer.org/technology/2016/09/08/semantic-asciidoc/
+// You can prepare templates for common document types to help give writers an easy starting point.
+Et surtout : réutilisez vos pratiques de codeurs préférées !!!
+--
+
+
+[#dry]
+--
+Ludo l'a bien montré,
+---
+Avec les includes, on va pouvoir découper un document en plusieurs fichiers (1 par chapitre ou section).
+Tjs avec les includes on va pouvoir éviter les copier/coller et inclure des exemples de code qui viennent directement des sources ou bien de fichiers dédiés.
+Ça allége un peu le document et surtout en ayant vos sources dans des fichiers *.js* ou *.java*, vous êtes certain que le code présent dans la doc est à jour, qu'il est testé, linté et qu'il compile.
+---
+L'utilisation des variables permet également de ne pas se répéter et d'assurer une documentation à jour.
+---
+En plus des pratiques, avec AsciiDoc on peut enfin utiliser sereinement les mêmes outils pour le code et pour les contenus.
 --
 
 [#atom]
 --
-Using a text editor such as Atom with the appropriate add-ons, you can see the final product in a preview pane.
-//alt: see how it's going to look in a preview pane
-As you can change, embellish, or restructure the document, you can see what the end result is going to look like in real time.
-
 //(If there's time: Discuss authoring in Atom with the AsciiDoc add-on to get helpful syntax highlighting.
 //Also mention AsciidocFX and IntelliJ IDEA.)
 // Play on IntelliJ logo; "Write with Pleasure"
 --
 
 [#ide-for-writers]
-I do believe tools such as Atom can go much further...maturing into a full blown IDE for writers.
-//Efforts are underway.
-Imagine Alt+Enter for synonyms.
-We're not that far away.
-
-[#creation-recommended-practices]
 --
-AsciiDoc has a rich syntax, with many, _many_ built-in elements and options to organize and annotate your content.
-You shouldn't expect to learn it all in one day.
-But you also don't have to.
+La démo de Ludo est un super exemple qui prouve qu'un éditeur de code comme Atom,
+avec les bons plugins,
+est pas loin de devenir un vrai IDE pour auteurs de contenus.
 
-Most shops gravitate towards a subset of the markup.
-Dialects, particularly using roles, naturally emerge that bring additional consistency and reinforce the impression of simplicity.
-// See http://www.winglemeyer.org/technology/2016/09/08/semantic-asciidoc/
-You can prepare templates for common document types to help give writers an easy starting point.
+Moi j'utilise à fond :
+
+* Coloration syntaxique
+* Autocomplétion
+* Multi-cursor
+* et c'est que le début...
+// Using a text editor such as Atom with the appropriate add-ons, you can see the final product in a preview pane.
+// //alt: see how it's going to look in a preview pane
+// As you can change, embellish, or restructure the document, you can see what the end result is going to look like in real time.
+//
+// I do believe tools such as Atom can go much further...maturing into a full blown IDE for writers.
+// //Efforts are underway.
+// Imagine Alt+Enter for synonyms.
+// We're not that far away.
 --
 
 [#ex-includes]
@@ -531,41 +576,66 @@ See me afterward and I can give you some pointers.
 
 [#dawn]
 --
-Now that the content is encoded in AsciiDoc, who does the writer hand it off to and what can be done with it?
-
-The AsciiDoc syntax is so simple and elegant, it's easy to be deceived that it can only produce primitive output.
-That couldn't be further from the truth.
-The AsciiDoc content is just the raw material and its semantics are the seeds of the blossoms we'll produce.
-This is where engineers get to work their magic.
-
-Let's shed some light on how we can transform it and where we can publish it.
-It's the dawn of endless possibilities, just like The Print Shop was for me as a child.
+Après avoir expliqué à mon père tous les avantages du concept de *documentation as code* et à quel point AsciiDoc ça déchire il était : intrigué.
+C'est une première étape ?
+Après tout, il est pas développeur, c'est normal qu'il soit pas convaincu à 100% en 20min.
+// Now that the content is encoded in AsciiDoc, who does the writer hand it off to and what can be done with it?
+//
+// The AsciiDoc syntax is so simple and elegant, it's easy to be deceived that it can only produce primitive output.
+// That couldn't be further from the truth.
+// The AsciiDoc content is just the raw material and its semantics are the seeds of the blossoms we'll produce.
+// This is where engineers get to work their magic.
+//
+// Let's shed some light on how we can transform it and where we can publish it.
+// It's the dawn of endless possibilities, just like The Print Shop was for me as a child.
 --
 
 
 [#collaboration]
 --
-We've arrived at the final section of this talk: collaboration.
-This section addresses both the writers and the engineers, as well as anyone else who must work side-by-side to produce technical content.
-This is where the harmony of writing and delivery comes together.
+Du coup, ensuite j'ai voulu parler de collaboration.
+J'ai encore du mal à me remettre du fait qu'il utilise des *marques de révisions* de Word et des échanges par email avec son éditeur.
 
-AsciiDoc lends itself well to collaboration because many of the tools needed to collaborate on it are already in place in a development shop.
-In particular, AsciiDoc is ripe for collaboration because it's source control friendly.
+Il faut que je lui montre comment nous les codeurs on collabore entre nous.
+// We've arrived at the final section of this talk: collaboration.
+// This section addresses both the writers and the engineers, as well as anyone else who must work side-by-side to produce technical content.
+// This is where the harmony of writing and delivery comes together.
+//
+// AsciiDoc lends itself well to collaboration because many of the tools needed to collaborate on it are already in place in a development shop.
+// In particular, AsciiDoc is ripe for collaboration because it's source control friendly.
 --
 
-[#redhat-endorsement-1]
+[#git]
 --
-This is a real force for contribution, as the JBoss BxMS and OpenShift teams can attest to.
+Il faut que je le forme a git !!!
+#hésitation#
+ok, fausse bonne idée.
+Du coup j'ai tenté un mode *par l'exemple* pour lui montrer comment on utilise git pour collaborer.
 
-_(refer to quote in slide)_
+Et c'est là que c'est génial.
+AsciiDoc ne réinvente pas là roue.
+Il vient pas avec son propre système d'historique de versions comme peuvent l'avoir pas mal de CMS ou de wikis.
+Par contre, étant donné que c'est juste du texte,
 --
+
+// [#redhat-endorsement-1]
+// --
+// This is a real force for contribution, as the JBoss BxMS and OpenShift teams can attest to.
+//
+// _(refer to quote in slide)_
+// --
 
 [#source-control]
-AsciiDoc doesn't specifically have "`source control support.`"
-Instead, it simply lends itself to being source controlled.
-No binary blobs, just plain text.
-And source control systems like git just _love_ plain text.
-You get history, source diffs, rich diffs, branching, merging, etc., all which can be managed through interfaces like GitHub, GitLab, and Bitbucket.
+on va pouvoir l'utiliser avec git sans soucis.
+Grâce à ça, on a l'historique des modifications,
+les diffs entre différentes versions,
+des branches de travail etc...
+Et puis en plus, on va pouvoir utiliser ça avec n'importe quelle interface Web GitHub, GitLab, bitbucket...
+// AsciiDoc doesn't specifically have "`source control support.`"
+// Instead, it simply lends itself to being source controlled.
+// No binary blobs, just plain text.
+// And source control systems like git just _love_ plain text.
+// You get history, source diffs, rich diffs, branching, merging, etc., all which can be managed through interfaces like GitHub, GitLab, and Bitbucket.
 
 [#edit-on-github]
 --
@@ -583,7 +653,7 @@ And, trust me, knowing how to use git correctly will save time and toes.
 
 [#ss-github-rendered-file]
 --
-(TODO)
+sur GitHub par exemple, on a le rendu.
 --
 
 [#ss-github-edit-file-button]
@@ -610,13 +680,22 @@ And, trust me, knowing how to use git correctly will save time and toes.
 --
 // DA: Think Wikipedia for your docs, backed by git.
 // HS:
-What is a wiki, after all.
-It's for writing in some sort of markup language that you can edit on the web.
-We have all the advantages of a wiki, like Wikipedia, but it's also backed by git.
-You can benefit from the social coding phenomenon simply by moving your documentation to one of these platforms.
+Comme un Wiki mais en mieux !
 
-All this leads to a strong-held belief of ours.
-Docs = Code.
+Edition hors ligne
+Edition dans un IDE spécialé
+Colocaliser le code et sa doc
+
+si vous avez une documentation technique open source, c'est encore mieux
+à défaut d'avoir des contributions conséquence au aurez au moins peut-être la change d'avoir des corrections pour les fautes d'orthographe
+
+// What is a wiki, after all.
+// It's for writing in some sort of markup language that you can edit on the web.
+// We have all the advantages of a wiki, like Wikipedia, but it's also backed by git.
+// You can benefit from the social coding phenomenon simply by moving your documentation to one of these platforms.
+
+// All this leads to a strong-held belief of ours.
+// Docs = Code.
 
 We have a long history in this industry of collaborating on code.
 If we view documentation as just another form of code, we can use code collaboration processes, practices, techniques, and tools to benefit our documentation.
@@ -649,7 +728,8 @@ This system is also makes it easy for managers to monitor the workflow, determin
 
 [#collaboration-recommended-practices]
 --
-While AsciiDoc is naturally friendly to source control systems, there are some things you can do to optimize collaboration.
+AsciiDoc est vraiment fait pour bien fonctionner avec git mais il y plusieurs choses que vous pouvez faire pour améliorer votre collaboration.
+// While AsciiDoc is naturally friendly to source control systems, there are some things you can do to optimize collaboration.
 
 //* Keep changes isolated
 //* Modularize the content
@@ -659,53 +739,103 @@ While AsciiDoc is naturally friendly to source control systems, there are some t
 //* Provide an automated build
 
 //In general, you want to look for ways that allow you to work in different parts of a file without causing conflicts.
-Try to keep changes isolated.
-One way to do this is by writing using the sentence-per-line method.
-Changes to a sentence do not affect the sentences around it (much like code), and therefore prevents people from step on each other's commits.
+---
+Essayez de bien isoler les changements.
+* Une phrase par ligne
+** Meilleurs diffs
+** Merges plus faciles
+// One way to do this is by writing using the sentence-per-line method.
+// Changes to a sentence do not affect the sentences around it (much like code), and therefore prevents people from step on each other's commits.
 
-You also don't want documents that are too large, so modularize your content and break up monolithic documents.
+// You also don't want documents that are too large, so modularize your content and break up monolithic documents.
 //In particular, beware of the Russian Doll Effect (contributing guide inside developer guide inside of README).
 //It's easy to create a script that brings them all back together.
-People can then work on different parts of the documentation without having to coordinate.
-As mentioned earlier, import non-content such as code snippets so it can be managed independently and kept up to date.
+// People can then work on different parts of the documentation without having to coordinate.
+// As mentioned earlier, import non-content such as code snippets so it can be managed independently and kept up to date.
 //Don't fall into the trap of putting all your content in a single repository.
 //Instead, organize your repositories by software product or logical product group.
 //We can refer to this repository as a "`content container.`" (a contrast to a "`library layout`" where there's one directory per book).
 
-Use validation tools to catch writing errors early and drastically cut down on expense micro-migrations to fix these mistakes.
-It helps to have a style guide so information is organized consistently without having to do a lot of personal training.
+// Use validation tools to catch writing errors early and drastically cut down on expense micro-migrations to fix these mistakes.
+// It helps to have a style guide so information is organized consistently without having to do a lot of personal training.
+--
 
+[#issue-tracker]
+--
 Use an issue tracker to manage bugs, improvements, and content initiatives.
 You can then see content progress as it moves across the issue board.
+--
+
+[#pull-request]
+--
+Discutez, échangez, corrigez, éditez...
 Mention the issue when submitting the pull request that resolves it.
 Just like code.
 
-It's best to manage different versions of a document using branches so you can take advantage of the tools the source control system gives you.
-//You can then assume that all the content in a single repository is versioned together.
-To help with this, organize your repositories by software product or logical product group.
-//Don't use different directories to store the versions, as I've seen some teams do.
-Then, have a branch for each major release line.
-If different documents have different versioning schemes, or move at different rates, that's an indicator you should move them to separate repositories.
-//Take a look at AsciiBinder for an example of a build system that builds out versions of the documentation from the branches.
+How many CMS tools have tried to manufacture a content review workflow?
+Well, we have one right here, built on an accepted industry practice of code review and supported by incredible tools like Gerrit, GitHub, GitLab, and so forth.
 
-Regardless of how you structure and organize the content, anyone coming along should be able to build the output through a simple interface, without having to remember complex commands.
-This is the role of an automated "`development`" build.
-It makes the documentation approachable and allows contributors to verify the changes they make improve the product in the way they expect (and not the opposite).
-The documentation can also be staged for review by different groups.
-
-As you can see, AsciiDoc allows you to set up many ways to collaborate, bringing all the voices and talents together in one place to make strong, coherent documentation.
+This system is also makes it easy for managers to monitor the workflow, determine what changed or track what work was done just by browsing the git history or studying the activity charts on GitHub or GitLab.
 --
 
+[#content-review]
+--
+Faites des vraies revue de contenus.
+---
+Style guide
+tjs le même mot pour le même terme
+tutoiement, vouvoiement, 3ème personne
+--
+
+[#working-branches]
+--
+utilisez les branches pour essayer des idées
+pour travailler à plusieurs en même tps
+ou sur plusieurs parties en même tps
+---
+Essayez de bien découper et découpler les différentes parties de votre doc
+* En fonction des projets on va pouvoir
+** Mettre la doc au même endroit que le code
+** Repos dédiés
+** Plusieurs répos dédiés
+---
+
+It's best to manage different versions of a document using branches so you can take advantage of the tools the source control system gives you.
+//You can then assume that all the content in a single repository is versioned together.
+// To help with this, organize your repositories by software product or logical product group.
+//Don't use different directories to store the versions, as I've seen some teams do.
+// Then, have a branch for each major release line.
+// If different documents have different versioning schemes, or move at different rates, that's an indicator you should move them to separate repositories.
+//Take a look at AsciiBinder for an example of a build system that builds out versions of the documentation from the branches.
+
+// Regardless of how you structure and organize the content, anyone coming along should be able to build the output through a simple interface, without having to remember complex commands.
+// This is the role of an automated "`development`" build.
+// It makes the documentation approachable and allows contributors to verify the changes they make improve the product in the way they expect (and not the opposite).
+// The documentation can also be staged for review by different groups.
+
+// As you can see, AsciiDoc allows you to set up many ways to collaborate, bringing all the voices and talents together in one place to make strong, coherent documentation.
+--
+
+[#publication-preamble]
+--
+AsciiDoc et git vont super bien en ensemble pour collaborer.
+On a bcp parlé d'écrire la doc mais c'est tout aussi vrai pour la maintenance d'une grosse documentation dans le temps.
+C'est là où le bug tracker, et l'historique des commits apportent beaucoup de valeur.
+---
+Bon du coup, sur cette partie, je pense que mon père a saisi les avantages d'utiliser toutes ces pratiques mais ça faisait beaucoup à la fois.
+En plus, quel que soit votre projet, je vous conseille d'investir dans une bonne formation git pour l'ensemble des personnes qui toucheront à la doc.
+---
+--
 
 [#publication]
-The focus of this section is Asciidoctor, the AsciiDoc processor.
-Engineers, wake up, this is for you.
+Le dernier point que j'ai abordé avec mon père, c'est la publication.
+Je me suis pas beaucoup attardé dessus avec lui car techiquement, c'est son éditeur qui s'occupe de publier ses livres papier et numériques.
+Par contre, avec vous on va pouvoir rentrer dans les détails et parler d'asciidoctor.
 
 [#asciidoc-vs-asciidoctor]
 --
 It's important to first get some terminology out of the way.
 
-[%hardbreaks]
 AsciiDoc is the language.
 Asciidoctor is the processor.
 
@@ -806,15 +936,27 @@ These automated builds also aid with collaboration, which we'll launch into next
 //The documentation can also be staged for review by different groups.
 --
 
-[#publish-everywhere]
+[#recap]
 --
-(TODO)
+En rentrant chez moi, je repensais à tout ce que je venais d'expliquer à mon père.
+Ça faisait peut-être beaucoup d'informations en une seule fois :
+nouveau outils, nouvelles approches et nouvelles techniques.
+Je sais qu'il va continuer à utiliser Word et des emails pour écrire ses livres.
+Un jour peut-être...
+Ma priorité aujourd'hui, c'était surtout de convaincre et de faire changer les habitudes de ceux qui codent : *VOUS !*
+Vous avez déjà les outils et les pratiques pour l'écriture, la maintenance, la collaboration et la publication de votre code,
+il ne vous reste plus qu'à vous emparer d'Asciidoc et d'asciidoctor pour traiter votre documentation avec le même respect.
 --
 
-[#publication-recommended-practices]
+[#fin]
 --
-(TODO)
+Merci bcp.
 --
+
+// [#publication-recommended-practices]
+// --
+// (TODO)
+// --
 
 
 no wysiwyg

@@ -23,6 +23,10 @@ section
   font-family OperatorMono
   font-weight bold
 
+#asciidoc code strong
+  color #2179c5
+  font-weight normal
+
 code[class*="language-"]
 pre[class*="language-"]
   border none
@@ -46,6 +50,36 @@ p
 
 .tpl-blank
   background-color #fff
+
+#conversion-2
+#conversion-3
+#ast
+#ast-2
+  .image
+    transition 150ms transform ease-in-out
+
+.toggle-state
+  #ast
+  #ast-2
+    .image
+      transform scale(2.5) translate3d(0, -12%, 0)
+
+.toggle-state
+  #conversion-2
+  #conversion-3
+    .image
+      transform scale(2) translate3d(0, -40%, 0)
+
+#title
+  .tpl-poster-header
+  .tpl-poster-footer
+    transition 150ms transform ease-in-out
+
+.toggle-state
+  #title .tpl-poster-header
+    transform translate3d(-20%, -110%, 0)
+  #title .tpl-poster-footer
+    transform translate3d(20%, 110%, 0)
 
 @media (max-height 450px) {
   * {

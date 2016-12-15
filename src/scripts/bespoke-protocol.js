@@ -58,6 +58,11 @@ module.exports = function protocol() {
           deck.activateBullet(Number(slideIdx), Number(subslideIdx))
           break;
 
+        case 'toggle-slide-deck-state':
+          const { enabled } = commandArgs
+          document.body.classList.toggle('toggle-state', enabled)
+          break
+
         default:
           console.debug(`unknown protocol command ${command} with args`, commandArgs)
       }
