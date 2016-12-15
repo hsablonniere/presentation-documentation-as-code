@@ -42,6 +42,7 @@
     flex-shrink 0
     height calc(var(--slide-height) * var(--size))
     flex-basis calc(var(--slide-height) * var(--size))
+    min-width 0
     width calc(var(--slide-height) * var(--size))
     transform rotate(var(--rotate)) translate3d(0, calc(var(--slide-height) * 1.2), 0)
     transition 0s transform cubic-bezier(0.77, 0, 0.175, 1)
@@ -84,6 +85,12 @@
   .tpl-media &
     object-fit contain
 
+.image.contain img
+.video.contain video
+  .tpl-media &
+    width 100%
+    height 100%
+
 .image.medium img
 .image.medium img
   .tpl-media &
@@ -103,3 +110,8 @@
 .tpl-media figcaption
   font-size 3rem
   text-align center
+
+.image.left img
+.video.left video
+  .tpl-media &
+    object-position left center

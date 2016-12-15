@@ -1,17 +1,13 @@
-.AsciiDoc quick review
+.Détails sur le sujet XYZ
+[.EN-SAVOIR-PLUS]
 ****
-Here's a sample AsciiDoc document:
+Ceci est un encart contenant des informations supplémentaires.
+Cela permet d'approfondir un point évoqué dans le chapitre.
 
-.Sample AsciiDoc document
-[source,asciidoc]
-----
-= Document Title
-Author Name
-:toc: left
+[IMPORTANT]
+====
+On se concentre uniquement sur le contenu.
 
-We'll show you how easy it is to...
-----
-
-* The document header is not required.
-* You can set attributes via the commandline or API.
+C'est génial !!!!
+====
 ****

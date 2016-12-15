@@ -1,0 +1,17 @@
+[quote, Confucius]
+La nature fait les hommes semblables, la vie les rend différents.
+
+NOTE: Acheter du lait !
+
+[IMPORTANT]
+====
+C'est très important !
+
+Très très très important !
+====
+
+.Example de code Ruby
+[source, ruby]
+-----
+puts "Hello, World"
+-----

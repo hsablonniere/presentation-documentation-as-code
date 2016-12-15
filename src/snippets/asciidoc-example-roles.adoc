@@ -1,9 +1,8 @@
-[.path]_gradle/wrapper/gradle-wrapper.properties_
-
-[.topic]
-== Service Workers
-
-[.cue]
+.Détails sur le sujet XYZ
+[.EN-SAVOIR-PLUS]
 ****
-All the things to say.
+Ceci est un encart contenant des informations supplémentaires.
+Cela permet d'approfondir un point évoqué dans le chapitre.
+
+On se concentre uniquement sur le contenu.
 ****

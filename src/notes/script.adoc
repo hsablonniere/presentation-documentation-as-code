@@ -110,17 +110,18 @@ On pousse nos clients à envisager cette approche pour tous leurs contenus péda
 --
 
 [#my-father]
+--
 Si j'ai *aussi* envie de vous parler de mon père,
 c'est parce qu'en plus de son métier d'enseignant-chercheur en médecine,
 un peu comme nous, il a des side-projects !
 
-[#my-father-books]
---
+// [#my-father-books]
+// --
 Depuis 2010, il a "mis en prod" sur son temps libre pas moins de 6 bouquins de vulgarisation.
 
 En plus, c'est pas vraiment un geek.
 Il utilise son ordinateur comme tout le monde.
-Il représente du coup, l'exemple parfait du client néophyte et sceptique au concept de Doc as code.
+Il représente du coup, l'exemple parfait de l'auteur/écrivain/rédacteur agnostique au concept de Docs as code.
 --
 
 [#macho]
@@ -152,6 +153,8 @@ Je voulais en savoir plus sur sa méthode et surtout lui expliquer comment un ce
 // this structure for that talk gives it meaning. now it really says something about the why this system is needed and why it works.
 
 Le premier sujet que j'ai abordé avec lui, c'est l'écriture.
+
+// Qu'on parle de livre, de documentation, d'article... quel que soit le media, les problématiques des auteurs sont souvent les mêmes.
 
 Il passe beaucoup de temps à lire et à prendre des notes sur papier,
 mais globalement, il écrit directement avec Word sur son ordinateur portable.
@@ -209,103 +212,129 @@ On y reviendra plus tard.
 [#content-is-priority-1]
 --
 Concernant l'écriture, cette séparation permet de mettre la priorité sur le contenu.
-On va libèrer l'auteur en lui permettant de d'uploader les idées qu'il a dans son cerveau le plus rapidement possible dans l'ordinateur.
-Le contenu doit être roi !
+Sur ce qu'il est et qu'il transmet.
+--
+
+[#brain-to-machine]
+--
+On va libèrer l'auteur en lui permettant de d'uploader ses idées (qu'il a dans son cerveau) le plus rapidement possible dans l'ordinateur.
 --
 
 [#html]
 --
-maybe I should introduce him to HTML?
-
-imagine for a moment him writing in HTML
-it doesn't feel like a writing language
-and why would I use the output for a webpage while I want to write a book
+Du coup au départ, je voulais parler d'HTML à mon père pour qu'il écrive ses livres,
+mais je me suis dis, même moi qui connais bien le langage,
 --
 
 [#book-as-html]
 --
-html
-so imagine there was a language for writing books...
+je ne voudrais pas écrire tout un livre avec ça.
+C'est pas du binaire, ok, un humain peut le lire et l'écrire.
+J'ai essayé d'écrire des articles ou de la doc directement avec mais c'est vraiment pas pratique.
+// Il faudrait que je lui explique toutes les règles liées aux balises, aux attributs.
+
+// imagine for a moment him writing in HTML
+// it doesn't feel like a writing language
+// and why would I use the output for a webpage while I want to write a book
+// html
+// so imagine there was a language for writing books...
+--
+
+[#book-as-html-2]
+--
+C'est pas avec ça qu'on va simplifier le chemin cerveau-machine.
+En plus, hormis quelques bonnes exceptions, HTML est majoritairement fait pour les navigateurs et pas vraiment pour des bouquins papier.
+Du coup, j'ai pensé à une autre solution,
+officiellement bien plus adapté pour écrire des livres.
 --
 
 [#docbook-ex-1]
-Anyone recognize this?
-Anyone like it?
-This is DocBook.
+Il y en a qui reconnaissent ça ?
+Il y en a qui aime écrire avec ça ?
 
 [#docbook]
 --
-My dad would struggle to learn so much stuffs about the XML strict rules instead of focusing on writing
-
-DocBook is an XML schema that's highly structured and semantic with a keen focus on separating content and presentation.
-So far, so good, right?
+Ça, c'est du DocBook.
+DocBook, c'est un schéma XML très structuré et sémantique qui insiste sur la séparation contenu et présentation.
+Du coup ça a l'air bien en principe,
+mais un peu comme avec l'HTML,
 --
 
 [#docbook-ex-2]
 --
-Oh, you thought that was it?
-//SAW: visual concept - image of a knotted mess or massive, sticky web/goo
-As a writer, would you want to weave your content in and out of this web day-in and day-out?
-Yeah, I didn't think so.
+il faut glisser le contenu au travers d'une quantité astronomique de balises.
+Je me vois mal demander à mon père d'apprendre toute cette structure.
+#TROLL inside#
+Il a déjà fait 16 ans d'études, est-ce qu'il méritent vraiment de subir l'apprentissage d'XML plus toutes les balises de DocBook ?
 
-You have to enclose every chunk of content in an envelope of markup.
-Your content gets shackled by this heavy structure.
-And there's the added burden of having to remember all the tags and when to use each of them.
+// The ironic part is that the engineer didn't do herself much of a favor either.
+// XML tools--especially the ones used in the DocBook toolchain, such as XSLT--are a pain to work with.
 
-The ironic part is that the engineer didn't do herself much of a favor either.
-XML tools--especially the ones used in the DocBook toolchain, such as XSLT--are a pain to work with.
-
-Nobody wins.
+// Nobody wins.
 //SAW: visual concept - image meme opposite of winning
+Moi, j'ai pas fait 16 ans d'études mais je me souviens que beaucoup de mes profs étaient aussi des chercheurs et ils utilisaient ça :
 --
 
-
 [#latex-ex-1]
-//Moving on, how about this?
-How about this?
-Clearly, the engineer was having fun while the writer was away.
-This is LaTeX (LAH-tekh).
+Bon clairement, les techos qui ont inventé ça se sont fait plaisir pendant que les écrivains étaient partis.
+Ça, c'est LaTeX !
 
 [#latex]
-LaTeX is a documentation preparation system (read as: low-level language) for high-quality typesetting widely used in academia.
+LaTeX est un langage et un système de composition de documents.
+On le connait bien pour l'attention qu'il porte à la typographie.
+Il a aussi eu beaucoup de succès dans les milieux académiques et scientifiques pour sa gestion des formules.
 
 [#latex-ex-2]
 --
-!!! LaTeX have many differences and dialects
+Le problème c'est que mon contenu n'est toujours pas le roi.
+On a encore une fois beaucoup de trop d'informations en plus du texte.
+En plus, le système est prévu à la base uniquement pour sortir du PDF.
+Il n'a pas été pensé pour le Web ou d'autres médias.
+Les options sont limitées avant même d'avoir commencé.
+// !!! LaTeX have many differences and dialects
 
-The message here--if you can even interpret it--is:
-"`I don't really see the difference between content, typesetting, and presentation, so I'll just mash all these concerns together.`"
+// The message here--if you can even interpret it--is:
+// "`I don't really see the difference between content, typesetting, and presentation, so I'll just mash all these concerns together.`"
 
-Writers get lost in this syntax, not only because it looks like a bird nest, but now there's this deluge of dialects no mere mortal can possibly remember.
+// Writers get lost in this syntax, not only because it looks like a bird nest, but now there's this deluge of dialects no mere mortal can possibly remember.
 //SAW: image concept - labrynth/maze which matches the "get lost" concept
+--
 
-The other major issue with LaTeX is that is was not designed with web publishing in mind.
-PDF anyone?
-You're options are limited even before you've begun.
+[#asciidoc-preamble]
+--
+Du coup je fais quoi, j'abandonne ?
+On vient de voir plein de solutions pour séparer le contenu et la présentation,
+mais il y en a aucune que j'ai envie de proposer à mon père ou que je me vois utiliser pour ma doc ou mon blog.
+La plupart de ses solutions ne mettent pas en avant l'écrivain qui sommeille en nous.
 
-The point is that many content systems cater more--even exclusively--to the technologist rather than to the writer.
+#voix triomphante#
 
-This situation has _got_ to change.
-That's where AsciiDoc comes in to save the day.
+Cette situation *doit* changer !
+Laissez moi vous présenter AsciiDoc.
 --
 
 [#asciidoc-ex]
-How about this instead?
-This is AsciiDoc.
-
-[#asciidoc-fox-approves]
-//The fox likes it.
-Mmmm.
+Aaaaahhh...
+Mes contenus respirent un peu là.
+Ça fait du bien pour la relecture mais aussi à l'écriture.
 
 [#asciidoc]
-We created AsciiDoc as a writer-centric markup system.
-And it shows.
-The reaction many writers have when they switch to this syntax is, "`I can finally see my content!`"
-That speaks volumes.
+AsciiDoc a été créé en 2002 comme étant un système de markup dédié pour ceux qui écrivent et ce quel que soit le type de contenu.
+#énergique#
+Quand j'ai montré ça à mon père il a désinstallé Word dans la seconde.
+Non je déconne, mais il était intrigué...
+L'idée d'avoir des annotations simples et explicites plutôt que d'appliquer les conventions de son éditeur lui plaisait beaucoup.
+Une des rares choses qui l'inquiétait c'est la petite phase d'apprentissage.
 
-// concise * consistent * semantic
-[#asciidoc-qualities]
+[#asciidoc-ex]
 --
+Mais en fait qu'en on regarde de plus près, il n'y a pas grand chose.
+La syntaxe est claire et concise.
+
+Asciidoc
+  clair & concis
+    ex: général
+
 //LAR: Can we have a series of example slides as you go through this list of benefits?
 //LAR: That would be more informative and engaging.
 //LAR: I'm not wild about the highlighted list because it isn't "showing" what you're talking about, which is the point, right?
@@ -340,8 +369,69 @@ Nodes can be annotated with extra bits of information that state what the conten
 //SAW: we definitely want an example slide of this.
 --
 
+[#ex-paragraphs]
+--
+Un paragraphe n'est rien d'autre qu'une suite de lignes de texte.
+
+Pour un nouveau paragraphe, il suffit d'une ligne vide.
+
+Ça permet du coup de mettre une phrase par ligne.
+(TODO) avantages
+--
+
+[#ex-sections]
+--
+Pour les titres, on utilise autant de = (ou de #) que le niveau de la section.
+--
+
+[#ex-lists-ul]
+--
+Les conventions sont assez familières.
+Pour des listes à puces, on utilise des astérisques,
+un peu comme ce qu'on aurait fait sur une feuille de papier.
+--
+
+[#ex-lists-ol]
+--
+Pour les listes ordonnées, on met juste un point,
+le système se chargera de les numéroter.
+Du coup on ne mélange pas le contenu avec la numérotation qui sera choisie à l'impression :
+a), b), c)
+1., 2., 3.
+--
+
+[#ex-formatting]
+--
+Le seule truc à retenir, c'est pour le formattage.
+
+* Pour le gras, on encadre avec des astérisques
+* Pour l'italique, on encadre avec des underscores (tiret du 8)
+* Pour les mots clé, on encadre avec des backticks
+* Mais on peut aussi avec des dièses définir ses propres types de format
+--
+
+[#ex-multimedia]
+--
+La terminologie est claire et consistante.
+Pour une image, c'est *image*, c'est pas *!()[]*.
+Pour video, c'est video, pour icone : icone, etc...
+--
+
+[#left-aligned-lines]
+--
+syntax souple (forgiving)
+sémantique
+left-aligned
+
+One reason the syntax is so simple and consistent is because it’s both line-oriented and left-aligned.
+--
+
 [#ex-roles]
 --
+terminologie commune
+  ex: image, video, source
+  consistence, pattern répétés et extensions
+
 The most versatile semantic information is the role.
 
 Roles serve a very important purpose in the AsciiDoc syntax because they allow the writer to pass information to the publisher about the semantics of a node without having to worry how it gets formatted.
@@ -350,13 +440,12 @@ This abtraction, and other such metadata, is central to achieving the separation
 The writer gets to focus on what the content is saying, not how it looks.
 --
 
-//DA: QUESTION should the point about line-oriented/left-align go right at beginning, before other characteristics?
-[#left-aligned-lines]
-One reason the syntax is so simple and consistent is because it's both line-oriented and left-aligned.
-
-//DA: TODO follow-up with an example of left-align and line-oriented
 [#ex-delimited-block]
 --
+terminologie commune
+  ex: image, video, source
+  consistence, pattern répétés et extensions
+
 Having a syntax that's aligned to the left margin helps keeps the writer rooted.
 You don't have to worry how much indentation you need and content doesn't float out into the ether.
 Instead, you rely on delimiter lines, or "`fences`" to encompass the content.
@@ -370,23 +459,363 @@ Consecutive lines that start with an asterisk, for instance, are clearly items i
 A line above a block that starts with a period is the block's title.
 We do the same thing when writing code.
 Each statement gets its own line, so there's no need for a semicolon to separate statements.
+--
 
-Asciidoc
-  clair & concis
-    ex: général
-  paragraphes
-    ex: paragraphes (one line per sentence compared to )
-  conventions familières
-    ex: titres
-    ex: liste à puce
-    ex: gras/italic...
-  => un peu comme markdown, mouais mais en mieux
-  terminologie commune
-    ex: image, video, source
-    consistence, pattern répétés et extensions
-    syntax souple (forgiving)
-  sémantique
-  left-aligned
+[#wysiwyg]
+So, what's absent here?
+WYSIWYG.
+
+[#ygwyg]
+--
+But is it really a problem?
+Yeah, I don't think so.
+//I'm here to tell you that you don't need it.
+WYSIWYG places a barrier between you and your content and robs you of a lot of control.
+Unfortunately, it's an all too familiar input mechanism in a CMS.
+We should really call a CMS a content lobotomy system, or CLS.
+Instead of suiting your needs, it _seemingly_ solves your problem by making it impossible to do what you want to do.
+I like to say, "`You Get What You Get.`"
+//alt: What You Get Is What You Get (WYGIWYG)
+
+AsciiDoc, on the other hand, is readable in raw form and there's no curtain between you and your content.
+But that doesn't mean that you can't make it look pretty.
+--
+
+[#atom]
+--
+Using a text editor such as Atom with the appropriate add-ons, you can see the final product in a preview pane.
+//alt: see how it's going to look in a preview pane
+As you can change, embellish, or restructure the document, you can see what the end result is going to look like in real time.
+
+//(If there's time: Discuss authoring in Atom with the AsciiDoc add-on to get helpful syntax highlighting.
+//Also mention AsciidocFX and IntelliJ IDEA.)
+// Play on IntelliJ logo; "Write with Pleasure"
+--
+
+[#ide-for-writers]
+I do believe tools such as Atom can go much further...maturing into a full blown IDE for writers.
+//Efforts are underway.
+Imagine Alt+Enter for synonyms.
+We're not that far away.
+
+[#creation-recommended-practices]
+--
+AsciiDoc has a rich syntax, with many, _many_ built-in elements and options to organize and annotate your content.
+You shouldn't expect to learn it all in one day.
+But you also don't have to.
+
+Most shops gravitate towards a subset of the markup.
+Dialects, particularly using roles, naturally emerge that bring additional consistency and reinforce the impression of simplicity.
+// See http://www.winglemeyer.org/technology/2016/09/08/semantic-asciidoc/
+You can prepare templates for common document types to help give writers an easy starting point.
+--
+
+[#ex-includes]
+// DA: TODO it feels like we should mention cross references here
+Another way to simplify writing with AsciiDoc is to partition large documents.
+For instance, you can split up the source of a book along chapter divisions.
+You can also import common content or extracted code samples so they don't clutter the writer's view.
+AsciiDoc supports all this through its include mechanism.
+You can even include portions of another document by selecting the snippets by line number or tag.
+//DA: TODO recommend checking out the AsciiDoc Syntax Quick Reference and Awesome Asciidoctor.
+
+////
+//DA: FIXME the topic of migration feels like it should be somewhere else
+//DA: PSA about pandoc
+
+[#migration]
+I'm not going to get into how to migrate your existing content to AsciiDoc today, but be aware it is possible.
+There are conversion tools, and many others have made the switch successfully.
+See me afterward and I can give you some pointers.
+////
+
+[#dawn]
+--
+Now that the content is encoded in AsciiDoc, who does the writer hand it off to and what can be done with it?
+
+The AsciiDoc syntax is so simple and elegant, it's easy to be deceived that it can only produce primitive output.
+That couldn't be further from the truth.
+The AsciiDoc content is just the raw material and its semantics are the seeds of the blossoms we'll produce.
+This is where engineers get to work their magic.
+
+Let's shed some light on how we can transform it and where we can publish it.
+It's the dawn of endless possibilities, just like The Print Shop was for me as a child.
+--
+
+
+[#collaboration]
+--
+We've arrived at the final section of this talk: collaboration.
+This section addresses both the writers and the engineers, as well as anyone else who must work side-by-side to produce technical content.
+This is where the harmony of writing and delivery comes together.
+
+AsciiDoc lends itself well to collaboration because many of the tools needed to collaborate on it are already in place in a development shop.
+In particular, AsciiDoc is ripe for collaboration because it's source control friendly.
+--
+
+[#redhat-endorsement-1]
+--
+This is a real force for contribution, as the JBoss BxMS and OpenShift teams can attest to.
+
+_(refer to quote in slide)_
+--
+
+[#source-control]
+AsciiDoc doesn't specifically have "`source control support.`"
+Instead, it simply lends itself to being source controlled.
+No binary blobs, just plain text.
+And source control systems like git just _love_ plain text.
+You get history, source diffs, rich diffs, branching, merging, etc., all which can be managed through interfaces like GitHub, GitLab, and Bitbucket.
+
+[#edit-on-github]
+--
+It's hard to overstate the significance of GitHub (and, increasingly, GitLab) for collaboration.
+These interfaces have proven to be incredibly approachable and to encourage contribution.
+
+Nothing is a stronger force for inviting participation than an "`Edit on GitHub`" link in your docs.
+It presents any page as editable, yet funnels the contributor into a web-based content review workflow based on git.
+The web-based editor recognizes AsciiDoc and can show a preview of it.
+
+As an aside, if you take this route, I strongly recommend investing in git training.
+Everyone on the team needs to understand how the git workflow behind the "`Edit on GitHub`" link works to truly benefit from it.
+And, trust me, knowing how to use git correctly will save time and toes.
+--
+
+[#ss-github-rendered-file]
+--
+(TODO)
+--
+
+[#ss-github-edit-file-button]
+--
+(TODO)
+--
+
+[#ss-github-edit-file]
+--
+(TODO)
+--
+
+[#ss-github-preview-changes]
+--
+(TODO)
+--
+
+[#ss-github-commit-changes]
+--
+(TODO)
+--
+
+[#docs-as-code]
+--
+// DA: Think Wikipedia for your docs, backed by git.
+// HS:
+What is a wiki, after all.
+It's for writing in some sort of markup language that you can edit on the web.
+We have all the advantages of a wiki, like Wikipedia, but it's also backed by git.
+You can benefit from the social coding phenomenon simply by moving your documentation to one of these platforms.
+
+All this leads to a strong-held belief of ours.
+Docs = Code.
+
+We have a long history in this industry of collaborating on code.
+If we view documentation as just another form of code, we can use code collaboration processes, practices, techniques, and tools to benefit our documentation.
+Strength building on strength for a solid end product.
+--
+
+[#code-review]
+--
+How many CMS tools have tried to manufacture a content review workflow?
+Well, we have one right here, built on an accepted industry practice of code review and supported by incredible tools like Gerrit, GitHub, GitLab, and so forth.
+
+This system is also makes it easy for managers to monitor the workflow, determine what changed or track what work was done just by browsing the git history or studying the activity charts on GitHub or GitLab.
+--
+
+[#ss-source-diff]
+--
+(TODO)
+--
+
+[#ss-rich-diff]
+--
+(TODO)
+--
+
+[#ss-code-review]
+--
+(TODO)
+--
+
+
+[#collaboration-recommended-practices]
+--
+While AsciiDoc is naturally friendly to source control systems, there are some things you can do to optimize collaboration.
+
+//* Keep changes isolated
+//* Modularize the content
+//* Avoid micro-migrations by using validation tools and a style guide
+//* Plan content changes in an issue tracker
+//* Manage different versions in branches
+//* Provide an automated build
+
+//In general, you want to look for ways that allow you to work in different parts of a file without causing conflicts.
+Try to keep changes isolated.
+One way to do this is by writing using the sentence-per-line method.
+Changes to a sentence do not affect the sentences around it (much like code), and therefore prevents people from step on each other's commits.
+
+You also don't want documents that are too large, so modularize your content and break up monolithic documents.
+//In particular, beware of the Russian Doll Effect (contributing guide inside developer guide inside of README).
+//It's easy to create a script that brings them all back together.
+People can then work on different parts of the documentation without having to coordinate.
+As mentioned earlier, import non-content such as code snippets so it can be managed independently and kept up to date.
+//Don't fall into the trap of putting all your content in a single repository.
+//Instead, organize your repositories by software product or logical product group.
+//We can refer to this repository as a "`content container.`" (a contrast to a "`library layout`" where there's one directory per book).
+
+Use validation tools to catch writing errors early and drastically cut down on expense micro-migrations to fix these mistakes.
+It helps to have a style guide so information is organized consistently without having to do a lot of personal training.
+
+Use an issue tracker to manage bugs, improvements, and content initiatives.
+You can then see content progress as it moves across the issue board.
+Mention the issue when submitting the pull request that resolves it.
+Just like code.
+
+It's best to manage different versions of a document using branches so you can take advantage of the tools the source control system gives you.
+//You can then assume that all the content in a single repository is versioned together.
+To help with this, organize your repositories by software product or logical product group.
+//Don't use different directories to store the versions, as I've seen some teams do.
+Then, have a branch for each major release line.
+If different documents have different versioning schemes, or move at different rates, that's an indicator you should move them to separate repositories.
+//Take a look at AsciiBinder for an example of a build system that builds out versions of the documentation from the branches.
+
+Regardless of how you structure and organize the content, anyone coming along should be able to build the output through a simple interface, without having to remember complex commands.
+This is the role of an automated "`development`" build.
+It makes the documentation approachable and allows contributors to verify the changes they make improve the product in the way they expect (and not the opposite).
+The documentation can also be staged for review by different groups.
+
+As you can see, AsciiDoc allows you to set up many ways to collaborate, bringing all the voices and talents together in one place to make strong, coherent documentation.
+--
+
+
+[#publication]
+The focus of this section is Asciidoctor, the AsciiDoc processor.
+Engineers, wake up, this is for you.
+
+[#asciidoc-vs-asciidoctor]
+--
+It's important to first get some terminology out of the way.
+
+[%hardbreaks]
+AsciiDoc is the language.
+Asciidoctor is the processor.
+
+We've seen AsciiDoc already.
+So what can the processor do?
+--
+
+[#conversion]
+--
+Right out of the box, Asciidoctor can convert AsciiDoc to HTML and DocBook, giving you the ability to preview or export your content, respectively.
+But that's just the default interpretation of the AsciiDoc source.
+There's nothing stopping you from interpreting the source in a different way.
+
+Every bit of output generated by Asciidoctor can be customized.
+That's what the separation of content and presentation affords you.
+--
+
+//LAR: it would be good to have slide examples of these
+[#ex-extensions]
+--
+I'll cite a few examples to get you thinking about what is possible.
+
+* nested blocks to make a tab component (#TODO show example#)
+* image macro that serves as background image
+* slide notes
+* import a PDF page
+
+You should view AsciiDoc more as a source of record, not a textual representation of the output.
+--
+
+[#ast]
+--
+The bridge to get from content to presentation--you might even say the magic trick--is transformation.
+Transformation is the key to being able to publish to a variety of formats and variants of those formats.
+Let's dive into how transformation works.
+
+When Asciidoctor reads in the file, it builds an AST, short for abstract syntax tree.
+That tree gets passed to a converter, which then transforms the structure into a target format, such as HTML, or some application of HTML, like slides.
+This presentation, in fact, is the product of that transformation.
+
+One way to extend Asciidoctor is to write a custom converter--as was used for this presentation--or tweak one that already exists by supplying custom templates.
+The only limit to what output formats you can produce is what you're willing and able to create.
+
+Even before the tree is sent to the converter, you have a chance to manipulate it using a tree processor.
+In fact, you don't even have to output anything.
+You can just use the AST to query the document for information in a contextual way (unlike grep, which is crude and blind to context).
+
+You can go a step further and enhance the parser itself.
+Asciidoctor provides an extension API for introducing additional elements into the syntax, such as a custom block or macro.
+This is where things gets really exciting.
+
+#TODO talk about lorem block macro example#
+
+As you can see, you have a lot of control over how the AsciiDoc is interpreted.
+--
+
+[#aggregate]
+--
+Be careful not to fall into the trap of thinking that one input document produces one output document.
+The integration of multiple sources of content into numerous publishing targets is one of the key strengths of Asciidoctor.
+
+For example, you can take one input document that represents a book and produce multiple pages of HTML.
+Reasonable enough.
+Or, you can use the processor, or a toolchain that wraps it, to weave together input from several sources.
+
+We see this technique used in API documentation tools like Spring REST Docs and swagger2markup, which generate AsciiDoc to document the API methods, then combine that generated content with content written by the author to form a final document (or documents) to be published.
+You can also weave in content that gets derived from the source code, such as a configuration property table.
+Part generated, part scribed.
+//The toolchain plays the role of orchestrator, weaving together disparate content sources.
+--
+
+[#endless-possibilities]
+--
+This transformation capability also prevents lock-in.
+Just as you can generate formats for publishing, you can convert to another source format, even AsciiDoc itself.
+There truly are endless possibilities for your content once it's in the AsciiDoc format and fed into this toolchain.
+
+//If you store the source in a source control system, which we'll talk more about in the next section.
+//The publication tool can even tap into the document history and inject content such as an audit log or make different versions of the document available.
+//This is another powerful way to keep your content DRY and free from doing tasks for information that can be implied.
+//You could extend the abstraction even further and avoid coupling the path of the source file with the output path.
+//Instead, give each document a business ID so you can move files around and still produce the same output structure.
+--
+
+[#push-to-publish]
+--
+Processing doesn't end with Asciidoctor.
+The whole publication phase should be managed by a build and fully automated.
+Just like in our childhood print shop, once we sent our masterpiece to the printer, it took over publishing from there.
+I like to call this "`push to publish.`"
+It's the modern day "`send it off to the printer.`"
+We're also borrowing a page from development by implementing continuous delivery for the documentation.
+
+//The build should not only handle converting the content and publishing it to the various channels, but should describe and manage the infrastructure as well.
+Treat your docs just like you would any other application.
+These automated builds also aid with collaboration, which we'll launch into next.
+//Anyone should be able to build the documentation for local preview.
+//The documentation can also be staged for review by different groups.
+--
+
+[#publish-everywhere]
+--
+(TODO)
+--
+
+[#publication-recommended-practices]
+--
+(TODO)
+--
+
 
 no wysiwyg
   CMS pb
@@ -398,23 +827,22 @@ IDE for writers
   think about tools
 
 Atom
-  un peu de syntaxe
-  emphasise on coloration
-  syntax highlighting code blocks
-  mode preview
-  WHAT ELSE COULD WE DO?
-  quelques techniques de codeurs
-    variables/attributes
-    includes
-    autocomplétion
-    réordonner des lignes
-    regexs
-    ...autres
-  zen mode
+* un peu de syntaxe
+* insister sur la coloration
+** coloration syntaxique de code block
+* mode preview pdt toute la présentation
+* "WHAT ELSE COULD WE DO?"
+* quelques techniques de codeurs
+** variables/attributes
+** includes
+** autocomplétion
+** réordonner des lignes
+** multicursors
+** search & replace (regexs)
+** ...autres
+//* zen mode
 
-// à triver
+// à trier
 roles ?
 1 sentence per line (maybe collaboration)
 footnote ?
-
---

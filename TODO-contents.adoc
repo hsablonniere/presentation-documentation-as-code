@@ -54,7 +54,6 @@ start with the writers (content is king)
 * use validation
 * issue tracker (related PR/commits to issue #)
 * separate repositories strategies
-*
 
 == ideas for mine
 
@@ -88,3 +87,54 @@ start with the writers (content is king)
 * multi cursor
 * remplacement avec regex
 *
+
+== TODO
+
+=== Slides
+
+==== Contents
+
+// * Draw an unknown book
+// * Draw a longévité book
+// * (collaboration) Draw 2 persons + speech bubbles and arrows
+// * Handrawn word logo
+// * Handrawn outlook logo
+* speech bubble with question mark
+// * marked revisions
+// * force awakens (angry character DBZ or south park)
+// * brain with arrow and falpie zone
+// * two sides with word and emails
+
+// * docs = code
+
+* word screenshot styles
+* word screenshot conventions
+
+// * content vs presentation
+// * css zen garden
+// * content is priority #1
+
+// * style for tech principles
+// ** SoC
+// ** KISS
+// ** DRY
+
+
+==== Animations
+
+* Animate from poster to typewriter
+* Slow down typewriter zoom on first animation
+* animate away everything but titles on 2nd poster
+
+* my dads books above the video (special button)
+
+==== Sound effects
+
+* Morning music
+* Beethoven 5th music
+* Typewriter sounds
+
+=== Story
+
+// * reattach story to slides
+* translate everything
