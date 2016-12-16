@@ -68,7 +68,7 @@ gulp.task('fonts', ['clean:fonts'], function() {
 });
 
 gulp.task('images', ['clean:images'], function() {
-  return gulp.src('src/images/*.{gif,jpg,mp4,png,svg}')
+  return gulp.src('src/images/*.{gif,jpg,mp4,mp3,png,svg}')
     .pipe(gulp.dest('dist/images'))
     .pipe(connect.reload());
 });

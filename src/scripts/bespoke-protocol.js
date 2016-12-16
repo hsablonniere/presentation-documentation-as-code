@@ -61,6 +61,15 @@ module.exports = function protocol() {
         case 'toggle-slide-deck-state':
           const { enabled } = commandArgs
           document.body.classList.toggle('toggle-state', enabled)
+
+          if (enabled && deck.playSound) {
+            deck.playSound()
+          }
+
+          if (!enabled && deck.stopSound) {
+            deck.stopSound()
+          }
+
           break
 
         default:

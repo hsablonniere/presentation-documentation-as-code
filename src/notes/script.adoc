@@ -9,6 +9,8 @@
 
 [#true-story]
 #musique au coin du feu#
+
+[#true-story-start]
 🗣 Le week-end dernier, notre personnage principal s'est rendu chez son père Bernard...
 
 [#story-coffee]
@@ -74,15 +76,24 @@
 [#story-brain-falpie-zone]
 🗣 Voyant IE6 dominer l'ordi de ses parents, il n'a pu s'empêcher de les libérer en installant Firefox à la place.
 
-[#story-dangers]
---
-🗣 Cette fois ci, les facteurs déclencheurs sont :
-
+[#story-dangers-safe]
+🗣 Cette fois ci, il est menacé par :
 #raconté comme des dangers#
 
-* Écriture avec MS Word !
+[#story-dangers]
+--
+* l'écriture avec MS Word !
+--
+
+[#story-dangers-mute]
+--
+--
+
+[#story-dangers-two]
+--
 * Collaboration par email !
 --
+
 
 [#story-ending]
 #alexandrin#
@@ -702,7 +713,7 @@ If we view documentation as just another form of code, we can use code collabora
 Strength building on strength for a solid end product.
 --
 
-[#code-review]
+[#mulesoft-github-01]
 --
 How many CMS tools have tried to manufacture a content review workflow?
 Well, we have one right here, built on an accepted industry practice of code review and supported by incredible tools like Gerrit, GitHub, GitLab, and so forth.
@@ -920,6 +931,25 @@ There truly are endless possibilities for your content once it's in the AsciiDoc
 //Instead, give each document a business ID so you can move files around and still produce the same output structure.
 --
 
+[#whos-using-asciidoc.SLIDE.tpl-media.contain]
+--
+* Oreilly
+** Modular JavaScript (N. Bevaqua)
+** Elastic search Definitive Guide
+* Redhat
+** OpenShift
+** Hibernate
+* Pivotal
+** Spring
+** Grails
+* Neo4j
+* Datastax
+* git
+* Ninja Squad book
+* MuleSoft
+* infoQ minibooks
+--
+
 [#push-to-publish]
 --
 Processing doesn't end with Asciidoctor.
@@ -936,17 +966,31 @@ These automated builds also aid with collaboration, which we'll launch into next
 //The documentation can also be staged for review by different groups.
 --
 
-[#recap]
+[#recap-story]
 --
-En rentrant chez moi, je repensais à tout ce que je venais d'expliquer à mon père.
-Ça faisait peut-être beaucoup d'informations en une seule fois :
+#musique au coin du feu#
+🗣 En rentrant lui, notre héro était...
+--
+
+[#recap-story-sad]
+--
+...un peu blasé.
+🗣 Il repensait à tout ce qu'il venait d'expliquer à son père.
+🗣 Cela faisait peut-être beaucoup d'informations en une seule fois :
 nouveau outils, nouvelles approches et nouvelles techniques.
-Je sais qu'il va continuer à utiliser Word et des emails pour écrire ses livres.
-Un jour peut-être...
-Ma priorité aujourd'hui, c'était surtout de convaincre et de faire changer les habitudes de ceux qui codent : *VOUS !*
-Vous avez déjà les outils et les pratiques pour l'écriture, la maintenance, la collaboration et la publication de votre code,
-il ne vous reste plus qu'à vous emparer d'Asciidoc et d'asciidoctor pour traiter votre documentation avec le même respect.
+🗣 Il savait pertinemment que son père allait continuer à utiliser Word et des emails pour écrire ses livres.
 --
+
+[#recap-story-happy]
+--
+🗣 Par contre il était persuadé qu'il pouvait convainvre et changer les habitudes de ceux qui codent : *VOUS !*
+🗣 *Vous* avez déjà les outils et les pratiques pour l'écriture, la maintenance, la collaboration et la publication de votre code,
+--
+
+[#recap-story-love]
+#presque alexandrin#
+🗣 il ne vous reste plus qu'à vous emparer d'Asciidoc et d'asciidoctor
+🗣 pour traiter votre documentation avec la même passion.
 
 [#fin]
 --

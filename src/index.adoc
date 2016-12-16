@@ -5,10 +5,10 @@ Hubert Sablonnière
 :organization: OpenDevise
 :organization-logo: opendevise-logo-grey.svg
 :hashtags: #DocsAsCode
-:event: Lyon JUG
-// :event: Web en Vert
-:date: 15 décembre 2016
-// :date: 16 décembre 2016
+// :event: Lyon JUG
+:event: Web en Vert
+// :date: 15 décembre 2016
+:date: 16 déc. 2016
 :!sectids:
 :imagesdir: images
 :noheader:
@@ -24,6 +24,10 @@ Hubert Sablonnière
 [#true-story.SLIDE.tpl-title]
 Basé{nbsp}sur une histoire{nbsp}vraie.
 
+[#true-story-start.SLIDE.tpl-blank.tpl-blank--polaroid]
+--
+--
+
 [#story-coffee.SLIDE.tpl-media.tpl-media--polaroid.contain]
 image::story-coffee.jpg[A coffee mug on a table]
 
@@ -33,9 +37,8 @@ image::story-christmas-tree.jpg[A christmas tree]
 [#story-fireplace.SLIDE.tpl-media.tpl-media--polaroid.contain]
 image::story-fireplace.jpg[A fireplace]
 
-[#story-whatsup.SLIDE.tpl-blank]
---
---
+[#story-whatsup.SLIDE.tpl-media.conv]
+image::question-to-dad.svg[]
 
 [#story-book-unknown.SLIDE.tpl-media.medium]
 image::book-unknown.png[]
@@ -43,9 +46,8 @@ image::book-unknown.png[]
 [#story-book-longevity.SLIDE.tpl-media.medium]
 image::book-longevity.png[]
 
-[#story-firehair.SLIDE.tpl-blank]
---
---
+[#story-firehair.SLIDE.SLIDE.tpl-media.cover]
+image::thinking.svg[]
 
 [#story-editor-collaboration.SLIDE.tpl-media.contain]
 image::collaboration.svg[]
@@ -56,9 +58,8 @@ image::word-document.svg[]
 [#story-email.SLIDE.tpl-media.contain]
 image::email-attachement.svg[]
 
-[#story-edit-question.SLIDE.tpl-blank]
---
---
+[#story-edit-question.SLIDE.tpl-media.conv]
+image::question-to-dad.svg[]
 
 [#story-word-revisions.SLIDE.tpl-media.contain]
 image::tracked-changes.svg[]
@@ -72,8 +73,17 @@ image::brain.svg[]
 [#story-brain-falpie-zone.SLIDE.tpl-media.contain]
 image::brain-falpie.svg[]
 
+[#story-dangers-safe.SLIDE.tpl-media.contain]
+image::dangers-safe.svg[]
+
 [#story-dangers.SLIDE.tpl-media.contain]
-image::dangers.svg[]
+image::dangers-one.svg[]
+
+[#story-dangers-mute.SLIDE.tpl-media.contain]
+image::dangers-safe.svg[]
+
+[#story-dangers-two.SLIDE.tpl-media.contain]
+image::dangers-two.svg[]
 
 [#story-ending.SLIDE.tpl-blank]
 --
@@ -109,14 +119,14 @@ video::bernard-sablonniere.mp4#t=2[opts=muted]
 [#writing.SLIDE.tpl-title]
 I\. Écriture
 
-[#word-styles.SLIDE]
+[#word-styles.SLIDE.tpl-blank]
 --
-screenshot Word styles
+// screenshot Word styles
 --
 
-[#semantic-conventions.SLIDE]
+[#semantic-conventions.SLIDE.tpl-blank]
 --
-screenshot conventions
+// screenshot conventions
 --
 
 [#separation-of-concerns.SLIDE.tpl-code-stuff]
@@ -198,65 +208,77 @@ include::snippets/simple-example-asciidoc.adoc[lines=1..19]
 [#asciidoc.SLIDE]
 `*😍* AsciiDoc`
 
-// [source#asciidoc-ex.SLIDE.sheet.tpl-code, asciidoc]
-// -----
-// include::snippets/simple-example-asciidoc.adoc[lines=1..19]
-// ...
-// -----
-//
-// [source#ex-paragraphs.SLIDE.tpl-code, asciidoc]
-// ----
-// include::snippets/asciidoc-example-paragraphs.adoc[]
-// ----
-//
-// [source#ex-sections.SLIDE.tpl-code, asciidoc]
-// ----
-// include::snippets/asciidoc-example-sections.adoc[]
-// ----
-//
-// [source#ex-lists-ul.SLIDE.tpl-code, asciidoc]
-// ----
-// include::snippets/asciidoc-example-lists.adoc[tag=unordered]
-// ----
-//
-// [source#ex-lists-ol.SLIDE.tpl-code, asciidoc]
-// ----
-// include::snippets/asciidoc-example-lists.adoc[tag=ordered]
-// ----
-//
-// [source#ex-formatting.SLIDE.tpl-code, asciidoc]
-// ----
-// include::snippets/asciidoc-example-text-formatting.adoc[]
-// ----
-//
-// [source#ex-multimedia.SLIDE.tpl-code, asciidoc]
-// ----
-// include::snippets/asciidoc-example-multimedia.adoc[]
-// ----
-//
-// [source#ex-blocks.SLIDE.tpl-code, asciidoc]
-// ----
-// include::snippets/asciidoc-example-blocks.adoc[]
-// ----
-//
-// [source#ex-roles.SLIDE.tpl-code, asciidoc]
-// ----
-// include::snippets/asciidoc-example-roles.adoc[]
-// ----
-//
-// [source#ex-delimited-block.SLIDE.tpl-code, asciidoc]
-// ------
-// include::snippets/asciidoc-example-delimited-block.adoc[]
-// ------
-//
-// [#left-aligned-lines.SLIDE.tpl-media.medium]
-// image::align-left.svg[]
+[source#asciidoc-ex.SLIDE.sheet.tpl-code, asciidoc]
+-----
+include::snippets/simple-example-asciidoc.adoc[lines=1..19]
+...
+-----
+
+[source#ex-paragraphs.SLIDE.tpl-code, asciidoc]
+----
+include::snippets/asciidoc-example-paragraphs.adoc[]
+----
+
+[source#ex-sections.SLIDE.tpl-code, asciidoc]
+----
+include::snippets/asciidoc-example-sections.adoc[]
+----
+
+[source#ex-lists-ul.SLIDE.tpl-code, asciidoc]
+----
+include::snippets/asciidoc-example-lists.adoc[tag=unordered]
+----
+
+[source#ex-lists-ol.SLIDE.tpl-code, asciidoc]
+----
+include::snippets/asciidoc-example-lists.adoc[tag=ordered]
+----
+
+[source#ex-formatting.SLIDE.tpl-code, asciidoc]
+----
+include::snippets/asciidoc-example-text-formatting.adoc[]
+----
+
+[source#ex-multimedia.SLIDE.tpl-code, asciidoc]
+----
+include::snippets/asciidoc-example-multimedia.adoc[]
+----
+
+[source#ex-blocks.SLIDE.tpl-code, asciidoc]
+----
+include::snippets/asciidoc-example-blocks.adoc[]
+----
+
+[source#ex-roles.SLIDE.tpl-code, asciidoc]
+----
+include::snippets/asciidoc-example-roles.adoc[]
+----
+
+[source#ex-delimited-block.SLIDE.tpl-code, asciidoc]
+------
+include::snippets/asciidoc-example-delimited-block.adoc[]
+------
+
+[#left-aligned-lines.SLIDE.tpl-media.medium]
+image::align-left.svg[]
 
 [#wysiwyg.SLIDE.tpl-text]
 Pas de *WYSIWYG* ?!?
 
 [#ygwyg.SLIDE.tpl-text]
 **Y**ou **G**et **W**hat **Y**ou **G**et!
+
+[#atom-01.SLIDE.tpl-media.contain]
+image::atom-01.png[]
+
+[#atom-02.SLIDE.tpl-media.contain]
+image::atom-02.png[]
+
+[#atom-03.SLIDE.tpl-media.contain]
+image::atom-03.png[]
+
+[#atom-04.SLIDE.tpl-media.contain]
+image::atom-04.png[]
 
 // [#atom.SLIDE.tpl-media.contain]
 // image::ss-atom-asciidoc-preview.png[]
@@ -275,7 +297,7 @@ Bonnes pratiques !
 // ------
 // ------
 
-[#dawn.SLIDE.tpl-media.cover]
+[#dawn.SLIDE.tpl-blank]
 --
 --
 
@@ -305,36 +327,93 @@ II\. Collaboration
 // [#edit-on-github.SLIDE.tpl-text]
 // *✍* Édition sur *GitHub*
 
-[#ss-github-rendered-file.SLIDE.tpl-media.contain]
-image::ss-github-rendered-file.png[]
+[#remy-blog-story-01.SLIDE.tpl-media.contain]
+image::remy-blog-story-01.png[]
 
-[#ss-github-edit-file-button.SLIDE.tpl-media.contain]
-image::ss-github-edit-file-button.png[]
+[#remy-blog-story-02.SLIDE.tpl-media.contain]
+image::remy-blog-story-02.png[]
 
-[#ss-github-edit-file.SLIDE.tpl-media.contain]
-image::ss-github-edit-file.png[]
+[#remy-blog-story-03.SLIDE.tpl-media.contain]
+image::remy-blog-story-03.png[]
 
-[#ss-github-preview-changes.SLIDE.tpl-media.contain]
-image::ss-github-preview-changes.png[]
+[#remy-blog-story-04.SLIDE.tpl-media.contain]
+image::remy-blog-story-04.png[]
 
-[#ss-github-commit-changes.SLIDE.tpl-media.contain]
-image::ss-github-commit-changes.png[]
+[#remy-blog-story-05.SLIDE.tpl-media.contain]
+image::remy-blog-story-05.png[]
+
+[#remy-blog-story-06.SLIDE.tpl-media.contain]
+image::remy-blog-story-06.png[]
+
+[#remy-blog-story-07.SLIDE.tpl-media.contain]
+image::remy-blog-story-07.png[]
+
+[#remy-blog-story-08.SLIDE.tpl-media.contain]
+image::remy-blog-story-08.png[]
+
+[#remy-blog-story-09.SLIDE.tpl-media.contain]
+image::remy-blog-story-09.png[]
+
+[#remy-blog-story-10.SLIDE.tpl-media.contain]
+image::remy-blog-story-10.png[]
+
+[#remy-blog-story-11.SLIDE.tpl-media.contain]
+image::remy-blog-story-11.png[]
+
+[#remy-blog-story-12.SLIDE.tpl-media.contain]
+image::remy-blog-story-12.png[]
+
+[#remy-blog-story-13.SLIDE.tpl-media.contain]
+image::remy-blog-story-13.png[]
+
+[#remy-blog-story-14.SLIDE.tpl-media.contain]
+image::remy-blog-story-14.png[]
+
+[#remy-blog-story-15.SLIDE.tpl-media.contain]
+image::remy-blog-story-15.png[]
+
+// [#ss-github-rendered-file.SLIDE.tpl-media.contain]
+// image::ss-github-rendered-file.png[]
+//
+// [#ss-github-edit-file-button.SLIDE.tpl-media.contain]
+// image::ss-github-edit-file-button.png[]
+//
+// [#ss-github-edit-file.SLIDE.tpl-media.contain]
+// image::ss-github-edit-file.png[]
+//
+// [#ss-github-preview-changes.SLIDE.tpl-media.contain]
+// image::ss-github-preview-changes.png[]
+//
+// [#ss-github-commit-changes.SLIDE.tpl-media.contain]
+// image::ss-github-commit-changes.png[]
 
 [#docs-as-code.SLIDE.tpl-text]
 Comme un *Wiki* +
 mais en *mieux !*
 
-[#code-review.SLIDE.tpl-media.contain]
-image::ss-git-changes.png[]
+[#mulesoft-github-01.SLIDE.tpl-media.contain]
+image::mulesoft-github-01.png[]
 
-[#ss-source-diff.SLIDE.tpl-media.contain]
-image::ss-source-diff.png[]
+[#mulesoft-github-02.SLIDE.tpl-media.contain]
+image::mulesoft-github-02.png[]
 
-[#ss-rich-diff.SLIDE.tpl-media.contain]
-image::ss-rich-diff.png[]
+[#mulesoft-github-03.SLIDE.tpl-media.contain]
+image::mulesoft-github-03.png[]
 
-[#ss-code-review.SLIDE.tpl-media.contain]
-image::ss-code-review.png[]
+[#mulesoft-github-04.SLIDE.tpl-media.contain]
+image::mulesoft-github-04.png[]
+
+// [#code-review.SLIDE.tpl-media.contain]
+// image::ss-git-changes.png[]
+//
+// [#ss-source-diff.SLIDE.tpl-media.contain]
+// image::ss-source-diff.png[]
+//
+// [#ss-rich-diff.SLIDE.tpl-media.contain]
+// image::ss-rich-diff.png[]
+//
+// [#ss-code-review.SLIDE.tpl-media.contain]
+// image::ss-code-review.png[]
 
 [#collaboration-recommended-practices.SLIDE.tpl-text]
 *Collaboration :* +
@@ -405,9 +484,9 @@ image::asciidoctor-07.svg[]
 image::asciidoctor-08.svg[]
 
 
-[source#ex-extensions.SLIDE.tpl-code, asciidoc]
-----
-----
+[#ast-preamble.SLIDE.tpl-blank]
+--
+--
 // [tabs]
 // ======
 // .Visual Editor
@@ -434,14 +513,14 @@ image::asciidoctor-ast-2.svg[]
 lorem::sentences[5]
 ----
 
-[source#asciidoctor-extension.SLIDE.tpl-code, ruby]
-----
-----
+[#asciidoctor-extension.SLIDE.tpl-blank]
+--
+--
 // include::snippets/asciidoctor-extension.rb[]
 
-[#aggregate.SLIDE]
-....
-....
+[#aggregate.SLIDE.tpl-blank]
+--
+--
 // Scribed     Generated
 //       \     /
 //         \ /
@@ -454,8 +533,17 @@ lorem::sentences[5]
 //          v
 //  Presentation Format
 
+[#languages.SLIDE.tpl-media.contain]
+image::languages.svg[]
+
+[#whos-using-asciidoc.SLIDE.tpl-media.contain]
+image::whos-using-asciidoc.svg[]
+
 [quote#endless-possibilities.SLIDE.tpl-quote, "Scott Chacon, author of Pro Git"]
 I can do truly amazing things with my AsciiDoc source.
+
+[quote#linus.SLIDE.tpl-quote, "Linus Torvalds"]
+Use AsciiDoc for document markup. Really. It's actually readable by humans, easier to parse and way more flexible than XML.
 
 [#publication-recommended-practices.SLIDE.tpl-text]
 *Publication :* +
@@ -474,12 +562,18 @@ Bonnes pratiques !
 // --
 // --
 
-[#recap.SLIDE]
+[#recap-story.SLIDE.tpl-blank.tpl-blank--polaroid]
 --
-// * I. Écriture
-// * II. Collaboration
-// * III. Publication
 --
+
+[#recap-story-sad.SLIDE.tpl-media.tpl-media--polaroid.contain]
+image::driving-sad.jpg[Driving Happy]
+
+[#recap-story-happy.SLIDE.tpl-media.tpl-media--polaroid.contain]
+image::driving-happy.jpg[Driving sad]
+
+[#recap-story-love.SLIDE.tpl-media.tpl-media--polaroid.contain]
+image::love-asciidoctor-effect.jpg[Love AsciiDoc & asciidoctor]
 
 [#fin.SLIDE.tpl-title]
 FIN.

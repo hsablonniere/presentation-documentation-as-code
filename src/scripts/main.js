@@ -7,6 +7,7 @@ const hash = require('bespoke-hash')
 const multimedia = require('bespoke-multimedia')
 const protocol = require('./bespoke-protocol')
 const interactions = require('./bespoke-interactions')
+const sounds = require('./bespoke-sounds')
 
 const Prism = require('prismjs')
 require('prismjs/plugins/unescaped-markup/prism-unescaped-markup')
@@ -26,6 +27,7 @@ bespoke.from({ parent: 'article.deck', slides: 'section' }, [
   function () {
     Prism.highlightAll()
   },
+  sounds(),
   interactions({
     '.tpl-title': function (slide) {
       const $msg = slide.querySelector('p')
@@ -59,5 +61,5 @@ bespoke.from({ parent: 'article.deck', slides: 'section' }, [
         }, i * 120 + 50 * Math.random() + 2500)
       })
     }
-  }),
+  })
 ])
