@@ -18,23 +18,24 @@ module.exports = function () {
 
   function playStop(buff) {
 
-    let source
+    // let source
 
     return [
       function () {
-        if (source == null) {
-          source = audioCtx.createBufferSource()
+        // console.log('foo', source);
+        // if (source == null) {
+          let source = audioCtx.createBufferSource()
           source.buffer = buff
           source.connect(audioCtx.destination)
           source.start(0)
-        }
+        // }
       },
       function () {
-        if (source != null) {
-          source.stop()
-          source.disconnect(audioCtx.destination)
-          source = null
-        }
+        // if (source != null) {
+        //   source.stop()
+        //   source.disconnect(audioCtx.destination)
+        //   source = null
+        // }
       },
     ]
   }
@@ -45,13 +46,16 @@ module.exports = function () {
       loadsound('images/morning-edvard-grieg.mp3'),
       loadsound('images/5th-symphony-beethoven-one.mp3'),
       loadsound('images/5th-symphony-beethoven-two.mp3'),
-    ]).then(([morning, beethovenOne, beethovenTwo]) => {
+      loadsound('images/type.mp3'),
+      loadsound('images/ding.mp3'),
+    ]).then(([morning, beethovenOne, beethovenTwo, type, ding]) => {
 
       deck.on('activate', function(event) {
 
         console.info(event.slide.id)
 
-        if (event.slide.id === 'true-story' || event.slide.id === 'fin') {
+        // if (event.slide.id === 'true-story' || event.slide.id === 'fin') {
+        if (event.slide.id === 'true-story') {
           [deck.playSound, deck.stopSound] = playStop(morning)
           return
         }
@@ -66,8 +70,10 @@ module.exports = function () {
           return
         }
 
-        deck.playSound = null
-        deck.stopSound = null
+        // deck.playSound = null
+        // deck.stopSound = null
+        [deck.playSound, deck.stopSound] = playStop(type)
+        deck.playDing = playStop(ding)[0]
       })
     })
   }

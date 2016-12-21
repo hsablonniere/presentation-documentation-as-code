@@ -10,7 +10,7 @@ module.exports = function interactions(handlers) {
 
       for (selector in handlers) {
         if (event.slide.matches(selector)) {
-          timeouts = handlers[selector](event.slide)
+          timeouts = handlers[selector](event.slide, deck)
         }
       }
     })
