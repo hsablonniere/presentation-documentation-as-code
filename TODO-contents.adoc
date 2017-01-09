@@ -138,3 +138,6 @@ start with the writers (content is king)
 
 // * reattach story to slides
 * translate everything
+
+
+parler de la notion d'offset
