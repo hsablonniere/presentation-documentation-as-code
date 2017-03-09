@@ -62,13 +62,13 @@ module.exports = function protocol() {
           const { enabled } = commandArgs
           document.body.classList.toggle('toggle-state', enabled)
 
-          if (enabled && deck.playSound) {
-            deck.playSound()
-          }
-
-          if (!enabled && deck.stopSound) {
-            deck.stopSound()
-          }
+          // if (enabled && deck.playSound) {
+          //   deck.playSound()
+          // }
+          //
+          // if (!enabled && deck.stopSound) {
+          //   deck.stopSound()
+          // }
 
           break
 

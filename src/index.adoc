@@ -37,7 +37,7 @@ image::story-christmas-tree.jpg[A christmas tree]
 [#story-fireplace.SLIDE.tpl-media.tpl-media--polaroid.contain]
 image::story-fireplace.jpg[A fireplace]
 
-[#story-whatsup.SLIDE.tpl-media.conv]
+[#story-whatsup.SLIDE.tpl-media.contain]
 image::question-to-dad.svg[]
 
 [#story-book-unknown.SLIDE.tpl-media.medium]
@@ -46,8 +46,11 @@ image::book-unknown.png[]
 [#story-book-longevity.SLIDE.tpl-media.medium]
 image::book-longevity.png[]
 
-[#story-firehair.SLIDE.SLIDE.tpl-media.cover]
-image::thinking.svg[]
+[#story-firehair.SLIDE.SLIDE.tpl-media.tpl-media--state]
+--
+image::thinking.svg[role=contain]
+image::thinking-red.svg[role=contain]
+--
 
 [#story-editor-collaboration.SLIDE.tpl-media.contain]
 image::collaboration.svg[]
@@ -58,11 +61,14 @@ image::word-document.svg[]
 [#story-email.SLIDE.tpl-media.contain]
 image::email-attachement.svg[]
 
-[#story-edit-question.SLIDE.tpl-media.conv]
+[#story-edit-question.SLIDE.tpl-media.contain]
 image::question-to-dad.svg[]
 
 [#story-word-revisions.SLIDE.tpl-media.contain]
-image::tracked-changes.svg[]
+image::tracked-changes-gdg-nantes.svg[]
+
+[#story-word-revisions-fixed.SLIDE.tpl-media.contain]
+image::tracked-changes-gdg-lille.svg[]
 
 [#story-force-awakens.SLIDE.tpl-media.contain]
 image::inner-force.svg[]
@@ -73,17 +79,23 @@ image::brain.svg[]
 [#story-brain-falpie-zone.SLIDE.tpl-media.contain]
 image::brain-falpie.svg[]
 
-[#story-dangers-safe.SLIDE.tpl-media.contain]
-image::dangers-safe.svg[]
+//[#story-dangers-safe.SLIDE.tpl-media.contain]
+//image::dangers-safe.svg[]
 
-[#story-dangers.SLIDE.tpl-media.contain]
-image::dangers-one.svg[]
+[#story-dangers.SLIDE.tpl-media.tpl-media--state.tpl-media--shake]
+--
+image::dangers-safe.svg[role=contain]
+image::dangers-one.svg[role=contain]
+--
 
-[#story-dangers-mute.SLIDE.tpl-media.contain]
-image::dangers-safe.svg[]
+//[#story-dangers-mute.SLIDE.tpl-media.contain]
+//image::dangers-safe.svg[]
 
-[#story-dangers-two.SLIDE.tpl-media.contain]
-image::dangers-two.svg[]
+[#story-dangers-two.SLIDE.tpl-media.tpl-media--state.tpl-media--shake]
+--
+image::dangers-safe.svg[role=contain]
+image::dangers-two.svg[role=contain]
+--
 
 [#story-ending.SLIDE.tpl-blank]
 --
@@ -105,10 +117,11 @@ video::bernard-sablonniere.mp4#t=2[opts=muted]
 // IMGs livres de mon père
 // --
 
-// [#macho.SLIDE]
-// --
-// IMG jean dujardin
-// --
+[#macho.SLIDE.tpl-media.cover]
+image::oss.jpg[]
+
+[#macho2.SLIDE.tpl-media.cover]
+image::uber.png[]
 
 [#writing-preamble.SLIDE.tpl-blank]
 --
@@ -141,7 +154,7 @@ I\. Écriture
 [#css-zen-garden.SLIDE.tpl-media.cover.left]
 image::csszengarden-1.png[]
 
-[#css-zen-garden.SLIDE.tpl-media.cover]
+[#css-zen-garden-2.SLIDE.tpl-media.cover]
 image::csszengarden-2.png[]
 
 [#content-is-priority-1.SLIDE.tpl-text]
@@ -149,6 +162,10 @@ Priorité n°1 : *le contenu !*
 
 [#brain-to-machine.SLIDE.tpl-media.contain]
 image::brain-to-machine.svg[]
+
+[#before-html.SLIDE.tpl-blank]
+--
+--
 
 [#html.SLIDE.tpl-media.medium]
 image::logo-html5.svg[]
@@ -165,6 +182,10 @@ include::snippets/simple-example-html.html[lines=1..19]
 include::snippets/simple-example-html.html[lines=33..51]
 ----
 
+[#html-docbook.SLIDE.tpl-blank]
+--
+--
+
 [source#docbook-ex-1.SLIDE.tpl-code, xml]
 ----
 include::snippets/simple-example-docbook.xml[lines=1..19]
@@ -179,6 +200,10 @@ image::logo-docbook.png[]
 ...
 include::snippets/simple-example-docbook.xml[lines=42..60]
 ----
+
+[#before-latex.SLIDE.tpl-blank]
+--
+--
 
 [source#latex-ex-1.SLIDE.tpl-code, latex]
 ----
@@ -201,17 +226,25 @@ include::snippets/simple-example-latex.tex[lines=18..27]
 
 [source#asciidoc-ex.SLIDE.tpl-code, asciidoc]
 -----
-include::snippets/simple-example-asciidoc.adoc[lines=1..19]
-...
+include::snippets/simple-example-asciidoc.adoc[lines=1..20]
 -----
 
 [#asciidoc.SLIDE]
 `*😍* AsciiDoc`
 
-[source#asciidoc-ex.SLIDE.sheet.tpl-code, asciidoc]
+//[source#asciidoc-ex.SLIDE.sheet.tpl-code, asciidoc]
+//-----
+//include::snippets/simple-example-asciidoc.adoc[lines=1..20]
+//-----
+
+[source#asciidoc-ex-markup.SLIDE.sheet.tpl-code, asciidoc, subs="verbatim,quotes"]
 -----
-include::snippets/simple-example-asciidoc.adoc[lines=1..19]
-...
+include::snippets/simple-example-asciidoc-markup.adoc[lines=1..20]
+-----
+
+[source#asciidoc-ex-content.SLIDE.sheet.tpl-code, asciidoc, subs="verbatim,quotes"]
+-----
+include::snippets/simple-example-asciidoc-markup.adoc[lines=1..20]
 -----
 
 [source#ex-paragraphs.SLIDE.tpl-code, asciidoc]

@@ -1,0 +1,25 @@
+  Documentation as Code
+Nom de l'auteur  auteur@example.org
+v1.0.0  2016-11-02
+
+
+        Confucius
+La nature fait les hommes semblables, la vie les rend différents.
+
+   Début
+
+  Objectifs
+  Enjeux
+
+   Milieu
+
+Ce texte n'a vraiment pas beaucoup d'interêt.
+Il nous faut des images !
+
+       screenshot.png Screenshot
+
+      Toute les bonnes choses ont une fin.
+
+   Fin
+
+"Et voilà !"

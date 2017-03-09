@@ -20,3 +20,69 @@
 == Questions
 
 * How can I output only certain images to data URI (notes)
+
+== TODO GDG
+
+TIMING
+00:03 Intro
+02:10 Le sujet
+04:00 Ecriture
+25:30 Collaboration
+39:00 Publication
+50:35 Outro
+51:30 Fin
+
+* Fix sound
+//* Fix notes in console
+* add exemples/visuals for testing & linting
+* add exemples/visuals for CI/CD
+
+* terminer le speech
+
+//* changer le weekend dernier en noel dernier
+//* changer st etienne en gdg
+
+* recentrer le questionnement sur les devs
+** Ramener HTML, DocBook et Latex vers les devs
+** Complexité de la syntaxe AsciiDoc
+** Plus répéter Docs as Code
+** Donner le point de vu des devs, historique des langages
+* montrer le live rendu d'un document
+* parler de faire ses slides avec Asciidoc
+
+* attention aux gestes
+* parler plus lentement, rythme
+
+* Visuel tape à deux doigts
+* exemple sur le concept de titre1, titre2 dans Word
+* exemple pour les conventions de mon père avec son éditeur
+* visuel "content is king"
+
+* meilleur visuel contenu/présentation
+* animation sur css zen garden
+
+* demo pour les exemples
+** permet d'expliquer les plusieurs phrases par ligne
+
+* ajouter des titres sur les examples AsciiDoc
+* incrémental sur les exemples
+
+* exemples de consistence d'AsciiDoc
+* exemples sur le lien en markdown
+
+* Utilisation des blocs pour le livre de mon père et pour la documentation
+* exemple d'output sur différents support
+
+* highlight sur les lignes de code avec les sous blocks
+* enlever le logo aligné à gauche
+
+* What you get is what you get
+* wysiwyg, parler des développeurs
+
+* schéma de réutilisation avec DRY
+** Expliquer les tests
+** Utiliser sur des formations
+
+* pourquoi pas déplacer les Docs = code pdt les exemples
+
+* résumer toutes les pratiques de codeurs à la fin de la présentation

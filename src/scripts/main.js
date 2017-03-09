@@ -54,12 +54,12 @@ bespoke.from({ parent: 'article.deck', slides: 'section' }, [
       }
 
       $msgLetters = Array.from($msg.querySelectorAll('.letter'))
-      setTimeout(() => deck.playDing(), $msgLetters.length * 120 + 50 + 2500)
+      // setTimeout(() => deck.playDing(), $msgLetters.length * 120 + 50 + 2500)
       return $msgLetters.map((l, i) => {
         l.style.visibility = 'hidden'
         return setTimeout(() => {
           l.style.visibility = 'visible'
-          deck.playSound()
+          // deck.playSound()
         }, i * 120 + 50 * Math.random() + 2500)
       })
     }

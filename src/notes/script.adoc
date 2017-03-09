@@ -11,10 +11,10 @@
 #musique au coin du feu#
 
 [#true-story-start]
-🗣 Le week-end dernier, notre personnage principal s'est rendu chez son père Bernard...
+🗣 Cette histoire commence un peu avant Noël quand notre personnage principal s'est rendu chez son père Bernard...
 
 [#story-coffee]
-🗣 C'est autour d'un café bien chaud que la discussion commence.
+🗣 La discussion commence autour d'un café bien chaud.
 🗣 Ça papote, ça papote...
 
 [#story-christmas-tree]
@@ -43,7 +43,7 @@
 👨 J'avais envoyé mon premier chapitre à l'éditeur et là je viens de recevoir les corrections.
 
 [#story-firehair]
-🗣 Notre protagoniste à la crinière de feu est intrigué.
+🗣 Notre protagoniste à la [.state]#crinière de feu# est intrigué.
 
 [#story-editor-collaboration]
 👶 Mais du coup, ça marche comment avec ton éditeur ?
@@ -59,7 +59,10 @@
 👶 Elle édite directement le document ?
 
 [#story-word-revisions]
-👨 Non, enfin, elle utilise les *marques de révision* pour les corrections et les commentaires pour les questions et autres remarques.
+👨 Non, enfin, elle utilise les *"marques de révision"* pour...
+
+[#story-word-revisions-fixed]
+...corriger mes erreurs et les commentaires pour me poser des questions.
 👨 Je n'ai plus qu'à accepter et/ou refuser les corrections et tenir comptes de ses remarques.
 👨 On dirait pas comme ça mais ça prends du temps tu sais.
 
@@ -76,21 +79,28 @@
 [#story-brain-falpie-zone]
 🗣 Voyant IE6 dominer l'ordi de ses parents, il n'a pu s'empêcher de les libérer en installant Firefox à la place.
 
-[#story-dangers-safe]
+[#story-dangers]
+--
 🗣 Cette fois ci, il est menacé par :
 #raconté comme des dangers#
 
-[#story-dangers]
---
 * l'écriture avec MS Word !
 --
 
-[#story-dangers-mute]
---
---
+//[#story-dangers]
+//--
+//* l'écriture avec MS Word !
+//--
+
+//[#story-dangers-mute]
+//--
+//mais aussi par :
+//--
 
 [#story-dangers-two]
 --
+mais aussi par :
+
 * Collaboration par email !
 --
 
@@ -105,7 +115,7 @@
 // ce slide a besoin d'être découpé
 #mode normal (et énergique)#
 
-Bonjour à tous !
+Bonjour à toutes et tous !
 J'm'appelle Hubert Sablonnière,
 J'suis développeur Web chez OpenDevise
 et aujourd'hui j'ai envie d'vous parler de *Documentation as code*
@@ -113,13 +123,15 @@ et aujourd'hui j'ai envie d'vous parler de *Documentation as code*
 et de mon père !
 
 *Documentation as code* : Tout simplement parceque chez OpenDevise on aide nos clients à adopter ce modèle pour leur documentation.
+L'idée générale est de traiter la doc...
 --
 
 [#docs-eq-code]
 --
-L'idée générale est de traiter la doc comme du code en réutilisant des outils et des pratiques bien connues des développeurs et des ops.
+...comme du code en réutilisant des outils et des pratiques bien connues des développeurs et des ops.
+#pause#
 Ça ne se limite pas qu'à la documentation d'ailleurs.
-On pousse nos clients à envisager cette approche pour tous leurs contenus pédagogiques : livres, formations, présentations dans les conférences...
+On pousse nos clients à envisager cette approche pour tous leurs contenus pédagogiques : articles, livres, formations, présentations dans les conférences...
 --
 
 [#my-father]
@@ -131,10 +143,10 @@ un peu comme nous, il a des side-projects !
 // [#my-father-books]
 // --
 Depuis 2010, il a "mis en prod" sur son temps libre pas moins de 6 bouquins de vulgarisation.
-
-En plus, c'est pas vraiment un geek.
+#pause#
+Bon d'accord, c'est pas vraiment un geek.
 Il utilise son ordinateur comme tout le monde.
-Il représente du coup, l'exemple parfait de l'auteur/écrivain/rédacteur agnostique au concept de Docs as code.
+Et du coup, il représente l'exemple parfait de l'auteur/écrivain/rédacteur agnostique au concept de Docs as code.
 --
 
 [#macho]
@@ -188,7 +200,7 @@ En fait, son éditeur lui fournit une série de conventions pour identifier les 
 * Pour les citations qu'il met en début de chapitre, il doit utiliser de l'italique,
 * et pour les encarts, il doit utiliser une police différente.
 
-Et là, ça fait tilt !
+Et là, dans mon cerveau de dev, ça fait tilt !
 --
 
 [#separation-of-concerns]
@@ -211,13 +223,18 @@ C'est la première fois que je séparais :
 * le contenu et sa sémantique d'un côté
 * et la présentation, le style, la décoration de l'autre.
 
-A l'époque quand je voulais vanter les mérites de CSS et de la séparation contenu/présentation en général,
+A l'époque quand on voulais vanter les mérites de CSS et de la séparation contenu/présentation en général,
 --
 
 [#css-zen-garden]
 --
-je montrais le site http://www.csszengarden.com/[CSS Zen Garden] !
+on dégainait le site http://www.csszengarden.com/[CSS Zen Garden] !
 
+Tout le monde connais ?
+--
+
+[#css-zen-garden-2]
+--
 Il y a énormément d'avantages à appliquer cette pratique notamment pour la partie publication.
 On y reviendra plus tard.
 --
@@ -229,35 +246,39 @@ Sur ce qu'il est et qu'il transmet.
 --
 
 [#brain-to-machine]
---
 On va libèrer l'auteur en lui permettant de d'uploader ses idées (qu'il a dans son cerveau) le plus rapidement possible dans l'ordinateur.
---
+
+[#before-html]
+Pour aider mon père à appliquer ce pattern de séparation contenu/présentation,
+je me suis dis : je lui expliquer...
 
 [#html]
 --
-Du coup au départ, je voulais parler d'HTML à mon père pour qu'il écrive ses livres,
-mais je me suis dis, même moi qui connais bien le langage,
+...HTML pour qu'il écrive ses livres.
+Ça serait con pour un fan du Web comme moi de pas lui vanter les mérites du langage.
+Quoi que...
+Quand on regarde de plus près chez les devs,
+On voit pas grand monde écrire sa doc directement en HTML.
+Je sais pas vous mais...
 --
 
 [#book-as-html]
 --
-je ne voudrais pas écrire tout un livre avec ça.
+je me vois pas écrire tout un livre avec ça.
 C'est pas du binaire, ok, un humain peut le lire et l'écrire.
 J'ai essayé d'écrire des articles ou de la doc directement avec mais c'est vraiment pas pratique.
-// Il faudrait que je lui explique toutes les règles liées aux balises, aux attributs.
-
-// imagine for a moment him writing in HTML
-// it doesn't feel like a writing language
-// and why would I use the output for a webpage while I want to write a book
-// html
-// so imagine there was a language for writing books...
 --
 
 [#book-as-html-2]
 --
 C'est pas avec ça qu'on va simplifier le chemin cerveau-machine.
 En plus, hormis quelques bonnes exceptions, HTML est majoritairement fait pour les navigateurs et pas vraiment pour des bouquins papier.
-Du coup, j'ai pensé à une autre solution,
+--
+
+[#html-docbook.SLIDE.tpl-blank]
+--
+Du coup en regardant un peu ce qu'utilise les projets informatiques pour leur doc,
+j'ai pensé à une autre solution,
 officiellement bien plus adapté pour écrire des livres.
 --
 
@@ -277,19 +298,14 @@ mais un peu comme avec l'HTML,
 --
 il faut glisser le contenu au travers d'une quantité astronomique de balises.
 Je me vois mal demander à mon père d'apprendre toute cette structure.
-#TROLL inside#
 Il a déjà fait 16 ans d'études, est-ce qu'il méritent vraiment de subir l'apprentissage d'XML plus toutes les balises de DocBook ?
-
-// The ironic part is that the engineer didn't do herself much of a favor either.
-// XML tools--especially the ones used in the DocBook toolchain, such as XSLT--are a pain to work with.
-
-// Nobody wins.
-//SAW: visual concept - image meme opposite of winning
-Moi, j'ai pas fait 16 ans d'études mais je me souviens que beaucoup de mes profs étaient aussi des chercheurs et ils utilisaient ça :
 --
 
+[#before-latex]
+Moi, j'ai pas fait 16 ans d'études mais je me souviens que beaucoup de mes profs étaient aussi des chercheurs et ils utilisaient ça :
+
 [#latex-ex-1]
-Bon clairement, les techos qui ont inventé ça se sont fait plaisir pendant que les écrivains étaient partis.
+Bon clairement, les techos qui ont inventé ça se sont fait plaisir pendant que les rédacteurs étaient partis.
 Ça, c'est LaTeX !
 
 [#latex]
@@ -299,7 +315,7 @@ Il a aussi eu beaucoup de succès dans les milieux académiques et scientifiques
 
 [#latex-ex-2]
 --
-Le problème c'est que mon contenu n'est toujours pas le roi.
+Le problème c'est que mon contenu n'est toujours pas la priorité numéro UNE.
 On a encore une fois beaucoup de trop d'informations en plus du texte.
 En plus, le système est prévu à la base uniquement pour sortir du PDF.
 Il n'a pas été pensé pour le Web ou d'autres médias.
@@ -317,17 +333,21 @@ Les options sont limitées avant même d'avoir commencé.
 --
 Du coup je fais quoi, j'abandonne ?
 On vient de voir plein de solutions pour séparer le contenu et la présentation,
-mais il y en a aucune que j'ai envie de proposer à mon père ou que je me vois utiliser pour ma doc ou mon blog.
+mais il y en a aucune que j'ai envie de proposer à mon père,
+aucune que j'me vois utiliser pour ma doc ou mon blog.
 La plupart de ses solutions ne mettent pas en avant l'écrivain qui sommeille en nous.
 
 #voix triomphante#
 
 Cette situation *doit* changer !
-Laissez moi vous présenter AsciiDoc.
+Laissez moi vous présenter la Rolls des langages de markup léger,
+sorte de Markdown mais en MIEUX...
 --
 
 [#asciidoc-ex]
+TADA!!!
 Aaaaahhh...
+#INSPIRE/EXPIRE#
 Mes contenus respirent un peu là.
 Ça fait du bien pour la relecture mais aussi à l'écriture.
 
