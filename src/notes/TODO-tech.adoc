@@ -32,7 +32,7 @@ TIMING
 50:35 Outro
 51:30 Fin
 
-* Fix sound
+//* Fix sound
 //* Fix notes in console
 * add exemples/visuals for testing & linting
 * add exemples/visuals for CI/CD
@@ -86,3 +86,7 @@ TIMING
 * pourquoi pas déplacer les Docs = code pdt les exemples
 
 * résumer toutes les pratiques de codeurs à la fin de la présentation
+
+
+
+insister sur la différence entre `::` block & `:` inline ;-)

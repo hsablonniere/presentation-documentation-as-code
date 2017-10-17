@@ -22,7 +22,11 @@ Hubert Sablonnière
 --
 
 [#true-story.SLIDE.tpl-title]
+--
 Basé{nbsp}sur une histoire{nbsp}vraie.
+
+audio::morning-edvard-grieg.mp3[]
+--
 
 [#true-story-start.SLIDE.tpl-blank.tpl-blank--polaroid]
 --
@@ -70,14 +74,20 @@ image::tracked-changes-gdg-nantes.svg[]
 [#story-word-revisions-fixed.SLIDE.tpl-media.contain]
 image::tracked-changes-gdg-lille.svg[]
 
-[#story-force-awakens.SLIDE.tpl-media.contain]
-image::inner-force.svg[]
+[#story-force-awakens.SLIDE.tpl-media.tpl-media--layer]
+--
+image::inner-force.svg[role=contain]
+image::inner-force-zoom.svg[role="contain zoom-force"]
+--
 
 [#story-brain.SLIDE.tpl-media.contain]
 image::brain.svg[]
 
-[#story-brain-falpie-zone.SLIDE.tpl-media.contain]
-image::brain-falpie.svg[]
+[#story-brain-falpie-zone.SLIDE.tpl-media.tpl-media--layer]
+--
+image::brain-falpie.svg[role=contain]
+image::brain-falpie-zoom.svg[role="contain zoom-brain"]
+--
 
 //[#story-dangers-safe.SLIDE.tpl-media.contain]
 //image::dangers-safe.svg[]
@@ -86,6 +96,8 @@ image::brain-falpie.svg[]
 --
 image::dangers-safe.svg[role=contain]
 image::dangers-one.svg[role=contain]
+
+audio::5th-symphony-beethoven-one.mp3[]
 --
 
 //[#story-dangers-mute.SLIDE.tpl-media.contain]
@@ -95,6 +107,8 @@ image::dangers-one.svg[role=contain]
 --
 image::dangers-safe.svg[role=contain]
 image::dangers-two.svg[role=contain]
+
+audio::5th-symphony-beethoven-two.mp3[]
 --
 
 [#story-ending.SLIDE.tpl-blank]
@@ -108,6 +122,16 @@ image::dangers-two.svg[role=contain]
 [#docs-eq-code.SLIDE.tpl-code-stuff]
 `Docs *=* code`
 
+[#macho-blank.SLIDE.tpl-blank]
+--
+--
+
+[#macho.SLIDE.tpl-media.cover]
+image::oss.jpg[]
+
+[#macho2.SLIDE.tpl-media.cover]
+image::uber.png[]
+
 // https://www.youtube.com/watch?v=BJGFAEDqJKE
 [#my-father.SLIDE.tpl-media.cover]
 video::bernard-sablonniere.mp4#t=2[opts=muted]
@@ -117,12 +141,6 @@ video::bernard-sablonniere.mp4#t=2[opts=muted]
 // IMGs livres de mon père
 // --
 
-[#macho.SLIDE.tpl-media.cover]
-image::oss.jpg[]
-
-[#macho2.SLIDE.tpl-media.cover]
-image::uber.png[]
-
 [#writing-preamble.SLIDE.tpl-blank]
 --
 --
@@ -130,12 +148,10 @@ image::uber.png[]
 == Écriture
 
 [#writing.SLIDE.tpl-title]
-I\. Écriture
+I\. Salut Flo
 
-[#word-styles.SLIDE.tpl-blank]
---
-// screenshot Word styles
---
+[#word-styles.SLIDE.tpl-media.contain.zoom-word]
+image::word-styles.png[]
 
 [#semantic-conventions.SLIDE.tpl-blank]
 --
@@ -224,18 +240,14 @@ include::snippets/simple-example-latex.tex[lines=18..27]
 --
 --
 
-[source#asciidoc-ex.SLIDE.tpl-code, asciidoc]
+[#asciidoc-ex.SLIDE.tpl-code]
+--
+[source, asciidoc]
 -----
 include::snippets/simple-example-asciidoc.adoc[lines=1..20]
 -----
-
-[#asciidoc.SLIDE]
-`*😍* AsciiDoc`
-
-//[source#asciidoc-ex.SLIDE.sheet.tpl-code, asciidoc]
-//-----
-//include::snippets/simple-example-asciidoc.adoc[lines=1..20]
-//-----
+audio::tada2.mp3[]
+--
 
 [source#asciidoc-ex-markup.SLIDE.sheet.tpl-code, asciidoc, subs="verbatim,quotes"]
 -----
@@ -246,6 +258,14 @@ include::snippets/simple-example-asciidoc-markup.adoc[lines=1..20]
 -----
 include::snippets/simple-example-asciidoc-markup.adoc[lines=1..20]
 -----
+
+[#asciidoc.SLIDE]
+`*😍* AsciiDoc`
+
+//[source#asciidoc-ex.SLIDE.sheet.tpl-code, asciidoc]
+//-----
+//include::snippets/simple-example-asciidoc.adoc[lines=1..20]
+//-----
 
 [source#ex-paragraphs.SLIDE.tpl-code, asciidoc]
 ----
@@ -353,6 +373,7 @@ II\. Collaboration
 
 // [#git.SLIDE.tpl-code-stuffs]
 // `*git* pour les contenus`
+// `*git* pour les contenus`
 
 [#source-control.SLIDE.tpl-text]
 `git *💖* AsciiDoc`
@@ -384,7 +405,7 @@ image::remy-blog-story-07.png[]
 [#remy-blog-story-08.SLIDE.tpl-media.contain]
 image::remy-blog-story-08.png[]
 
-[#remy-blog-story-09.SLIDE.tpl-media.contain]
+[#remy-blog-story-09.SLIDE.tpl-media.contain.zoom-remy]
 image::remy-blog-story-09.png[]
 
 [#remy-blog-story-10.SLIDE.tpl-media.contain]
@@ -402,8 +423,8 @@ image::remy-blog-story-13.png[]
 [#remy-blog-story-14.SLIDE.tpl-media.contain]
 image::remy-blog-story-14.png[]
 
-[#remy-blog-story-15.SLIDE.tpl-media.contain]
-image::remy-blog-story-15.png[]
+//[#remy-blog-story-15.SLIDE.tpl-media.contain]
+//image::remy-blog-story-15.png[]
 
 // [#ss-github-rendered-file.SLIDE.tpl-media.contain]
 // image::ss-github-rendered-file.png[]
@@ -455,8 +476,17 @@ Bonnes pratiques !
 [#issue-tracker.SLIDE.tpl-code-stuff]
 `*Issue* tracker`
 
+[#issue-tracker.SLIDE.tpl-media.cover]
+image::issue-tracker-oncletom.png[]
+
 [#pull-request.SLIDE.tpl-code-stuff]
 `**P**ull **R**equest`
+
+[#pull-request-ex-1.SLIDE.tpl-media.contain]
+image::pull-request-oncletom-1.png[]
+
+[#pull-request-ex-1.SLIDE.tpl-media.contain]
+image::pull-request-oncletom-2.png[]
 
 [#content-review.SLIDE.tpl-code-stuff]
 `**R**evue de **C**ontenu`
@@ -609,4 +639,8 @@ image::driving-happy.jpg[Driving sad]
 image::love-asciidoctor-effect.jpg[Love AsciiDoc & asciidoctor]
 
 [#fin.SLIDE.tpl-title]
+--
 FIN.
+
+audio::morning-edvard-grieg.mp3[]
+--

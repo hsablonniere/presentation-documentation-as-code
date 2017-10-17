@@ -4,7 +4,7 @@ module.exports = function protocol() {
 
     const metas = {}
     Array.from(document.querySelectorAll('head meta')).forEach((meta) => {
-        metas[meta.getAttribute('name')] = meta.getAttribute('content')
+      metas[meta.getAttribute('name')] = meta.getAttribute('content')
     })
 
     const steps = deck.slides.map((slide, slideIdx) => {
@@ -62,13 +62,13 @@ module.exports = function protocol() {
           const { enabled } = commandArgs
           document.body.classList.toggle('toggle-state', enabled)
 
-          // if (enabled && deck.playSound) {
-          //   deck.playSound()
-          // }
-          //
-          // if (!enabled && deck.stopSound) {
-          //   deck.stopSound()
-          // }
+          if (enabled) {
+            deck.slides[deck.slide()].playSound()
+          }
+
+          if (!enabled) {
+            deck.slides[deck.slide()].stopSound()
+          }
 
           break
 

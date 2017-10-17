@@ -250,3 +250,29 @@ p
     transform: translate(0, 0) rotate(0);
   }
 }
+
+.zoom-word
+  transform-origin 0 0
+  transition transform 150ms ease-in-out
+
+.toggle-state .zoom-word
+  transform scale(2.6)
+
+.zoom-brain
+  transition transform 100ms linear
+
+.toggle-state .zoom-brain
+  transform scale(1.15)
+
+.zoom-force
+  transition transform 200ms ease-in-out
+
+.toggle-state .zoom-force
+  transform translate3d(15%, -70%, 0)
+
+.zoom-remy
+  transform-origin 0 center
+  transition transform 200ms ease-in-out
+
+.toggle-state .zoom-remy
+  transform scale(3) translate3d(0, -43%, 0)
