@@ -1,14 +1,10 @@
 = Documentation as Code: (expliqué à mon père)
 Hubert Sablonnière
 :twitter: @hsablonniere
-:avatar: hsablonniere-avatar.jpg
-:organization: OpenDevise
-:organization-logo: opendevise-logo-grey.svg
+:avatar: hsablonniere-profil-2017.jpg
 :hashtags: #DocsAsCode
-// :event: Lyon JUG
-:event: GDG Lille
-// :date: 15 décembre 2016
-:date: 9 mars 2017
+:event: DevFest Nantes
+:date: 19 oct. 2017
 :!sectids:
 :imagesdir: images
 :noheader:
@@ -148,7 +144,7 @@ video::bernard-sablonniere.mp4#t=2[opts=muted]
 == Écriture
 
 [#writing.SLIDE.tpl-title]
-I\. Salut Flo
+I\. Écriture
 
 [#word-styles.SLIDE.tpl-media.contain.zoom-word]
 image::word-styles.png[]

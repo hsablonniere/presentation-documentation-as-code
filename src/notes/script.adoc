@@ -103,9 +103,9 @@ mais aussi par :
 // ce slide a besoin d'être découpé
 #mode normal (et énergique)#
 
-Bonjour à toutes et tous !
+Bonjour à *toutes* et tous !
 J'm'appelle Hubert Sablonnière,
-J'suis développeur Web chez OpenDevise
+J'suis développeur Web freelance
 et aujourd'hui j'ai envie d'vous parler de *Documentation as code*
 #pause#
 et de mon père !
