@@ -3,13 +3,14 @@
 * repeter une fois à voix haute
 * timer le truc en utilisant la video du web en vert
 
-* utiliser des lego pour les têtes de bonhomes
-* changer le J'adore le GDG Nantes en j'adore le DevFest Nantes / Lille
-* tenter quelques variations de couleurs
+//* changer le J'adore le GDG Nantes en j'adore le DevFest Nantes / Lille
 * utiliser Atom en demo plutôt que de montrer le code
+* ajouter la page d'accueil du projet
+//* réduire la taille du logo align to left
+
+* screenshots en 16/9 ??
+* ajouter les indications de bouton vert...
+* utiliser des lego pour les têtes de bonhomes
+* tenter quelques variations de couleurs
 * fondu vers les slides noirs
 * ajouter un bruit de canard sur le slide docbook
-* réduire la taille du logo align to left
-* screenshots en 16/9 ??
-* ajouter la page d'accueil du projet
-* ajouter les indications de bouton vert...

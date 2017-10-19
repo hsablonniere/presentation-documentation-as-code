@@ -8,7 +8,7 @@
 👶 Moi (en mode dialogue)
 
 [#true-story]
-[.state]#musique au coin du feu#
+[.one]#musique au coin du feu#
 
 [#true-story-start]
 🗣 Cette histoire commence un peu avant Noël quand notre personnage principal s'est rendu chez son père Bernard...
@@ -23,12 +23,11 @@
 
 [#story-fireplace]
 --
+#tête faisant semblant d'être intéressé#
 👨 T'as vu bla bla bla, elle est super !
 
 * bla bla chaleur
 * bla bla bûches...
-
-#tête faisant semblant d'être intéressé#
 --
 
 [#story-whatsup]
@@ -43,7 +42,7 @@
 👨 J'avais envoyé mon premier chapitre à l'éditeur et là je viens de recevoir les corrections.
 
 [#story-firehair]
-🗣 Notre protagoniste à la [.state]#crinière de feu# est intrigué.
+🗣 Notre protagoniste à la [.one]#crinière de feu# est intrigué.
 
 [#story-editor-collaboration]
 👶 Mais du coup, ça marche comment avec ton éditeur ?
@@ -67,9 +66,9 @@
 👨 On dirait pas comme ça mais ça prends du temps tu sais.
 
 [#story-force-awakens]
-#raconté comme une scène d'actions pleine de péripéties#
+#raconté comme une scène d'actions#
 🗣 À cet instant précis de notre histoire, une force interieure réveille notre héro.
-🗣 [.state]#C'est plus fort que lui.#
+🗣 [.one]#C'est plus fort que lui.#
 
 [#story-brain]
 🗣 La zone FALPIE* de son cerveau s'active.
@@ -77,19 +76,19 @@
 🗣 Et oui, la dernière fois c'était *Noël 2006* :
 
 [#story-brain-falpie-zone]
-🗣 Voyant IE6 dominer l'ordi de ses parents, il n'a pu s'empêcher de les libérer en installant [.state]#Firefox# à la place.
+🗣 Voyant IE6 dominer l'ordi de ses parents, il n'a pu s'empêcher de les libérer en installant [.one]#Firefox# à la place.
 
 [#story-dangers]
 --
 🗣 Cette fois ci, il est menacé par :
 #raconté comme des dangers#
-[.state]#l'écriture avec MS Word !#
+[.one]#l'écriture avec MS Word !#
 --
 
 [#story-dangers-two]
 --
 mais aussi par :
-[.state]#Collaboration par email !#
+[.one]#Collaboration par email !#
 --
 
 
@@ -110,23 +109,32 @@ et aujourd'hui j'ai envie d'vous parler de *Documentation as code*
 #pause#
 et de mon père !
 
-[.state]#Documentation as code# : Tout simplement parceque chez OpenDevise on aide nos clients à adopter ce modèle pour leur documentation.
+[.one]#Documentation as code# : Parce qu'après avoir bossé 1 an et demi chez OpenDevise, j'ai pris le virus de la Doc.
+On aide nos clients à adopter ce modèle pour leur documentation.
 L'idée générale est de traiter la doc...
 --
 
 [#docs-eq-code]
 --
-...comme du code en réutilisant des outils et des pratiques bien connues des développeurs et des ops.
+...comme du code en réutilisant des outils et des pratiques bien connus des développeurs et des ops.
 #pause#
 Ça ne se limite pas qu'à la documentation d'ailleurs.
-On pousse nos clients à envisager cette approche pour tous leurs contenus pédagogiques : articles, livres, formations, présentations dans les conférences...
+C'est une approche qui peut également s'adapter à differents types de contenus pédagogiques : articles, livres, formations, présentations dans les conférences...
 --
 
 [#macho-blank]
-*Expliqué à mon père* parce que les articles et les prezs "expliqué à ma mère" ça va 5 minutes.
-Je sais pas la vôtre mais la mienne elle en a marre d'être prise pour une bille.
+Si j'ai *aussi* envie de vous parler de mon père,
+c'est parceque les articles et les prezs du genre :
+#voix présentateur années 60#
+"La programmation fonctionnelle expliquée à ma mère" ça va 5 minutes.
+//Je sais pas la vôtre mais la mienne elle en a marre d'être prise pour une bille.
 
 [#macho]
+Depuis les années 60, les Hubert se tapent une réputation de sexiste,
+et si on regarde en 2017, le problème est loin d'être réglé.
+Les années 60 c'est terminé.
+
+ et je peux vous assurer que quand on s'appelle Hubert, c'est difficile de s
 Bon et au passage, on est plus dans les années 60, donc si on pouvait éviter les articles ou les présenations du genre "Documentation as Code (expliqué à ma mère)", sans que ça n'ai de rapport, ça serait mieux.
 
 [#macho2]
@@ -135,7 +143,7 @@ Bon et au passage, on est plus dans les années 60, donc si on pouvait éviter l
 
 [#my-father]
 --
-[.state]#lecture vidéo#
+[.one]#lecture vidéo#
 Si j'ai *aussi* envie de vous parler de mon père,
 c'est parce qu'en plus de son métier d'enseignant-chercheur en médecine,
 un peu comme nous, il a des side-projects !
@@ -186,7 +194,7 @@ Il tape à 2 doigts !!
 --
 
 [#word-styles]
-Le premier truc qui m'a surpris, c'est le fait qu'il n'utilise pas du tout le [.state]#système de styles# du genre "Corps de texte", "Titre 1", "Titre 2"...
+Le premier truc qui m'a surpris, c'est le fait qu'il n'utilise pas du tout le [.one]#système de styles# du genre "Corps de texte", "Titre 1", "Titre 2"...
 
 [#semantic-conventions]
 --
@@ -341,11 +349,17 @@ sorte de Markdown mais en MIEUX...
 --
 
 [#asciidoc-ex]
-[.state]#TADA!!!#
+[.one]#TADA!!!#
 Aaaaahhh...
 #INSPIRE/EXPIRE#
 Mes contenus respirent un peu là.
 Ça fait du bien pour la relecture mais aussi à l'écriture.
+
+[#asciidoc-ex-markup]
+[.one]#afficher que le texte#
+
+[#asciidoc-ex-content]
+[.one]#afficher que le markup#
 
 [#asciidoc]
 AsciiDoc a été créé en 2002 comme étant un système de markup dédié pour ceux qui écrivent et ce quel que soit le type de contenu.
@@ -405,19 +419,18 @@ Un paragraphe n'est rien d'autre qu'une suite de lignes de texte.
 Pour un nouveau paragraphe, il suffit d'une ligne vide.
 
 Ça permet du coup de mettre une phrase par ligne.
-(TODO) avantages
+#DEMO# Lorem ipsum, réordonner, séparer
 --
 
 [#ex-sections]
---
 Pour les titres, on utilise autant de = (ou de #) que le niveau de la section.
---
 
 [#ex-lists-ul]
 --
 Les conventions sont assez familières.
 Pour des listes à puces, on utilise des astérisques,
 un peu comme ce qu'on aurait fait sur une feuille de papier.
+
 --
 
 [#ex-lists-ol]
@@ -427,6 +440,8 @@ le système se chargera de les numéroter.
 Du coup on ne mélange pas le contenu avec la numérotation qui sera choisie à l'impression :
 a), b), c)
 1., 2., 3.
+#DEMO# changer l'ordre et l'indentation
+#DEMO# `[decimal]` puis `[upperalpha]`
 --
 
 [#ex-formatting]
@@ -436,64 +451,38 @@ Le seule truc à retenir, c'est pour le formattage.
 * Pour le gras, on encadre avec des astérisques
 * Pour l'italique, on encadre avec des underscores (tiret du 8)
 * Pour les mots clé, on encadre avec des backticks
-* Mais on peut aussi avec des dièses définir ses propres types de format
+* Mais on peut aussi avec des dièses définir ses propres role
 --
 
 [#ex-multimedia]
---
 La terminologie est claire et consistante.
 Pour une image, c'est *image*, c'est pas *!()[]*.
 Pour video, c'est video, pour icone : icone, etc...
+Il y a toujours `::` pour un élément bloc
+et `:` pour un élement en ligne
+
+[#ex-blocks]
+--
+--
+
+[#ex-roles]
+terminologie commune
+* ex: image, video, source
+* consistence, pattern répétés et extensions
+
+[#ex-delimited-block]
+--
 --
 
 [#left-aligned-lines]
---
 syntax souple (forgiving)
 sémantique
 left-aligned
 
-One reason the syntax is so simple and consistent is because it’s both line-oriented and left-aligned.
---
-
-[#ex-roles]
---
-terminologie commune
-  ex: image, video, source
-  consistence, pattern répétés et extensions
-
-The most versatile semantic information is the role.
-
-Roles serve a very important purpose in the AsciiDoc syntax because they allow the writer to pass information to the publisher about the semantics of a node without having to worry how it gets formatted.
-The role basically says "`this element has special significance, you deal with it.`"
-This abtraction, and other such metadata, is central to achieving the separation of content and presentation.
-The writer gets to focus on what the content is saying, not how it looks.
---
-
-[#ex-delimited-block]
---
-terminologie commune
-  ex: image, video, source
-  consistence, pattern répétés et extensions
-
-Having a syntax that's aligned to the left margin helps keeps the writer rooted.
-You don't have to worry how much indentation you need and content doesn't float out into the ether.
-Instead, you rely on delimiter lines, or "`fences`" to encompass the content.
-AsciiDoc can then assume everything between those lines is content that belongs to that block.
-
-//The line-oriented arrangement takes advantage of the fact that source code is organized in lines.
-//A lot can be inferred from a line break in the content.
-The line-oriented arrangements allows us use the line break to imply meaning.
-A line often serves as the boundaries of a node.
-Consecutive lines that start with an asterisk, for instance, are clearly items in a list.
-A line above a block that starts with a period is the block's title.
-We do the same thing when writing code.
-Each statement gets its own line, so there's no need for a semicolon to separate statements.
---
-
 [#wysiwyg]
 // So, what's absent here?
 // WYSIWYG.
-Comme vient de le montrer Ludo,
+Comme on vient de le voir dans les démos,
 Pas de WYSIWYG, mais est ce que c'est vraiment une perte ?
 Je passe plus de temps à me battre avec les barres d'outils de Word, de CMS et autres Wikis qui proposent ça que de réfléchir à ce que je veux écrire.
 En fait, comme dirait mon collègue Dan,
@@ -540,24 +529,23 @@ Et surtout : réutilisez vos pratiques de codeurs préférées !!!
 --
 
 
+[#atom]
+--
+#DEMO# Atom, prévisu
+--
+
 [#dry]
 --
-Ludo l'a bien montré,
----
 Avec les includes, on va pouvoir découper un document en plusieurs fichiers (1 par chapitre ou section).
 Tjs avec les includes on va pouvoir éviter les copier/coller et inclure des exemples de code qui viennent directement des sources ou bien de fichiers dédiés.
 Ça allége un peu le document et surtout en ayant vos sources dans des fichiers *.js* ou *.java*, vous êtes certain que le code présent dans la doc est à jour, qu'il est testé, linté et qu'il compile.
----
-L'utilisation des variables permet également de ne pas se répéter et d'assurer une documentation à jour.
----
-En plus des pratiques, avec AsciiDoc on peut enfin utiliser sereinement les mêmes outils pour le code et pour les contenus.
---
 
-[#atom]
---
-//(If there's time: Discuss authoring in Atom with the AsciiDoc add-on to get helpful syntax highlighting.
-//Also mention AsciidocFX and IntelliJ IDEA.)
-// Play on IntelliJ logo; "Write with Pleasure"
+L'utilisation des variables permet également de ne pas se répéter et d'assurer une documentation à jour.
+
+En plus des pratiques, avec AsciiDoc on peut enfin utiliser sereinement les mêmes outils pour le code et pour les contenus.
+
+#DEMO# changer la variable
+#DEMO# `include::apropos.adoc[]`
 --
 
 [#ide-for-writers]
@@ -572,34 +560,9 @@ Moi j'utilise à fond :
 * Autocomplétion
 * Multi-cursor
 * et c'est que le début...
-// Using a text editor such as Atom with the appropriate add-ons, you can see the final product in a preview pane.
-// //alt: see how it's going to look in a preview pane
-// As you can change, embellish, or restructure the document, you can see what the end result is going to look like in real time.
-//
-// I do believe tools such as Atom can go much further...maturing into a full blown IDE for writers.
-// //Efforts are underway.
-// Imagine Alt+Enter for synonyms.
-// We're not that far away.
+
+#DEMO# commentaires, ...
 --
-
-[#ex-includes]
-// DA: TODO it feels like we should mention cross references here
-Another way to simplify writing with AsciiDoc is to partition large documents.
-For instance, you can split up the source of a book along chapter divisions.
-You can also import common content or extracted code samples so they don't clutter the writer's view.
-AsciiDoc supports all this through its include mechanism.
-You can even include portions of another document by selecting the snippets by line number or tag.
-//DA: TODO recommend checking out the AsciiDoc Syntax Quick Reference and Awesome Asciidoctor.
-
-////
-//DA: FIXME the topic of migration feels like it should be somewhere else
-//DA: PSA about pandoc
-
-[#migration]
-I'm not going to get into how to migrate your existing content to AsciiDoc today, but be aware it is possible.
-There are conversion tools, and many others have made the switch successfully.
-See me afterward and I can give you some pointers.
-////
 
 [#dawn]
 --
@@ -708,6 +671,11 @@ sur GitHub par exemple, on a le rendu.
 (TODO)
 --
 
+[#remy-blog-story-11]
+--
+Prépare une surprise pour mon père (le rich diff).
+--
+
 [#docs-as-code]
 --
 // DA: Think Wikipedia for your docs, backed by git.
@@ -771,11 +739,14 @@ Essayez de bien isoler les changements.
 [#issue-tracker]
 --
 Un but sur l'appli => une issue
-Ici on parle de consistence : module, package, composant
+Ici on parle de consistence
 Vouvoiement - tutoiement (ninja squad)
 Fansubbing
 Lead dev => lead éditeur
 --
+
+[#issue-tracker-oncletom]
+Ici on parle de consistence : module, package, composant
 
 [#pull-request]
 --
@@ -812,11 +783,10 @@ mon père est un peu bloqué quand il attend les corrections sur un chapitre
 AsciiDoc et git vont super bien en ensemble pour collaborer.
 On a bcp parlé d'écrire la doc mais c'est tout aussi vrai pour la maintenance d'une grosse documentation dans le temps.
 C'est là où le bug tracker, et l'historique des commits apportent beaucoup de valeur.
----
+
 Bon du coup, sur cette partie, je pense que mon père a saisi les avantages d'utiliser toutes ces pratiques mais ça faisait beaucoup à la fois.
 Par contre nous les devs, c'est facile, c'est des outils et des pratiques qu'on connait déjà.
-Il rest plus qu'à l'appliquer sur la doc.
----
+Il reste plus qu'à l'appliquer sur la doc.
 --
 
 [#publication]
@@ -858,6 +828,12 @@ I'll cite a few examples to get you thinking about what is possible.
 
 You should view AsciiDoc more as a source of record, not a textual representation of the output.
 --
+
+[#conversion-2]
+[.one]#zoom#
+
+[#conversion-3]
+[.one]#zoom#
 
 [#ast]
 --
@@ -977,6 +953,7 @@ nouveau outils, nouvelles approches et nouvelles techniques.
 [#fin]
 --
 Merci bcp.
+[.one]#musique de fin#
 --
 
 // [#publication-recommended-practices]

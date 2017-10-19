@@ -65,10 +65,10 @@ image::email-attachement.svg[]
 image::question-to-dad.svg[]
 
 [#story-word-revisions.SLIDE.tpl-media.contain]
-image::tracked-changes-gdg-nantes.svg[]
+image::tracked-changes-devfest-lille.svg[]
 
 [#story-word-revisions-fixed.SLIDE.tpl-media.contain]
-image::tracked-changes-gdg-lille.svg[]
+image::tracked-changes-devfest-nantes.svg[]
 
 [#story-force-awakens.SLIDE.tpl-media.tpl-media--layer]
 --
@@ -472,7 +472,7 @@ Bonnes pratiques !
 [#issue-tracker.SLIDE.tpl-code-stuff]
 `*Issue* tracker`
 
-[#issue-tracker.SLIDE.tpl-media.cover]
+[#issue-tracker-oncletom.SLIDE.tpl-media.cover]
 image::issue-tracker-oncletom.png[]
 
 [#pull-request.SLIDE.tpl-code-stuff]

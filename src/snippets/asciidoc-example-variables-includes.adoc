@@ -1,0 +1,9 @@
+= Mon framework préféré
+:favourite-fwk: jQuery
+
+J'adore {favourite-fwk}, c'est vraiment un super framework !
+La première fois que j'ai voulu utiliser {favourite-fwk}, j'ai tout de suite trouvé les bons tutoriels.
+
+
+
+IMPORTANT: Utilisez {favourite-fwk}, c'est l'avenir !
