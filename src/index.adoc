@@ -17,7 +17,7 @@ Hubert Sablonnière
 --
 --
 
-[#true-story.SLIDE.tpl-title]
+[#true-story.SLIDE.tpl-title.tpl-blank--before]
 --
 Basé{nbsp}sur une histoire{nbsp}vraie.
 
@@ -99,7 +99,7 @@ audio::5th-symphony-beethoven-one.mp3[]
 //[#story-dangers-mute.SLIDE.tpl-media.contain]
 //image::dangers-safe.svg[]
 
-[#story-dangers-two.SLIDE.tpl-media.tpl-media--state.tpl-media--shake]
+[#story-dangers-two.SLIDE.tpl-media.tpl-media--state.tpl-media--shake.tpl-blank--before]
 --
 image::dangers-safe.svg[role=contain]
 image::dangers-two.svg[role=contain]
@@ -115,7 +115,7 @@ audio::5th-symphony-beethoven-two.mp3[]
 --
 --
 
-[#docs-eq-code.SLIDE.tpl-code-stuff]
+[#docs-eq-code.SLIDE.tpl-code-stuff.tpl-blank--before]
 `Docs *=* code`
 
 [#macho-blank.SLIDE.tpl-blank]
@@ -129,7 +129,7 @@ image::oss.jpg[]
 image::uber.png[]
 
 // https://www.youtube.com/watch?v=BJGFAEDqJKE
-[#my-father.SLIDE.tpl-media.cover]
+[#my-father.SLIDE.tpl-media.cover.tpl-blank--before]
 video::bernard-sablonniere.mp4#t=2[opts=muted]
 
 // [#my-father-books.SLIDE]
@@ -146,7 +146,7 @@ video::bernard-sablonniere.mp4#t=2[opts=muted]
 [#writing.SLIDE.tpl-title]
 I\. Écriture
 
-[#word-styles.SLIDE.tpl-media.contain.zoom-word]
+[#word-styles.SLIDE.tpl-media.contain.zoom-word.tpl-blank--before]
 image::word-styles.png[]
 
 [#semantic-conventions.SLIDE.tpl-blank]
@@ -172,7 +172,7 @@ image::csszengarden-2.png[]
 [#content-is-priority-1.SLIDE.tpl-text]
 Priorité n°1 : *le contenu !*
 
-[#brain-to-machine.SLIDE.tpl-media.contain]
+[#brain-to-machine.SLIDE.tpl-media.contain.tpl-blank--before]
 image::brain-to-machine.svg[]
 
 [#before-html.SLIDE.tpl-blank]
@@ -188,7 +188,7 @@ include::snippets/simple-example-html.html[lines=1..19]
 ...
 ----
 
-[source#book-as-html-2.SLIDE.tpl-code, html]
+[source#book-as-html-2.SLIDE.tpl-code.tpl-blank--before, html]
 ----
 ...
 include::snippets/simple-example-html.html[lines=33..51]
@@ -207,7 +207,7 @@ include::snippets/simple-example-docbook.xml[lines=1..19]
 [#docbook.SLIDE.tpl-media.medium]
 image::logo-docbook.png[]
 
-[source#docbook-ex-2.SLIDE.tpl-code, xml]
+[source#docbook-ex-2.SLIDE.tpl-code.tpl-blank--before, xml]
 ----
 ...
 include::snippets/simple-example-docbook.xml[lines=42..60]
@@ -226,7 +226,7 @@ include::snippets/simple-example-latex.tex[lines=1..17]
 [#latex.SLIDE.tpl-media.medium]
 image::logo-latex.svg[]
 
-[source.SLIDE#latex-ex-2.sheet.tpl-code, latex]
+[source.SLIDE#latex-ex-2.sheet.tpl-code.tpl-blank--before, latex]
 ----
 ...
 include::snippets/simple-example-latex.tex[lines=18..27]
@@ -339,7 +339,7 @@ Bonnes pratiques !
 [#dry.SLIDE.tpl-code-stuff]
 `**D**on't **R**epeat **Y**ourself`
 
-[#ide-for-writers.SLIDE.tpl-code-stuff]
+[#ide-for-writers.SLIDE.tpl-code-stuff.tpl-blank--before]
 *IDE* pour les auteurs
 
 // [source#ex-includes.SLIDE.tpl-code, asciidoc]
@@ -487,7 +487,7 @@ image::pull-request-oncletom-2.png[]
 [#content-review.SLIDE.tpl-code-stuff]
 `**R**evue de **C**ontenu`
 
-[#working-branches.SLIDE.tpl-code-stuff]
+[#working-branches.SLIDE.tpl-code-stuff.tpl-blank--before]
 `*branches* de travail`
 
 [#publication-preamble.SLIDE.tpl-blank]
@@ -539,7 +539,7 @@ image::asciidoctor-06.svg[]
 [#conversion-7.SLIDE.tpl-media.contain]
 image::asciidoctor-07.svg[]
 
-[#conversion-8.SLIDE.tpl-media.contain]
+[#conversion-8.SLIDE.tpl-media.contain.tpl-blank--before]
 image::asciidoctor-08.svg[]
 
 
@@ -567,7 +567,7 @@ image::asciidoctor-ast-1.svg[]
 [#ast-2.SLIDE.tpl-media.contain]
 image::asciidoctor-ast-2.svg[]
 
-[source#ex-lorem.SLIDE.tpl-code, asciidoc]
+[source#ex-lorem.SLIDE.tpl-code.tpl-blank--before, asciidoc]
 ----
 lorem::sentences[5]
 ----
@@ -592,6 +592,9 @@ lorem::sentences[5]
 //          v
 //  Presentation Format
 
+[#asciidoctor-site.SLIDE.tpl-media.cover]
+image::asciidoctor-site.png[]
+
 [#languages.SLIDE.tpl-media.contain]
 image::languages.svg[]
 
@@ -614,7 +617,7 @@ Bonnes pratiques !
 [#continuous-integration.SLIDE.tpl-code-stuff]
 `**I**ntégration **C**ontinue`
 
-[#continuous-deployment.SLIDE.tpl-code-stuff]
+[#continuous-deployment.SLIDE.tpl-code-stuff.tpl-blank--before]
 `**D**éploiement **C**ontinu`
 
 // [#publish-everywhere.SLIDE.tpl-media.cover]

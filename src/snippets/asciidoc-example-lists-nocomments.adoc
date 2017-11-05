@@ -1,13 +1,15 @@
 Liste non ordonnée
 
-* Agrumes
-** Oranges
-** Pamplemousses
-* Bananes
-* Pommes
+* Fruit
+** Bananes
+** Pommes
+** Agrumes
+*** Oranges
+*** Pamplemousses
 
 Liste ordonnée
 
+[upperalpha]
 . Étape 1
 .. Étape 1.1
 .. Étape 1.2

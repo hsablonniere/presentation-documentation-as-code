@@ -4,4 +4,4 @@ _mot en italique_
 
 `mot clé`
 
-[.type]#mot personnalisé#
+[.foobar]#mot personnalisé#
