@@ -2,9 +2,11 @@
 Hubert Sablonnière
 :twitter: @hsablonniere
 :avatar: hsablonniere-profil-2017.jpg
+:organization: Clever Cloud
+:organization-logo: clever-cloud-dark.svg
 :hashtags: #DocsAsCode
-:event: DevFest Nantes
-:date: 19 oct. 2017
+:event: Mars JUG
+:date: 15 mars 2018
 :!sectids:
 :imagesdir: images
 :noheader:

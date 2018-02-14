@@ -10,7 +10,7 @@ section.tpl-poster id=(local_attr :id)
     - if (_title_obj.subtitle?)
       .tpl-poster-subtitle = _title_obj.subtitle
   .tpl-poster-footer
-    .tpl-poster-organization
+    img.tpl-poster-organization src=(image_uri attr :'organization-logo') alt=(attr :organization)
     .tpl-poster-details
       .tpl-poster-hashtags = (attr :hashtags)
       .tpl-poster-eventDate
