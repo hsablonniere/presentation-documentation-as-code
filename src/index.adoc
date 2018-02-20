@@ -5,8 +5,8 @@ Hubert Sablonnière
 :organization: Clever Cloud
 :organization-logo: clever-cloud-dark.svg
 :hashtags: #DocsAsCode
-:event: Mars JUG
-:date: 15 mars 2018
+:event: Touraine Tech
+:date: 23 février 2018
 :!sectids:
 :imagesdir: images
 :noheader:
