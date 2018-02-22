@@ -6,13 +6,6 @@ v1.0.0, 2016-11-02
 [quote, Confucius]
 La nature fait les hommes semblables, la vie les rend différents.
 
-== Beatles
-
-* John image:beatles-head-john.jpg[]
-* Paul image:beatles-head-paul.jpg[]
-* George image:beatles-head-george.jpg[]
-* Ringo image:beatles-head-ringo.jpg[]
-
 == Début
 
 * Objectifs
