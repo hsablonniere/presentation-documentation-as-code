@@ -134,6 +134,9 @@ image::uber.png[]
 [#my-father.SLIDE.tpl-media.cover.tpl-blank--before]
 video::bernard-sablonniere.mp4#t=2[opts=muted]
 
+[#livre-bernard.SLIDE.tpl-media.medium-plus]
+image::livre-bernard.jpg[]
+
 // [#my-father-books.SLIDE]
 // --
 // IMGs livres de mon père

@@ -81,7 +81,7 @@
 .image.contain img
 .video.contain video
 .image.medium img
-.image.medium img
+.image.medium-plus img
   .tpl-media &
     object-fit contain
 
@@ -96,6 +96,14 @@
   .tpl-media &
     box-sizing border-box
     padding calc(var(--slide-height) * 0.2)
+    min-height 0
+    min-width 0
+    width 100%
+
+.image.medium-plus img
+  .tpl-media &
+    box-sizing border-box
+    padding calc(var(--slide-height) * 0.05)
     min-height 0
     min-width 0
     width 100%
