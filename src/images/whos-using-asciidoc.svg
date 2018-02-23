@@ -20,7 +20,7 @@
    height="1080"><metadata
      id="metadata16"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
      id="defs14"><linearGradient
        id="linearGradient-1"
        y2="182.4254"
@@ -395,8 +395,8 @@
      id="namedview12"
      showgrid="false"
      inkscape:zoom="0.472"
-     inkscape:cx="744.54753"
-     inkscape:cy="160.24885"
+     inkscape:cx="-231.08806"
+     inkscape:cy="143.2997"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -409,13 +409,13 @@
      xml:space="preserve"><tspan
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Operator Mono';-inkscape-font-specification:'Operator Mono';text-align:center;text-anchor:middle;fill:#1185e9;fill-opacity:1"
        y="964.07269"
-       x="746.10028"
+       x="746.10022"
        id="tspan3200"
        sodipodi:role="line"><tspan
    style="fill:#454545;fill-opacity:1"
-   id="tspan3666">Ils utilisent </tspan>AsciiDoc<tspan
+   id="tspan3666">They use </tspan>AsciiDoc<tspan
    style="fill:#454545;fill-opacity:1"
-   id="tspan3328"> !</tspan></tspan></text>
+   id="tspan3328">!</tspan></tspan></text>
 <g
      transform="matrix(0.77668999,0,0,0.77668999,198.20497,285.74239)"
      id="layer1"
