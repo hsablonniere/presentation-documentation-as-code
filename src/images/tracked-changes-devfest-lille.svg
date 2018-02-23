@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="tracked-changes-gdg-nantes.svg">
+   sodipodi:docname="tracked-changes-devfest-lille.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -30,8 +30,8 @@
      id="namedview6"
      showgrid="false"
      inkscape:zoom="0.22425739"
-     inkscape:cx="3278.052"
-     inkscape:cy="399.56166"
+     inkscape:cx="2305.9547"
+     inkscape:cy="1612.4537"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -109,20 +109,6 @@
      cx="2062.1296"
      style="fill:#000000;stroke:none"
      id="path3310" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:674.4050293px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#454545;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-     x="265.02045"
-     y="1988.1925"
-     id="text3226"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan3228"
-       x="265.02045"
-       y="1988.1925"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Just Another Hand';-inkscape-font-specification:'Just Another Hand';fill:#454545;fill-opacity:1;">J'adore le DevFest <tspan
-   style="fill:#454545;fill-opacity:1;"
-   id="tspan3213">Lille</tspan> !</tspan></text>
   <flowRoot
      transform="translate(1.1920929e-7,5.3543308e-5)"
      xml:space="preserve"
@@ -134,4 +120,18 @@
          height="62.428265"
          x="1819.338"
          y="1744.343" /></flowRegion><flowPara
-       id="flowPara3236" /></flowRoot></svg>
+       id="flowPara3236" /></flowRoot>  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:674.4050293px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#454545;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     x="1123.1744"
+     y="1988.1925"
+     id="text3226"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3228"
+       x="1123.1744"
+       y="1988.1925"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Just Another Hand';-inkscape-font-specification:'Just Another Hand';fill:#454545;fill-opacity:1;">J'adore <tspan
+   style="fill:#454545;fill-opacity:1;"
+   id="tspan3213">Lille</tspan> !</tspan></text>
+</svg>

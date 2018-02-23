@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="tracked-changes-gdg-lille.svg">
+   sodipodi:docname="tracked-changes-devfest-nantes.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -30,8 +30,8 @@
      id="namedview6"
      showgrid="false"
      inkscape:zoom="0.31714784"
-     inkscape:cx="2906.3782"
-     inkscape:cy="1805.4045"
+     inkscape:cx="2165.3989"
+     inkscape:cy="1780.1797"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -112,28 +112,28 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:674.4050293px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#454545;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="265.02045"
+     x="1123.1744"
      y="1988.1925"
      id="text3226"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan3228"
-       x="265.02045"
+       x="1123.1744"
        y="1988.1925"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Just Another Hand';-inkscape-font-specification:'Just Another Hand';fill:#454545;fill-opacity:1">J'adore le DevFest <tspan
-   style="fill:#5c7f5c;fill-opacity:1"
-   id="tspan3213"><tspan
-   style="fill:#ff0000"
-   id="tspan3286">Lille</tspan>Nantes</tspan> !</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Just Another Hand';-inkscape-font-specification:'Just Another Hand';fill:#454545;fill-opacity:1">J'adore <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan3213">Lille</tspan><tspan
+   id="tspan4717"
+   style="fill:#5c7f5c;fill-opacity:1">Tours</tspan> !</tspan></text>
   <path
      sodipodi:nodetypes="czzzc"
      inkscape:connector-curvature="0"
      id="path3312"
-     d="m 3038.8222,1858.3778 c 0,0 109.6841,-4.2182 160.099,-7.5787 50.4148,-3.3605 92.6956,-12.0495 142.3723,-12.2446 49.6766,-0.1951 104.4612,10.5774 155.1555,12.1209 50.6943,1.5435 148.8213,-2.5528 148.8213,-2.5528"
+     d="m 2338.8222,1858.3778 c 0,0 109.6841,-4.2182 160.099,-7.5787 50.4148,-3.3605 92.6956,-12.0495 142.3723,-12.2446 49.6766,-0.1951 104.4612,10.5774 155.1555,12.1209 50.6943,1.5435 148.8213,-2.5528 148.8213,-2.5528"
      style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:35;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#5c7f5c;stroke-width:35;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 3682.4722,2067.7912 c 0,0 172.1763,-2.5053 251.3147,-4.5013 79.1386,-1.9959 145.5087,-7.1567 223.4883,-7.2726 77.9799,-0.1158 163.978,6.2824 243.5552,7.1991 79.5773,0.9168 233.6116,-1.5161 233.6116,-1.5161"
+     d="m 2990.8367,2067.7912 c 0,0 153.9322,-2.5053 224.6849,-4.5013 70.753,-1.9959 130.0904,-7.1567 199.8071,-7.2726 69.717,-0.1158 146.6026,6.2824 217.7476,7.1991 71.1452,0.9168 208.8577,-1.5161 208.8577,-1.5161"
      id="path3388"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="czzzc" />

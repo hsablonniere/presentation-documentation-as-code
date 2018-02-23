@@ -104,8 +104,10 @@ mais aussi par :
 
 Bonjour à *toutes* et tous !
 J'm'appelle Hubert Sablonnière,
-J'suis développeur Web freelance
-et aujourd'hui j'ai envie d'vous parler de *Documentation as code*
+J'suis développeur Web chez #Clever Cloud#.
+Qui connait Clever Cloud ?
+
+Aujourd'hui j'ai envie d'vous parler de *Documentation as code*
 #pause#
 et de mon père !
 
