@@ -3,6 +3,6 @@
 |Firstname |Lastname
 |John      |Lennon
 |Paul      |McCartney
-|George    |Harisson
+|George    |Harrison
 |Ringo     |Starr
 |===

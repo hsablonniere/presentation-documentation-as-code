@@ -5,3 +5,51 @@ J'adore {favourite-fwk}, c'est vraiment un super framework !
 La première fois que j'ai voulu utiliser {favourite-fwk}, j'ai tout de suite trouvé les bons tutoriels.
 
 IMPORTANT: Utilisez {favourite-fwk}, c'est l'avenir !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.The Beatles (from csv)
+[%header,format=csv]
+|===
+include::beatles.csv[]
+|===
